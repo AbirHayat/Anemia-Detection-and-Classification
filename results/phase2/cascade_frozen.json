@@ -1,0 +1,12 @@
+{
+  "hgb": 13.0,
+  "plt": 150.0,
+  "wbc": 10.0,
+  "mcv_micro": 80.0,
+  "mcv_macro": 100.0,
+  "mchc_normo": 32.0,
+  "mchc_ida_oma": 31.9,
+  "note": "Probable labeling rule read off DEVELOPMENT data (Phase 1 audit + one fitted MCHC split). Not a clinical rule. Frozen 14 Nov 2026. Score once on the test set in Phase 6.",
+  "fitted_on": "963 clean development rows",
+  "fit_rule": "MCHC split maximising balanced accuracy between iron deficiency and other microcytic on development rows labelled with either, grid 28.0-34.0 step 0.1, lowest value at the maximum"
+}

@@ -1,0 +1,12 @@
+,HGB,HGB,MCV,MCV,MCHC,MCHC,PLT,PLT,WBC,WBC
+,min,max,min,max,min,max,min,max,min,max
+Diagnosis,,,,,,,,,,
+Healthy,13.0,16.0,65.4,101.2,29.6,41.0,150.0,419.0,2.7,10.0
+Normocytic hypochromic anemia,5.9,12.9,80.0,99.1,20.2,32.5,17.0,660.0,2.4,19.51
+Normocytic normochromic anemia,7.7,13.5,80.5,99.9,32.0,39.4,32.0,433.0,2.0,24.4
+Iron deficiency anemia,3.1,13.1,56.1,79.9,20.3,31.8,37.0,452.0,0.8,41.9
+Thrombocytopenia,13.1,17.5,80.5,105.0,30.2,38.2,32.0,149.0,2.4,9.8
+Other microcytic anemia,1.8,14.5,62.6,79.4,31.4,38.7,80.0,461.0,3.6,21.1
+Leukemia,13.0,16.5,44.9,109.0,26.4,36.7,151.0,499.0,10.1,26.95
+Macrocytic anemia,5.2,12.2,100.3,122.1,28.8,34.6,77.0,497.0,3.7,7.9
+Leukemia with thrombocytopenia,13.0,16.7,80.5,94.1,29.9,33.1,69.0,140.0,10.4,11.8

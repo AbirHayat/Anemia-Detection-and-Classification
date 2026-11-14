@@ -1,0 +1,96 @@
+== 1. raw file ==
+sha256: f7dee8d4fe500aec6e8e4bfbeb6df6b83bc86bef03d540721e0aeaad2759fcdb  matches 7 Nov record: True
+rows: 1281, columns: 15, empty cells: 0
+
+== 2. de-duplication and split ==
+exact duplicate rows removed (first copy kept): 49
+rows after de-duplication: 1232
+re-run of seed-42 stratified 80/20 split identical to results/split/dev_test_split.csv: True
+development rows: 985, test rows: 247 (test rows not read further)
+exact duplicates left inside development rows: 0 (no exact copy can sit on both sides, since duplicates were removed before the split)
+
+== 3. input validator on development rows (own loose screening ranges, not clinical) ==
+rows rejected: 22 of 985; rows kept: 963
+rejected rows by class (rejected / development rows of that class):
+  Healthy: 2 / 258
+  Normocytic hypochromic anemia: 8 / 217
+  Normocytic normochromic anemia: 2 / 204
+  Iron deficiency anemia: 3 / 147
+  Thrombocytopenia: 3 / 57
+  Other microcytic anemia: 4 / 45
+  Leukemia: 0 / 35
+  Macrocytic anemia: 0 / 13
+  Leukemia with thrombocytopenia: 0 / 9
+rejected rows by failing column (a row can fail several columns):
+  MCHC: 5
+  MCV: 5
+  HCT: 4
+  MCH: 4
+  HGB: 4
+  RBC: 4
+  PCT: 3
+  NEUTp: 2
+  PDW: 1
+rows failing more than one column: 4
+every rejected row with its reasons (raw_row, class, reasons):
+  4, Normocytic hypochromic anemia, HCT=316 outside [5, 75]
+  5, Other microcytic anemia, MCHC=79.6 outside [20, 45]
+  91, Normocytic hypochromic anemia, MCHC=61.3 outside [20, 45]
+  201, Normocytic hypochromic anemia, PCT=11.3 outside [0, 2]
+  206, Other microcytic anemia, MCV=36.6 outside [40, 150] | MCH=76 outside [10, 50] | PCT=12.8 outside [0, 2]
+  216, Normocytic hypochromic anemia, NEUTp=5317 outside [0, 100]
+  245, Iron deficiency anemia, HGB=-10 outside [0, 25]
+  252, Thrombocytopenia, PDW=97 outside [5, 30]
+  271, Normocytic normochromic anemia, MCH=90 outside [10, 50]
+  272, Healthy, MCHC=92.8 outside [20, 45]
+  273, Normocytic hypochromic anemia, RBC=90.8 outside [0.5, 9]
+  344, Iron deficiency anemia, MCV=-79.3 outside [40, 150]
+  351, Normocytic hypochromic anemia, MCH=241 outside [10, 50]
+  356, Thrombocytopenia, MCV=990 outside [40, 150]
+  375, Iron deficiency anemia, HCT=741 outside [5, 75]
+  383, Healthy, NEUTp=671 outside [0, 100]
+  404, Thrombocytopenia, RBC=10.9 outside [0.5, 9] | HGB=35.2 outside [0, 25] | HCT=81.2 outside [5, 75] | MCV=25.1 outside [40, 150]
+  446, Other microcytic anemia, RBC=29.7 outside [0.5, 9] | HGB=87.1 outside [0, 25] | MCV=30.3 outside [40, 150] | MCHC=11.5 outside [20, 45]
+  453, Normocytic hypochromic anemia, RBC=13.1 outside [0.5, 9] | HGB=41 outside [0, 25] | HCT=2 outside [5, 75]
+  465, Normocytic normochromic anemia, MCH=3117 outside [10, 50]
+  473, Normocytic hypochromic anemia, PCT=12 outside [0, 2]
+  1134, Other microcytic anemia, MCHC=50.2 outside [20, 45]
+
+== 4. consistency flags on development rows (flagged, NOT dropped) ==
+NEUTn > WBC: 41 rows (40 among kept rows)
+LYMn > WBC: 2 rows (2 among kept rows)
+
+== 5. mean-fill pattern on development rows (fill constants = development-set modes) ==
+  LYMp: most frequent value 25.84500 in 590 rows
+  NEUTp: most frequent value 77.51100 in 590 rows
+  LYMn: most frequent value 1.88076 in 590 rows
+  NEUTn: most frequent value 5.14094 in 590 rows
+  HCT: most frequent value 46.15260 in 590 rows
+  PCT: most frequent value 0.26028 in 590 rows
+  PDW: most frequent value 14.31251 in 303 rows
+fill count distribution (all development rows): {0: 395, 6: 590}
+PDW flag = 1 in 303 rows; of those, fill count 6: 303
+NEUTn > WBC rows with fill count 6: 35 of 41
+fill count 6 by class, kept rows only (filled / kept rows of that class, share):
+  Healthy: 216 / 256 (84.4%)
+  Normocytic hypochromic anemia: 82 / 209 (39.2%)
+  Normocytic normochromic anemia: 187 / 202 (92.6%)
+  Iron deficiency anemia: 26 / 144 (18.1%)
+  Thrombocytopenia: 14 / 54 (25.9%)
+  Other microcytic anemia: 33 / 41 (80.5%)
+  Leukemia: 20 / 35 (57.1%)
+  Macrocytic anemia: 10 / 13 (76.9%)
+  Leukemia with thrombocytopenia: 1 / 9 (11.1%)
+  all kept rows: 589 / 963 (61.2%)
+
+== 6. development rows after cleaning, per class ==
+  Healthy: 256 (26.6%)
+  Normocytic hypochromic anemia: 209 (21.7%)
+  Normocytic normochromic anemia: 202 (21.0%)
+  Iron deficiency anemia: 144 (15.0%)
+  Thrombocytopenia: 54 (5.6%)
+  Other microcytic anemia: 41 (4.3%)
+  Leukemia: 35 (3.6%)
+  Macrocytic anemia: 13 (1.3%)
+  Leukemia with thrombocytopenia: 9 (0.9%)
+  total: 963; largest / smallest class: 256 / 9 = 28.4

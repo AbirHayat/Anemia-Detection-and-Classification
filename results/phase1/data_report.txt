@@ -1,0 +1,100 @@
+cleaned development rows: 963 (filled rows: 589, other rows: 374)
+test rows: not read
+
+== A. feature summary (cleaned development rows; full table in feature_summary.csv) ==
+  WBC: min 0.8, p01 2.66, median 7.4, p99 19.38, max 41.9
+  LYMp: min 6.2, p01 9.72, median 25.84, p99 48.14, max 89.8
+  NEUTp: min 9.7, p01 44.2, median 77.51, p99 82.58, max 85.3
+  LYMn: min 0.2, p01 0.6, median 1.881, p99 4.8, max 14
+  NEUTn: min 1.2, p01 1.6, median 5.141, p99 11.44, max 79
+  RBC: min 1.36, p01 2.54, median 4.6, p99 5.804, max 6.9
+  HGB: min 1.8, p01 6.02, median 12.2, p99 15.9, max 17.5
+  HCT: min 10.1, p01 25, median 46.15, p99 47.88, max 53.3
+  MCV: min 44.9, p01 61.5, median 86.6, p99 104.1, max 122.1
+  MCH: min 11.4, p01 17.5, median 27.7, p99 34.2, max 41.2
+  MCHC: min 20.2, p01 26.4, median 32, p99 37.7, max 41
+  PLT: min 17, p01 57, median 213, p99 437.8, max 660
+  PDW: min 8.4, p01 10, median 14.31, p99 20.4, max 29.2
+  PCT: min 0.01, p01 0.08, median 0.2603, p99 0.29, max 0.44
+
+== B. column meaning (other rows only, since filled rows hold constants) ==
+  LYMn vs WBC x LYMp / 100 [n=374]: median relative error 1.57%, within 2%: 64.7%, within 5%: 91.4%
+  NEUTn vs WBC x NEUTp / 100 [n=374]: median relative error 0.66%, within 2%: 87.2%, within 5%: 94.9%
+  LYMp + NEUTp: median 92.2, share above 100: 0.5%
+  PCT vs PLT Spearman rho: 0.927
+  implied mean platelet volume PCT x 10000 / PLT (fL if PCT is plateletcrit in % and PLT in 10^9/L): median 9.38, p05 8.14, p95 10.71
+
+== C. textbook CBC relations (formulas UNVERIFIED until cited in Phase 2) ==
+  MCV vs HCT x 10 / RBC [other rows, n=374]: median relative error 0.13%, within 2%: 98.7%, within 5%: 98.9%
+  MCV vs HCT x 10 / RBC [filled rows, n=589]: median relative error 15.24%, within 2%: 4.8%, within 5%: 18.2%
+  MCH vs HGB x 10 / RBC [other rows, n=374]: median relative error 0.20%, within 2%: 96.0%, within 5%: 97.3%
+  MCH vs HGB x 10 / RBC [filled rows, n=589]: median relative error 3.41%, within 2%: 44.3%, within 5%: 53.0%
+  MCHC vs HGB x 100 / HCT [other rows, n=374]: median relative error 0.16%, within 2%: 94.7%, within 5%: 97.6%
+  MCHC vs HGB x 100 / HCT [filled rows, n=589]: median relative error 15.96%, within 2%: 3.7%, within 5%: 13.4%
+  MCHC vs MCH x 100 / MCV [other rows, n=374]: median relative error 0.19%, within 2%: 97.9%, within 5%: 98.9%
+  MCHC vs MCH x 100 / MCV [filled rows, n=589]: median relative error 0.40%, within 2%: 80.6%, within 5%: 96.3%
+
+== D. rounding signature in F-core columns (whole-number share, filled vs other rows) ==
+  WBC: filled 9.7%, other 16.3%
+  RBC: filled 2.7%, other 0.8%
+  HGB: filled 12.6%, other 9.1%
+  MCV: filled 59.6%, other 7.2%
+  MCH: filled 57.4%, other 12.0%
+  MCHC: filled 58.1%, other 11.2%
+  PLT: filled 100.0%, other 99.7%
+  MCHC == 32.0: 202 rows, 196 of them filled
+
+== E. per-class medians of key rule-engine inputs (class_medians.csv) ==
+                                    n   HGB     MCV   MCHC    PLT    WBC
+  Diagnosis                                                             
+  Healthy                         256  13.8   91.00  32.20  340.0   8.00
+  Normocytic hypochromic anemia   209  11.2   85.50  30.60  182.0   7.00
+  Normocytic normochromic anemia  202  12.1   87.00  32.10  260.0   7.20
+  Iron deficiency anemia          144   9.6   73.80  29.55  176.0   7.10
+  Thrombocytopenia                 54  14.1   87.25  32.60  120.0   5.85
+  Other microcytic anemia          41  10.5   77.00  32.00  190.0   5.90
+  Leukemia                         35  14.4   86.90  31.50  194.0  12.80
+  Macrocytic anemia                13  10.5  105.80  32.10  150.0   6.00
+  Leukemia with thrombocytopenia    9  14.5   86.40  31.50  115.0  10.90
+
+== E2. per-class min / max of key inputs (class_ranges.csv) ==
+  Healthy: HGB 13-16, MCV 65.4-101.2, MCHC 29.6-41, PLT 150-419, WBC 2.7-10
+  Normocytic hypochromic anemia: HGB 5.9-12.9, MCV 80-99.1, MCHC 20.2-32.5, PLT 17-660, WBC 2.4-19.51
+  Normocytic normochromic anemia: HGB 7.7-13.5, MCV 80.5-99.9, MCHC 32-39.4, PLT 32-433, WBC 2-24.4
+  Iron deficiency anemia: HGB 3.1-13.1, MCV 56.1-79.9, MCHC 20.3-31.8, PLT 37-452, WBC 0.8-41.9
+  Thrombocytopenia: HGB 13.1-17.5, MCV 80.5-105, MCHC 30.2-38.2, PLT 32-149, WBC 2.4-9.8
+  Other microcytic anemia: HGB 1.8-14.5, MCV 62.6-79.4, MCHC 31.4-38.7, PLT 80-461, WBC 3.6-21.1
+  Leukemia: HGB 13-16.5, MCV 44.9-109, MCHC 26.4-36.7, PLT 151-499, WBC 10.1-26.95
+  Macrocytic anemia: HGB 5.2-12.2, MCV 100.3-122.1, MCHC 28.8-34.6, PLT 77-497, WBC 3.7-7.9
+  Leukemia with thrombocytopenia: HGB 13-16.7, MCV 80.5-94.1, MCHC 29.9-33.1, PLT 69-140, WBC 10.4-11.8
+
+== G. label-rule audit (cut-offs read off development data, NOT clinical, NOT used by the rule engine) ==
+  cascade: HGB >= 13 -> {PLT < 150, WBC > 10} decide Healthy / Thrombocytopenia / Leukemia / both;
+           HGB < 13 -> MCV < 80 microcytic, MCV > 100 macrocytic, else MCHC >= 32 normochromic / < 32 hypochromic
+  agreement with the label (IDA and other microcytic merged): 947 / 963 (98.3%)
+  agreement in filled rows: 98.5%, other rows: 98.1%
+  per true class (agree / rows):
+    Healthy: 256 / 256
+    Normocytic hypochromic anemia: 197 / 209
+    Normocytic normochromic anemia: 201 / 202
+    Iron deficiency anemia: 143 / 144
+    Thrombocytopenia: 54 / 54
+    Other microcytic anemia: 39 / 41
+    Leukemia: 35 / 35
+    Macrocytic anemia: 13 / 13
+    Leukemia with thrombocytopenia: 9 / 9
+  microcytic split, MCHC by label (min / median / max):
+    Iron deficiency anemia: 20.3 / 29.55 / 31.8 (n=144)
+    Other microcytic anemia: 31.4 / 32 / 38.7 (n=41)
+  disagreeing rows (16), true label -> cascade output:
+    Iron deficiency anemia -> Healthy: 1
+    Normocytic hypochromic anemia -> Normocytic normochromic anemia: 12
+    Normocytic normochromic anemia -> Leukemia with thrombocytopenia: 1
+    Other microcytic anemia -> Leukemia with thrombocytopenia: 1
+    Other microcytic anemia -> Thrombocytopenia: 1
+
+== F. feature pairs with Spearman |rho| >= 0.9 (other rows) ==
+  LYMp - NEUTp: -0.939
+  HGB - HCT: 0.957
+  MCV - MCH: 0.915
+  PLT - PCT: 0.927

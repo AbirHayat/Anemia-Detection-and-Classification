@@ -1,0 +1,78 @@
+cleaned development rows: 963 (filled 589, other 374). Test rows not read.
+
+== A. variant 'primary': HGB < 13, MCHC < 30 (others fixed) ==
+  rule-set coverage: 784 / 963 (81.4%); filled rows 89.1%, other rows 69.3%
+  mean set size: 1.47 of 9; size distribution {1: 672, 2: 186, 3: 70, 4: 18, 5: 17}
+  singleton sets: 672 (69.8%); true label = the single label in 546 of them (81.2%)
+  empty sets: 0
+  provisional rule-based REFER trigger: sensitivity 88/98 (89.8%), false referrals 173/865 (20.0%)
+  per class: coverage (in set / rows), mean set size, misses by excluding rule:
+    Healthy: 254/256, size 1.00, misses {'X1': 2}
+    Normocytic hypochromic anemia: 52/209, size 1.44, misses {'X6': 157}
+    Normocytic normochromic anemia: 201/202, size 1.17, misses {'X2': 1}
+    Iron deficiency anemia: 143/144, size 2.67, misses {'X2': 1}
+    Thrombocytopenia: 54/54, size 1.33, misses {}
+    Other microcytic anemia: 39/41, size 2.24, misses {'X2': 2}
+    Leukemia: 25/35, size 1.00, misses {'X9': 10}
+    Macrocytic anemia: 13/13, size 1.46, misses {}
+    Leukemia with thrombocytopenia: 3/9, size 1.67, misses {'X9': 6}
+
+== A. variant 'hgb12': HGB < 12, MCHC < 30 (others fixed) ==
+  rule-set coverage: 634 / 963 (65.8%); filled rows 67.1%, other rows 63.9%
+  mean set size: 1.42 of 9; size distribution {1: 707, 2: 156, 3: 70, 4: 16, 5: 14}
+  singleton sets: 707 (73.4%); true label = the single label in 428 of them (60.5%)
+  empty sets: 0
+  provisional rule-based REFER trigger: sensitivity 88/98 (89.8%), false referrals 173/865 (20.0%)
+  per class: coverage (in set / rows), mean set size, misses by excluding rule:
+    Healthy: 254/256, size 1.00, misses {'X1': 2}
+    Normocytic hypochromic anemia: 44/209, size 1.39, misses {'X2+X6': 41, 'X6': 116, 'X2': 8}
+    Normocytic normochromic anemia: 78/202, size 1.12, misses {'X2': 124}
+    Iron deficiency anemia: 130/144, size 2.53, misses {'X2': 14}
+    Thrombocytopenia: 54/54, size 1.33, misses {}
+    Other microcytic anemia: 35/41, size 2.12, misses {'X2': 6}
+    Leukemia: 25/35, size 1.00, misses {'X9': 10}
+    Macrocytic anemia: 11/13, size 1.31, misses {'X2': 2}
+    Leukemia with thrombocytopenia: 3/9, size 1.67, misses {'X9': 6}
+
+== A. variant 'mchc32': HGB < 13, MCHC < 32 (others fixed) ==
+  rule-set coverage: 929 / 963 (96.5%); filled rows 97.5%, other rows 94.9%
+  mean set size: 1.47 of 9; size distribution {1: 672, 2: 186, 3: 70, 4: 18, 5: 17}
+  singleton sets: 672 (69.8%); true label = the single label in 642 of them (95.5%)
+  empty sets: 0
+  provisional rule-based REFER trigger: sensitivity 88/98 (89.8%), false referrals 173/865 (20.0%)
+  per class: coverage (in set / rows), mean set size, misses by excluding rule:
+    Healthy: 254/256, size 1.00, misses {'X1': 2}
+    Normocytic hypochromic anemia: 197/209, size 1.44, misses {'X6': 12}
+    Normocytic normochromic anemia: 201/202, size 1.17, misses {'X2': 1}
+    Iron deficiency anemia: 143/144, size 2.67, misses {'X2': 1}
+    Thrombocytopenia: 54/54, size 1.33, misses {}
+    Other microcytic anemia: 39/41, size 2.24, misses {'X2': 2}
+    Leukemia: 25/35, size 1.00, misses {'X9': 10}
+    Macrocytic anemia: 13/13, size 1.46, misses {}
+    Leukemia with thrombocytopenia: 3/9, size 1.67, misses {'X9': 6}
+
+== A. variant 'hgb12_mchc32': HGB < 12, MCHC < 32 (others fixed) ==
+  rule-set coverage: 741 / 963 (76.9%); filled rows 72.7%, other rows 83.7%
+  mean set size: 1.42 of 9; size distribution {1: 707, 2: 156, 3: 70, 4: 16, 5: 14}
+  singleton sets: 707 (73.4%); true label = the single label in 493 of them (69.7%)
+  empty sets: 0
+  provisional rule-based REFER trigger: sensitivity 88/98 (89.8%), false referrals 173/865 (20.0%)
+  per class: coverage (in set / rows), mean set size, misses by excluding rule:
+    Healthy: 254/256, size 1.00, misses {'X1': 2}
+    Normocytic hypochromic anemia: 151/209, size 1.39, misses {'X2': 46, 'X6': 9, 'X2+X6': 3}
+    Normocytic normochromic anemia: 78/202, size 1.12, misses {'X2': 124}
+    Iron deficiency anemia: 130/144, size 2.53, misses {'X2': 14}
+    Thrombocytopenia: 54/54, size 1.33, misses {}
+    Other microcytic anemia: 35/41, size 2.12, misses {'X2': 6}
+    Leukemia: 25/35, size 1.00, misses {'X9': 10}
+    Macrocytic anemia: 11/13, size 1.31, misses {'X2': 2}
+    Leukemia with thrombocytopenia: 3/9, size 1.67, misses {'X9': 6}
+
+== C. rows between a cited cut-off and the label-cascade cut-off (Phase 1, section G) ==
+  WBC in (10, 11] (cascade says high, cited rule says normal): 35 rows, by label {'Leukemia': 10, 'Normocytic hypochromic anemia': 8, 'Iron deficiency anemia': 8, 'Leukemia with thrombocytopenia': 6, 'Normocytic normochromic anemia': 3}
+  normocytic anemia with MCHC in [30, 32) (cascade says hypochromic, cited rule says normochromic): 145 rows, by label {'Normocytic hypochromic anemia': 145}
+
+== D. label-cascade baseline (option B), frozen in cascade_frozen.json ==
+  fitted MCHC split (iron deficiency below, other microcytic at or above): 31.9
+  IN-SAMPLE development agreement (optimistic, the cut-offs were read off these rows): 946 / 963 (98.2%)
+  in-sample balanced accuracy over 9 classes: 98.4%

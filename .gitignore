@@ -1,0 +1,21 @@
+# dataset (download from Kaggle, see README)
+data/*
+!data/.gitkeep
+# per-row files rebuilt by the scripts
+results/phase1/dev_rows.csv
+results/phase2/rule_sets_dev.csv
+results/split/split_summary.txt
+# python / jupyter / editors
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.vscode/
+.idea/
+# secrets
+.env
+*.env
+*.pem
+*.key
