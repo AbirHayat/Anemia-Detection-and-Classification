@@ -1,9 +1,4 @@
-# dataset (download from Kaggle, see README)
-data/*
-!data/.gitkeep
-# per-row files rebuilt by the scripts
-results/phase1/dev_rows.csv
-results/phase2/rule_sets_dev.csv
+# written only by make_split.py (contains test-set class counts), not needed to run anything
 results/split/split_summary.txt
 # python / jupyter / editors
 __pycache__/

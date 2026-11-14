@@ -1,0 +1,986 @@
+raw_row,Diagnosis,valid,reject_reason,fill_count,pdw_fill,neutn_gt_wbc,lymn_gt_wbc
+1,Normocytic hypochromic anemia,True,,0,0,0,0
+2,Iron deficiency anemia,True,,0,0,0,0
+3,Iron deficiency anemia,True,,0,0,0,0
+4,Normocytic hypochromic anemia,False,"HCT=316 outside [5, 75]",0,0,0,0
+5,Other microcytic anemia,False,"MCHC=79.6 outside [20, 45]",0,0,0,0
+6,Leukemia,True,,0,0,0,0
+7,Normocytic hypochromic anemia,True,,0,0,0,0
+8,Healthy,True,,0,0,0,0
+10,Normocytic hypochromic anemia,True,,0,0,0,0
+11,Normocytic hypochromic anemia,True,,0,0,0,0
+13,Thrombocytopenia,True,,0,0,0,0
+14,Leukemia,True,,0,0,0,0
+15,Leukemia,True,,0,0,0,0
+16,Healthy,True,,0,0,0,0
+17,Iron deficiency anemia,True,,0,0,0,0
+18,Thrombocytopenia,True,,0,0,0,0
+19,Iron deficiency anemia,True,,0,0,0,0
+20,Iron deficiency anemia,True,,0,0,0,0
+21,Normocytic hypochromic anemia,True,,0,0,0,0
+22,Healthy,True,,0,0,0,0
+23,Normocytic hypochromic anemia,True,,0,0,0,0
+24,Normocytic hypochromic anemia,True,,0,0,0,0
+25,Thrombocytopenia,True,,0,0,0,0
+26,Normocytic hypochromic anemia,True,,0,0,0,0
+27,Iron deficiency anemia,True,,0,0,0,0
+28,Healthy,True,,0,0,0,0
+29,Normocytic hypochromic anemia,True,,0,0,0,0
+30,Normocytic hypochromic anemia,True,,0,0,0,0
+31,Iron deficiency anemia,True,,0,0,0,0
+32,Thrombocytopenia,True,,0,0,0,0
+34,Iron deficiency anemia,True,,0,0,0,0
+35,Healthy,True,,0,0,0,0
+36,Normocytic hypochromic anemia,True,,0,0,0,0
+37,Thrombocytopenia,True,,0,0,0,0
+38,Thrombocytopenia,True,,0,0,0,0
+39,Normocytic hypochromic anemia,True,,0,0,0,0
+40,Leukemia,True,,0,0,0,0
+41,Normocytic hypochromic anemia,True,,0,0,0,0
+43,Normocytic normochromic anemia,True,,0,0,0,0
+44,Healthy,True,,0,0,0,0
+45,Normocytic normochromic anemia,True,,0,0,0,0
+46,Iron deficiency anemia,True,,0,0,0,0
+47,Other microcytic anemia,True,,0,0,0,0
+48,Iron deficiency anemia,True,,0,0,0,0
+49,Thrombocytopenia,True,,0,0,0,0
+50,Iron deficiency anemia,True,,0,0,0,0
+51,Thrombocytopenia,True,,0,0,0,0
+52,Other microcytic anemia,True,,0,0,0,0
+54,Iron deficiency anemia,True,,0,0,0,0
+55,Healthy,True,,0,0,0,0
+56,Normocytic hypochromic anemia,True,,0,0,0,0
+58,Iron deficiency anemia,True,,0,0,0,0
+59,Iron deficiency anemia,True,,0,0,0,0
+60,Thrombocytopenia,True,,0,0,0,0
+61,Normocytic hypochromic anemia,True,,0,0,0,0
+62,Healthy,True,,0,0,0,0
+65,Leukemia with thrombocytopenia,True,,0,0,0,0
+66,Iron deficiency anemia,True,,0,0,0,0
+67,Iron deficiency anemia,True,,0,0,0,0
+68,Normocytic hypochromic anemia,True,,0,0,0,0
+70,Leukemia with thrombocytopenia,True,,0,0,0,0
+71,Iron deficiency anemia,True,,0,0,0,0
+72,Iron deficiency anemia,True,,0,0,0,0
+73,Iron deficiency anemia,True,,0,0,0,0
+75,Normocytic normochromic anemia,True,,0,0,0,0
+77,Iron deficiency anemia,True,,0,0,0,0
+78,Thrombocytopenia,True,,0,0,0,0
+79,Normocytic normochromic anemia,True,,0,0,0,0
+80,Healthy,True,,0,0,0,0
+81,Thrombocytopenia,True,,0,0,0,0
+83,Normocytic hypochromic anemia,True,,0,0,0,0
+84,Macrocytic anemia,True,,0,0,0,0
+85,Macrocytic anemia,True,,0,0,0,0
+86,Iron deficiency anemia,True,,0,0,0,0
+87,Thrombocytopenia,True,,0,0,0,0
+88,Iron deficiency anemia,True,,0,0,0,0
+89,Iron deficiency anemia,True,,0,0,0,0
+90,Thrombocytopenia,True,,0,0,0,0
+91,Normocytic hypochromic anemia,False,"MCHC=61.3 outside [20, 45]",0,0,0,0
+92,Iron deficiency anemia,True,,0,0,0,0
+93,Normocytic hypochromic anemia,True,,0,0,0,0
+95,Normocytic hypochromic anemia,True,,0,0,0,0
+97,Normocytic hypochromic anemia,True,,0,0,0,0
+98,Normocytic hypochromic anemia,True,,0,0,0,0
+99,Iron deficiency anemia,True,,0,0,0,0
+100,Normocytic hypochromic anemia,True,,0,0,0,0
+101,Normocytic hypochromic anemia,True,,0,0,0,0
+103,Iron deficiency anemia,True,,0,0,0,0
+104,Iron deficiency anemia,True,,0,0,0,0
+107,Normocytic normochromic anemia,True,,0,0,0,0
+108,Thrombocytopenia,True,,0,0,0,0
+109,Normocytic hypochromic anemia,True,,0,0,0,0
+110,Iron deficiency anemia,True,,0,0,0,0
+111,Normocytic hypochromic anemia,True,,0,0,0,0
+112,Normocytic hypochromic anemia,True,,0,0,0,0
+113,Normocytic hypochromic anemia,True,,0,0,0,0
+114,Normocytic hypochromic anemia,True,,0,0,0,0
+115,Normocytic hypochromic anemia,True,,0,0,0,0
+116,Thrombocytopenia,True,,0,0,0,0
+117,Normocytic hypochromic anemia,True,,0,0,0,0
+119,Iron deficiency anemia,True,,0,0,0,0
+120,Normocytic hypochromic anemia,True,,0,0,0,0
+121,Normocytic hypochromic anemia,True,,0,0,0,0
+122,Thrombocytopenia,True,,0,0,0,0
+123,Healthy,True,,0,0,0,0
+124,Iron deficiency anemia,True,,0,0,0,0
+126,Normocytic hypochromic anemia,True,,0,0,0,0
+127,Normocytic hypochromic anemia,True,,0,0,0,0
+128,Normocytic hypochromic anemia,True,,0,0,0,0
+130,Leukemia,True,,0,0,0,0
+131,Iron deficiency anemia,True,,0,0,0,0
+132,Iron deficiency anemia,True,,0,0,0,0
+133,Iron deficiency anemia,True,,0,0,0,0
+135,Healthy,True,,0,0,0,0
+136,Healthy,True,,0,0,0,0
+138,Normocytic hypochromic anemia,True,,0,0,0,0
+139,Iron deficiency anemia,True,,0,0,0,0
+140,Iron deficiency anemia,True,,0,0,1,1
+141,Normocytic hypochromic anemia,True,,0,0,0,0
+142,Iron deficiency anemia,True,,0,0,0,0
+143,Normocytic hypochromic anemia,True,,0,0,0,0
+144,Normocytic hypochromic anemia,True,,0,0,0,0
+145,Normocytic hypochromic anemia,True,,0,0,0,0
+146,Iron deficiency anemia,True,,0,0,0,0
+147,Normocytic hypochromic anemia,True,,0,0,0,0
+148,Normocytic hypochromic anemia,True,,0,0,0,0
+149,Thrombocytopenia,True,,0,0,0,0
+150,Normocytic hypochromic anemia,True,,0,0,0,0
+151,Normocytic hypochromic anemia,True,,0,0,0,0
+152,Normocytic hypochromic anemia,True,,0,0,0,0
+153,Normocytic hypochromic anemia,True,,0,0,0,0
+154,Normocytic hypochromic anemia,True,,0,0,0,0
+155,Iron deficiency anemia,True,,0,0,0,0
+157,Iron deficiency anemia,True,,0,0,0,0
+158,Thrombocytopenia,True,,0,0,0,0
+159,Healthy,True,,0,0,0,0
+160,Healthy,True,,0,0,0,0
+161,Healthy,True,,0,0,0,0
+162,Normocytic hypochromic anemia,True,,0,0,0,0
+164,Normocytic hypochromic anemia,True,,0,0,0,0
+166,Leukemia,True,,0,0,0,0
+167,Normocytic hypochromic anemia,True,,0,0,0,0
+168,Normocytic hypochromic anemia,True,,0,0,0,0
+171,Normocytic hypochromic anemia,True,,0,0,0,0
+172,Normocytic hypochromic anemia,True,,0,0,0,0
+174,Iron deficiency anemia,True,,0,0,0,0
+175,Iron deficiency anemia,True,,0,0,1,0
+176,Thrombocytopenia,True,,0,0,0,0
+177,Normocytic hypochromic anemia,True,,0,0,0,0
+178,Normocytic hypochromic anemia,True,,0,0,0,0
+179,Healthy,True,,0,0,0,0
+180,Iron deficiency anemia,True,,0,0,0,0
+181,Normocytic hypochromic anemia,True,,0,0,0,0
+183,Normocytic hypochromic anemia,True,,0,0,0,0
+184,Normocytic hypochromic anemia,True,,0,0,0,0
+185,Normocytic hypochromic anemia,True,,0,0,0,0
+186,Iron deficiency anemia,True,,0,0,0,0
+187,Healthy,True,,0,0,0,0
+189,Iron deficiency anemia,True,,0,0,0,0
+190,Normocytic hypochromic anemia,True,,0,0,0,0
+193,Iron deficiency anemia,True,,0,0,0,0
+194,Normocytic normochromic anemia,True,,0,0,0,0
+195,Normocytic hypochromic anemia,True,,0,0,0,0
+196,Normocytic hypochromic anemia,True,,0,0,0,0
+198,Normocytic hypochromic anemia,True,,0,0,0,0
+199,Iron deficiency anemia,True,,0,0,0,0
+200,Healthy,True,,0,0,0,0
+201,Normocytic hypochromic anemia,False,"PCT=11.3 outside [0, 2]",0,0,0,0
+203,Normocytic hypochromic anemia,True,,0,0,0,0
+204,Normocytic hypochromic anemia,True,,0,0,0,0
+206,Other microcytic anemia,False,"MCV=36.6 outside [40, 150] | MCH=76 outside [10, 50] | PCT=12.8 outside [0, 2]",0,0,0,0
+207,Leukemia,True,,0,0,0,0
+208,Iron deficiency anemia,True,,0,0,0,0
+210,Iron deficiency anemia,True,,0,0,0,0
+211,Other microcytic anemia,True,,0,0,0,0
+212,Healthy,True,,0,0,0,0
+213,Iron deficiency anemia,True,,0,0,0,0
+214,Normocytic hypochromic anemia,True,,0,0,0,0
+216,Normocytic hypochromic anemia,False,"NEUTp=5317 outside [0, 100]",0,0,0,0
+217,Leukemia,True,,0,0,0,0
+218,Normocytic hypochromic anemia,True,,0,0,0,0
+219,Healthy,True,,0,0,0,0
+220,Healthy,True,,0,0,0,0
+221,Healthy,True,,0,0,0,0
+223,Iron deficiency anemia,True,,0,0,0,0
+225,Normocytic hypochromic anemia,True,,0,0,0,0
+227,Iron deficiency anemia,True,,0,0,0,0
+228,Healthy,True,,0,0,0,0
+229,Leukemia,True,,0,0,1,0
+230,Normocytic hypochromic anemia,True,,0,0,0,0
+231,Normocytic hypochromic anemia,True,,0,0,0,0
+232,Normocytic hypochromic anemia,True,,0,0,0,0
+233,Normocytic hypochromic anemia,True,,0,0,0,0
+234,Leukemia with thrombocytopenia,True,,0,0,0,0
+235,Leukemia with thrombocytopenia,True,,0,0,0,0
+237,Leukemia with thrombocytopenia,True,,0,0,1,0
+238,Iron deficiency anemia,True,,0,0,0,0
+239,Leukemia,True,,0,0,0,0
+240,Iron deficiency anemia,True,,0,0,0,0
+242,Thrombocytopenia,True,,0,0,0,0
+243,Normocytic hypochromic anemia,True,,0,0,0,0
+244,Iron deficiency anemia,True,,0,0,0,0
+245,Iron deficiency anemia,False,"HGB=-10 outside [0, 25]",0,0,0,0
+246,Leukemia,True,,0,0,0,0
+248,Normocytic hypochromic anemia,True,,0,0,0,1
+249,Normocytic hypochromic anemia,True,,0,0,0,0
+250,Iron deficiency anemia,True,,0,0,0,0
+251,Iron deficiency anemia,True,,0,0,0,0
+252,Thrombocytopenia,False,"PDW=97 outside [5, 30]",0,0,0,0
+253,Iron deficiency anemia,True,,0,0,0,0
+254,Iron deficiency anemia,True,,0,0,0,0
+255,Healthy,True,,0,0,0,0
+256,Normocytic normochromic anemia,True,,0,0,0,0
+258,Healthy,True,,0,0,0,0
+259,Healthy,True,,0,0,0,0
+260,Iron deficiency anemia,True,,0,0,0,0
+261,Thrombocytopenia,True,,0,0,0,0
+262,Normocytic hypochromic anemia,True,,0,0,0,0
+263,Iron deficiency anemia,True,,0,0,0,0
+266,Iron deficiency anemia,True,,0,0,0,0
+268,Leukemia with thrombocytopenia,True,,0,0,0,0
+271,Normocytic normochromic anemia,False,"MCH=90 outside [10, 50]",0,0,0,0
+272,Healthy,False,"MCHC=92.8 outside [20, 45]",0,0,0,0
+273,Normocytic hypochromic anemia,False,"RBC=90.8 outside [0.5, 9]",0,0,0,0
+274,Normocytic hypochromic anemia,True,,0,0,0,0
+275,Leukemia,True,,0,0,0,0
+276,Normocytic hypochromic anemia,True,,0,0,0,0
+277,Healthy,True,,0,0,0,0
+278,Iron deficiency anemia,True,,0,0,0,0
+279,Iron deficiency anemia,True,,0,0,0,0
+280,Iron deficiency anemia,True,,0,0,0,0
+281,Iron deficiency anemia,True,,0,0,0,0
+282,Normocytic hypochromic anemia,True,,0,0,0,0
+283,Normocytic hypochromic anemia,True,,0,0,0,0
+284,Thrombocytopenia,True,,0,0,0,0
+285,Normocytic hypochromic anemia,True,,0,0,0,0
+286,Normocytic hypochromic anemia,True,,0,0,0,0
+287,Iron deficiency anemia,True,,0,0,0,0
+288,Iron deficiency anemia,True,,0,0,0,0
+290,Healthy,True,,0,0,0,0
+291,Healthy,True,,0,0,0,0
+292,Iron deficiency anemia,True,,0,0,0,0
+295,Iron deficiency anemia,True,,0,0,0,0
+297,Iron deficiency anemia,True,,0,0,0,0
+298,Normocytic normochromic anemia,True,,0,0,0,0
+299,Normocytic hypochromic anemia,True,,0,0,0,0
+300,Normocytic hypochromic anemia,True,,0,0,0,0
+301,Normocytic hypochromic anemia,True,,0,0,0,0
+302,Thrombocytopenia,True,,0,0,0,0
+303,Normocytic hypochromic anemia,True,,0,0,0,0
+304,Iron deficiency anemia,True,,0,0,0,0
+305,Iron deficiency anemia,True,,0,0,0,0
+306,Normocytic hypochromic anemia,True,,0,0,0,0
+307,Iron deficiency anemia,True,,0,0,0,0
+308,Thrombocytopenia,True,,0,0,0,0
+310,Normocytic hypochromic anemia,True,,0,0,0,0
+311,Thrombocytopenia,True,,0,0,0,0
+313,Healthy,True,,0,0,0,0
+314,Normocytic hypochromic anemia,True,,0,0,0,0
+315,Healthy,True,,0,0,0,0
+317,Normocytic hypochromic anemia,True,,0,0,0,0
+318,Healthy,True,,0,0,0,0
+319,Normocytic hypochromic anemia,True,,0,0,0,0
+320,Normocytic hypochromic anemia,True,,0,0,0,0
+321,Normocytic hypochromic anemia,True,,0,0,0,0
+322,Iron deficiency anemia,True,,0,0,0,0
+324,Iron deficiency anemia,True,,0,0,0,0
+325,Thrombocytopenia,True,,0,0,0,0
+326,Thrombocytopenia,True,,0,0,0,0
+327,Normocytic hypochromic anemia,True,,0,0,0,0
+328,Healthy,True,,0,0,0,0
+330,Healthy,True,,0,0,0,0
+331,Thrombocytopenia,True,,0,0,0,0
+332,Thrombocytopenia,True,,0,0,0,0
+333,Healthy,True,,0,0,0,0
+334,Iron deficiency anemia,True,,0,0,0,0
+335,Normocytic hypochromic anemia,True,,0,0,0,0
+336,Healthy,True,,0,0,0,0
+337,Normocytic hypochromic anemia,True,,0,0,0,0
+339,Iron deficiency anemia,True,,0,0,0,0
+340,Macrocytic anemia,True,,0,0,0,0
+341,Thrombocytopenia,True,,0,0,0,0
+342,Iron deficiency anemia,True,,0,0,0,0
+343,Leukemia with thrombocytopenia,True,,0,0,0,0
+344,Iron deficiency anemia,False,"MCV=-79.3 outside [40, 150]",0,0,0,0
+346,Iron deficiency anemia,True,,0,0,0,0
+347,Normocytic hypochromic anemia,True,,0,0,0,0
+348,Thrombocytopenia,True,,0,0,0,0
+349,Iron deficiency anemia,True,,0,0,0,0
+350,Normocytic hypochromic anemia,True,,0,0,0,0
+351,Normocytic hypochromic anemia,False,"MCH=241 outside [10, 50]",0,0,0,0
+352,Healthy,True,,0,0,0,0
+353,Iron deficiency anemia,True,,0,0,0,0
+354,Normocytic hypochromic anemia,True,,0,0,0,0
+355,Normocytic normochromic anemia,True,,0,0,0,0
+356,Thrombocytopenia,False,"MCV=990 outside [40, 150]",0,0,0,0
+357,Leukemia,True,,0,0,0,0
+359,Normocytic hypochromic anemia,True,,0,0,0,0
+360,Iron deficiency anemia,True,,0,0,0,0
+362,Normocytic hypochromic anemia,True,,0,0,0,0
+363,Normocytic hypochromic anemia,True,,0,0,0,0
+366,Iron deficiency anemia,True,,0,0,0,0
+367,Iron deficiency anemia,True,,0,0,0,0
+369,Iron deficiency anemia,True,,0,0,0,0
+370,Normocytic hypochromic anemia,True,,0,0,0,0
+371,Iron deficiency anemia,True,,0,0,0,0
+372,Normocytic hypochromic anemia,True,,0,0,0,0
+373,Iron deficiency anemia,True,,0,0,0,0
+375,Iron deficiency anemia,False,"HCT=741 outside [5, 75]",0,0,0,0
+376,Normocytic hypochromic anemia,True,,0,0,0,0
+380,Normocytic hypochromic anemia,True,,0,0,0,0
+381,Leukemia with thrombocytopenia,True,,0,0,0,0
+383,Healthy,False,"NEUTp=671 outside [0, 100]",0,0,0,0
+385,Thrombocytopenia,True,,0,0,0,0
+386,Iron deficiency anemia,True,,0,0,0,0
+387,Iron deficiency anemia,True,,0,0,0,0
+388,Iron deficiency anemia,True,,0,0,0,0
+390,Normocytic hypochromic anemia,True,,0,0,0,0
+393,Normocytic hypochromic anemia,True,,0,0,0,0
+394,Iron deficiency anemia,True,,0,0,0,0
+395,Iron deficiency anemia,True,,0,0,0,0
+396,Normocytic hypochromic anemia,True,,0,0,0,0
+397,Iron deficiency anemia,True,,0,0,0,0
+398,Normocytic hypochromic anemia,True,,0,0,0,0
+399,Iron deficiency anemia,True,,0,0,0,0
+400,Thrombocytopenia,True,,0,0,0,0
+401,Iron deficiency anemia,True,,0,0,0,0
+402,Normocytic hypochromic anemia,True,,0,0,0,0
+403,Iron deficiency anemia,True,,0,0,0,0
+404,Thrombocytopenia,False,"RBC=10.9 outside [0.5, 9] | HGB=35.2 outside [0, 25] | HCT=81.2 outside [5, 75] | MCV=25.1 outside [40, 150]",0,0,0,0
+409,Healthy,True,,0,0,0,0
+410,Normocytic hypochromic anemia,True,,0,0,0,0
+412,Iron deficiency anemia,True,,0,0,0,0
+413,Normocytic hypochromic anemia,True,,0,0,0,0
+414,Iron deficiency anemia,True,,0,0,0,0
+415,Iron deficiency anemia,True,,0,0,0,0
+416,Iron deficiency anemia,True,,0,0,0,0
+417,Iron deficiency anemia,True,,0,0,0,0
+418,Normocytic hypochromic anemia,True,,0,0,0,0
+419,Thrombocytopenia,True,,0,0,0,0
+420,Thrombocytopenia,True,,0,0,0,0
+423,Normocytic hypochromic anemia,True,,0,0,0,0
+424,Normocytic hypochromic anemia,True,,0,0,0,0
+425,Iron deficiency anemia,True,,0,0,0,0
+427,Iron deficiency anemia,True,,0,0,0,0
+428,Leukemia,True,,0,0,0,0
+429,Thrombocytopenia,True,,0,0,0,0
+430,Leukemia,True,,0,0,0,0
+431,Normocytic hypochromic anemia,True,,0,0,0,0
+432,Normocytic hypochromic anemia,True,,0,0,0,0
+433,Healthy,True,,0,0,0,0
+435,Thrombocytopenia,True,,0,0,0,0
+436,Healthy,True,,0,0,0,0
+437,Thrombocytopenia,True,,0,0,0,0
+440,Normocytic hypochromic anemia,True,,0,0,0,0
+443,Normocytic hypochromic anemia,True,,0,0,0,0
+446,Other microcytic anemia,False,"RBC=29.7 outside [0.5, 9] | HGB=87.1 outside [0, 25] | MCV=30.3 outside [40, 150] | MCHC=11.5 outside [20, 45]",0,0,0,0
+447,Iron deficiency anemia,True,,0,0,0,0
+448,Normocytic hypochromic anemia,True,,0,0,0,0
+449,Iron deficiency anemia,True,,0,0,0,0
+450,Normocytic normochromic anemia,True,,0,0,0,0
+451,Normocytic normochromic anemia,True,,0,0,0,0
+452,Iron deficiency anemia,True,,0,0,0,0
+453,Normocytic hypochromic anemia,False,"RBC=13.1 outside [0.5, 9] | HGB=41 outside [0, 25] | HCT=2 outside [5, 75]",0,0,1,0
+454,Iron deficiency anemia,True,,0,0,0,0
+455,Normocytic normochromic anemia,True,,0,0,0,0
+457,Normocytic hypochromic anemia,True,,0,0,0,0
+458,Normocytic hypochromic anemia,True,,0,0,0,0
+459,Normocytic hypochromic anemia,True,,0,0,0,0
+460,Other microcytic anemia,True,,0,0,0,0
+461,Normocytic normochromic anemia,True,,0,0,0,0
+462,Normocytic normochromic anemia,True,,0,0,0,0
+464,Normocytic hypochromic anemia,True,,0,0,0,0
+465,Normocytic normochromic anemia,False,"MCH=3117 outside [10, 50]",0,0,0,0
+470,Thrombocytopenia,True,,0,0,0,0
+473,Normocytic hypochromic anemia,False,"PCT=12 outside [0, 2]",0,0,0,0
+475,Normocytic hypochromic anemia,True,,0,0,0,0
+476,Thrombocytopenia,True,,0,0,0,0
+477,Iron deficiency anemia,True,,0,0,0,0
+479,Other microcytic anemia,True,,0,0,0,0
+480,Iron deficiency anemia,True,,0,0,1,0
+481,Normocytic hypochromic anemia,True,,0,0,0,0
+482,Other microcytic anemia,True,,0,0,0,0
+483,Iron deficiency anemia,True,,0,0,0,0
+484,Iron deficiency anemia,True,,0,0,0,0
+485,Iron deficiency anemia,True,,0,0,0,0
+489,Iron deficiency anemia,True,,0,0,0,0
+491,Iron deficiency anemia,True,,0,0,0,0
+492,Iron deficiency anemia,True,,0,0,0,0
+493,Normocytic normochromic anemia,True,,0,0,0,0
+494,Iron deficiency anemia,True,,0,0,0,0
+496,Iron deficiency anemia,True,,0,0,0,0
+497,Other microcytic anemia,True,,0,0,0,0
+498,Iron deficiency anemia,True,,0,0,0,0
+499,Other microcytic anemia,True,,0,0,0,0
+500,Other microcytic anemia,True,,6,0,0,0
+501,Healthy,True,,6,0,0,0
+503,Normocytic normochromic anemia,True,,6,0,0,0
+507,Normocytic normochromic anemia,True,,6,0,0,0
+508,Normocytic normochromic anemia,True,,6,0,0,0
+509,Healthy,True,,6,0,0,0
+510,Normocytic normochromic anemia,True,,6,0,0,0
+511,Normocytic normochromic anemia,True,,6,0,0,0
+512,Healthy,True,,6,0,0,0
+513,Healthy,True,,6,0,0,0
+514,Normocytic normochromic anemia,True,,6,0,0,0
+516,Other microcytic anemia,True,,6,0,0,0
+518,Healthy,True,,6,0,0,0
+519,Healthy,True,,6,0,0,0
+520,Healthy,True,,6,0,0,0
+521,Other microcytic anemia,True,,6,0,0,0
+522,Normocytic normochromic anemia,True,,6,0,0,0
+523,Other microcytic anemia,True,,6,0,0,0
+524,Healthy,True,,6,0,0,0
+526,Normocytic normochromic anemia,True,,6,0,0,0
+527,Healthy,True,,6,0,0,0
+528,Healthy,True,,6,0,0,0
+529,Healthy,True,,6,0,0,0
+530,Normocytic normochromic anemia,True,,6,0,0,0
+532,Healthy,True,,6,0,0,0
+534,Healthy,True,,6,0,0,0
+535,Healthy,True,,6,0,0,0
+536,Normocytic normochromic anemia,True,,6,0,0,0
+537,Normocytic normochromic anemia,True,,6,0,0,0
+538,Healthy,True,,6,0,0,0
+539,Healthy,True,,6,0,0,0
+541,Other microcytic anemia,True,,6,0,0,0
+543,Healthy,True,,6,0,0,0
+544,Normocytic normochromic anemia,True,,6,0,0,0
+545,Healthy,True,,6,0,0,0
+547,Healthy,True,,6,0,0,0
+548,Healthy,True,,6,0,0,0
+549,Normocytic normochromic anemia,True,,6,0,0,0
+550,Healthy,True,,6,0,0,0
+551,Normocytic normochromic anemia,True,,6,0,0,0
+552,Healthy,True,,6,0,0,0
+553,Normocytic normochromic anemia,True,,6,0,0,0
+554,Healthy,True,,6,0,0,0
+555,Normocytic normochromic anemia,True,,6,0,0,0
+556,Healthy,True,,6,0,0,0
+557,Normocytic normochromic anemia,True,,6,0,0,0
+559,Normocytic normochromic anemia,True,,6,0,0,0
+560,Other microcytic anemia,True,,6,0,0,0
+562,Normocytic normochromic anemia,True,,6,0,0,0
+563,Healthy,True,,6,0,0,0
+564,Healthy,True,,6,0,0,0
+565,Normocytic normochromic anemia,True,,6,0,0,0
+566,Healthy,True,,6,0,0,0
+567,Healthy,True,,6,0,0,0
+568,Normocytic normochromic anemia,True,,6,0,0,0
+569,Healthy,True,,6,0,0,0
+570,Healthy,True,,6,0,0,0
+571,Other microcytic anemia,True,,6,0,0,0
+572,Normocytic normochromic anemia,True,,6,0,0,0
+573,Normocytic normochromic anemia,True,,6,0,0,0
+575,Normocytic normochromic anemia,True,,6,0,0,0
+577,Normocytic normochromic anemia,True,,6,0,0,0
+578,Healthy,True,,6,0,0,0
+579,Healthy,True,,6,0,0,0
+580,Other microcytic anemia,True,,6,0,0,0
+582,Other microcytic anemia,True,,6,0,0,0
+583,Healthy,True,,6,0,0,0
+584,Healthy,True,,6,0,0,0
+585,Healthy,True,,6,0,0,0
+586,Normocytic normochromic anemia,True,,6,0,0,0
+587,Healthy,True,,6,0,0,0
+588,Healthy,True,,6,0,0,0
+589,Healthy,True,,6,0,0,0
+590,Other microcytic anemia,True,,6,0,0,0
+591,Healthy,True,,6,0,0,0
+593,Normocytic normochromic anemia,True,,6,0,0,0
+594,Healthy,True,,6,0,0,0
+595,Healthy,True,,6,0,0,0
+596,Normocytic normochromic anemia,True,,6,0,0,0
+599,Normocytic normochromic anemia,True,,6,0,0,0
+600,Healthy,True,,6,0,0,0
+601,Healthy,True,,6,0,0,0
+604,Normocytic normochromic anemia,True,,6,0,0,0
+605,Other microcytic anemia,True,,6,0,0,0
+607,Normocytic normochromic anemia,True,,6,0,0,0
+608,Normocytic normochromic anemia,True,,6,0,0,0
+610,Normocytic normochromic anemia,True,,6,0,0,0
+611,Normocytic normochromic anemia,True,,6,0,0,0
+612,Healthy,True,,6,0,0,0
+614,Healthy,True,,6,0,0,0
+615,Healthy,True,,6,0,0,0
+616,Healthy,True,,6,0,0,0
+617,Healthy,True,,6,0,0,0
+619,Normocytic normochromic anemia,True,,6,0,0,0
+620,Normocytic normochromic anemia,True,,6,0,0,0
+621,Healthy,True,,6,0,0,0
+622,Healthy,True,,6,0,0,0
+623,Healthy,True,,6,0,0,0
+624,Healthy,True,,6,0,0,0
+625,Healthy,True,,6,0,0,0
+626,Healthy,True,,6,0,0,0
+627,Normocytic normochromic anemia,True,,6,0,0,0
+628,Healthy,True,,6,0,0,0
+629,Healthy,True,,6,0,0,0
+630,Healthy,True,,6,0,0,0
+632,Healthy,True,,6,0,0,0
+633,Healthy,True,,6,0,0,0
+634,Normocytic normochromic anemia,True,,6,0,0,0
+635,Healthy,True,,6,0,0,0
+636,Healthy,True,,6,0,0,0
+637,Healthy,True,,6,0,0,0
+638,Healthy,True,,6,0,0,0
+639,Healthy,True,,6,0,0,0
+640,Normocytic normochromic anemia,True,,6,0,0,0
+641,Normocytic normochromic anemia,True,,6,0,0,0
+642,Other microcytic anemia,True,,6,0,0,0
+643,Normocytic normochromic anemia,True,,6,0,0,0
+644,Healthy,True,,6,0,0,0
+646,Healthy,True,,6,0,0,0
+647,Healthy,True,,6,0,0,0
+648,Normocytic normochromic anemia,True,,6,0,0,0
+649,Healthy,True,,6,0,0,0
+651,Healthy,True,,6,0,0,0
+652,Normocytic hypochromic anemia,True,,6,0,0,0
+653,Normocytic normochromic anemia,True,,6,0,0,0
+654,Normocytic normochromic anemia,True,,6,0,0,0
+655,Healthy,True,,6,0,0,0
+656,Normocytic normochromic anemia,True,,6,0,0,0
+657,Healthy,True,,6,0,0,0
+658,Normocytic normochromic anemia,True,,6,0,0,0
+659,Healthy,True,,6,0,0,0
+660,Normocytic normochromic anemia,True,,6,0,0,0
+661,Normocytic normochromic anemia,True,,6,0,0,0
+662,Healthy,True,,6,0,0,0
+663,Healthy,True,,6,0,0,0
+665,Healthy,True,,6,0,0,0
+666,Normocytic normochromic anemia,True,,6,0,0,0
+667,Normocytic normochromic anemia,True,,6,0,0,0
+669,Normocytic normochromic anemia,True,,6,0,0,0
+670,Healthy,True,,6,0,0,0
+671,Normocytic normochromic anemia,True,,6,0,0,0
+672,Normocytic normochromic anemia,True,,6,0,0,0
+673,Healthy,True,,6,0,0,0
+674,Normocytic normochromic anemia,True,,6,0,0,0
+675,Healthy,True,,6,0,0,0
+676,Healthy,True,,6,0,0,0
+677,Normocytic normochromic anemia,True,,6,0,0,0
+678,Normocytic normochromic anemia,True,,6,0,0,0
+679,Healthy,True,,6,0,0,0
+680,Healthy,True,,6,0,0,0
+681,Healthy,True,,6,0,0,0
+682,Normocytic normochromic anemia,True,,6,0,0,0
+683,Normocytic normochromic anemia,True,,6,0,0,0
+686,Healthy,True,,6,0,0,0
+687,Other microcytic anemia,True,,6,0,0,0
+689,Healthy,True,,6,0,0,0
+690,Normocytic normochromic anemia,True,,6,0,0,0
+691,Healthy,True,,6,0,0,0
+692,Healthy,True,,6,0,0,0
+693,Normocytic normochromic anemia,True,,6,0,0,0
+694,Healthy,True,,6,0,0,0
+695,Normocytic normochromic anemia,True,,6,0,0,0
+696,Normocytic normochromic anemia,True,,6,0,0,0
+697,Healthy,True,,6,0,0,0
+698,Normocytic normochromic anemia,True,,6,0,0,0
+699,Healthy,True,,6,0,0,0
+700,Healthy,True,,6,0,0,0
+701,Normocytic normochromic anemia,True,,6,0,0,0
+703,Healthy,True,,6,0,0,0
+704,Normocytic normochromic anemia,True,,6,0,0,0
+706,Normocytic normochromic anemia,True,,6,0,0,0
+710,Healthy,True,,6,0,0,0
+711,Healthy,True,,6,0,0,0
+712,Healthy,True,,6,0,0,0
+713,Other microcytic anemia,True,,6,0,0,0
+714,Normocytic normochromic anemia,True,,6,0,0,0
+715,Healthy,True,,6,0,0,0
+717,Normocytic normochromic anemia,True,,6,0,0,0
+718,Healthy,True,,6,0,0,0
+719,Healthy,True,,6,0,0,0
+720,Normocytic normochromic anemia,True,,6,0,0,0
+724,Normocytic normochromic anemia,True,,6,0,0,0
+726,Healthy,True,,6,0,0,0
+728,Normocytic normochromic anemia,True,,6,0,0,0
+729,Healthy,True,,6,0,0,0
+730,Healthy,True,,6,0,0,0
+732,Healthy,True,,6,0,0,0
+734,Normocytic normochromic anemia,True,,6,0,0,0
+735,Healthy,True,,6,0,0,0
+737,Normocytic normochromic anemia,True,,6,0,0,0
+738,Healthy,True,,6,0,0,0
+740,Normocytic normochromic anemia,True,,6,0,0,0
+741,Healthy,True,,6,0,0,0
+742,Normocytic normochromic anemia,True,,6,0,0,0
+743,Other microcytic anemia,True,,6,0,0,0
+744,Other microcytic anemia,True,,6,0,0,0
+745,Normocytic normochromic anemia,True,,6,0,0,0
+746,Healthy,True,,6,0,0,0
+747,Healthy,True,,6,0,0,0
+749,Normocytic normochromic anemia,True,,6,0,0,0
+750,Healthy,True,,6,0,0,0
+751,Healthy,True,,6,0,0,0
+752,Normocytic normochromic anemia,True,,6,0,0,0
+753,Normocytic normochromic anemia,True,,6,0,0,0
+754,Healthy,True,,6,0,0,0
+755,Healthy,True,,6,0,0,0
+756,Normocytic hypochromic anemia,True,,6,0,0,0
+757,Normocytic normochromic anemia,True,,6,0,0,0
+758,Normocytic normochromic anemia,True,,6,0,0,0
+760,Normocytic normochromic anemia,True,,6,0,0,0
+761,Healthy,True,,6,0,0,0
+763,Other microcytic anemia,True,,6,0,0,0
+764,Healthy,True,,6,0,0,0
+766,Normocytic normochromic anemia,True,,6,0,0,0
+767,Other microcytic anemia,True,,6,0,0,0
+768,Healthy,True,,6,0,0,0
+773,Normocytic normochromic anemia,True,,6,0,0,0
+774,Normocytic hypochromic anemia,True,,6,0,0,0
+780,Healthy,True,,6,0,0,0
+781,Healthy,True,,6,0,0,0
+782,Healthy,True,,6,0,0,0
+783,Healthy,True,,6,0,0,0
+784,Normocytic normochromic anemia,True,,6,0,0,0
+785,Healthy,True,,6,0,0,0
+786,Normocytic normochromic anemia,True,,6,0,0,0
+787,Healthy,True,,6,0,0,0
+788,Normocytic normochromic anemia,True,,6,0,0,0
+789,Normocytic normochromic anemia,True,,6,0,0,0
+790,Normocytic normochromic anemia,True,,6,0,0,0
+791,Normocytic normochromic anemia,True,,6,0,0,0
+792,Normocytic normochromic anemia,True,,6,0,0,0
+793,Normocytic normochromic anemia,True,,6,0,0,0
+794,Normocytic normochromic anemia,True,,6,0,0,0
+796,Normocytic normochromic anemia,True,,6,0,0,0
+797,Healthy,True,,6,0,0,0
+800,Healthy,True,,6,0,0,0
+801,Normocytic normochromic anemia,True,,6,0,0,0
+802,Normocytic normochromic anemia,True,,6,0,0,0
+803,Healthy,True,,6,0,0,0
+804,Other microcytic anemia,True,,6,0,0,0
+806,Healthy,True,,6,0,0,0
+807,Healthy,True,,6,0,0,0
+808,Normocytic normochromic anemia,True,,6,0,0,0
+809,Healthy,True,,6,0,0,0
+810,Normocytic normochromic anemia,True,,6,0,0,0
+812,Normocytic normochromic anemia,True,,6,0,0,0
+814,Healthy,True,,6,0,0,0
+816,Healthy,True,,6,0,0,0
+817,Healthy,True,,6,0,0,0
+819,Healthy,True,,6,0,0,0
+820,Healthy,True,,6,0,0,0
+822,Other microcytic anemia,True,,6,0,0,0
+825,Healthy,True,,6,0,0,0
+827,Healthy,True,,6,0,0,0
+828,Healthy,True,,6,0,0,0
+829,Normocytic normochromic anemia,True,,6,0,0,0
+830,Other microcytic anemia,True,,6,0,0,0
+831,Normocytic normochromic anemia,True,,6,0,0,0
+832,Normocytic normochromic anemia,True,,6,0,0,0
+833,Normocytic normochromic anemia,True,,6,0,0,0
+835,Normocytic normochromic anemia,True,,6,0,0,0
+836,Normocytic normochromic anemia,True,,6,0,0,0
+838,Normocytic normochromic anemia,True,,6,0,0,0
+839,Healthy,True,,6,0,0,0
+840,Normocytic normochromic anemia,True,,6,0,0,0
+841,Healthy,True,,6,0,0,0
+842,Normocytic normochromic anemia,True,,6,0,0,0
+843,Healthy,True,,6,0,0,0
+844,Normocytic normochromic anemia,True,,6,0,0,0
+845,Normocytic normochromic anemia,True,,6,0,0,0
+846,Normocytic hypochromic anemia,True,,6,0,0,0
+847,Healthy,True,,6,0,0,0
+848,Healthy,True,,6,0,0,0
+849,Normocytic normochromic anemia,True,,6,0,0,0
+850,Healthy,True,,6,0,0,0
+851,Normocytic normochromic anemia,True,,6,0,0,0
+852,Normocytic normochromic anemia,True,,6,0,0,0
+853,Healthy,True,,6,0,0,0
+854,Normocytic normochromic anemia,True,,6,0,0,0
+855,Healthy,True,,6,0,0,0
+856,Normocytic normochromic anemia,True,,6,0,0,0
+857,Healthy,True,,6,0,0,0
+858,Normocytic normochromic anemia,True,,6,0,0,0
+859,Other microcytic anemia,True,,6,0,0,0
+861,Normocytic normochromic anemia,True,,6,0,0,0
+862,Healthy,True,,6,0,0,0
+863,Healthy,True,,6,0,0,0
+865,Healthy,True,,6,1,0,0
+866,Normocytic normochromic anemia,True,,6,1,0,0
+867,Healthy,True,,6,1,0,0
+868,Normocytic normochromic anemia,True,,6,1,0,0
+869,Healthy,True,,6,1,0,0
+871,Healthy,True,,6,1,0,0
+873,Healthy,True,,6,1,0,0
+875,Normocytic normochromic anemia,True,,6,1,0,0
+876,Healthy,True,,6,1,0,0
+877,Normocytic normochromic anemia,True,,6,1,0,0
+878,Normocytic normochromic anemia,True,,6,1,0,0
+882,Normocytic normochromic anemia,True,,6,1,0,0
+883,Healthy,True,,6,1,0,0
+885,Normocytic normochromic anemia,True,,6,1,0,0
+886,Normocytic normochromic anemia,True,,6,1,0,0
+887,Healthy,True,,6,1,0,0
+888,Normocytic normochromic anemia,True,,6,1,0,0
+890,Normocytic normochromic anemia,True,,6,1,0,0
+892,Healthy,True,,6,1,0,0
+893,Normocytic normochromic anemia,True,,6,1,0,0
+894,Healthy,True,,6,1,0,0
+898,Normocytic normochromic anemia,True,,6,1,0,0
+899,Normocytic hypochromic anemia,True,,6,1,0,0
+900,Normocytic normochromic anemia,True,,6,1,0,0
+905,Healthy,True,,6,1,0,0
+908,Healthy,True,,6,1,0,0
+909,Normocytic normochromic anemia,True,,6,1,0,0
+910,Healthy,True,,6,1,0,0
+911,Normocytic normochromic anemia,True,,6,1,0,0
+912,Healthy,True,,6,1,0,0
+913,Healthy,True,,6,1,0,0
+914,Normocytic normochromic anemia,True,,6,1,0,0
+915,Normocytic hypochromic anemia,True,,6,1,0,0
+916,Healthy,True,,6,1,0,0
+918,Healthy,True,,6,1,0,0
+919,Healthy,True,,6,1,0,0
+920,Normocytic hypochromic anemia,True,,6,1,0,0
+921,Normocytic hypochromic anemia,True,,6,1,1,0
+922,Normocytic hypochromic anemia,True,,6,1,0,0
+923,Normocytic hypochromic anemia,True,,6,1,0,0
+926,Leukemia,True,,6,1,0,0
+927,Normocytic hypochromic anemia,True,,6,1,1,0
+929,Normocytic hypochromic anemia,True,,6,1,0,0
+930,Macrocytic anemia,True,,6,1,0,0
+931,Normocytic hypochromic anemia,True,,6,1,0,0
+932,Leukemia,True,,6,1,0,0
+933,Healthy,True,,6,1,0,0
+936,Healthy,True,,6,1,0,0
+939,Iron deficiency anemia,True,,6,1,0,0
+940,Normocytic normochromic anemia,True,,6,1,0,0
+941,Normocytic hypochromic anemia,True,,6,1,0,0
+942,Macrocytic anemia,True,,6,1,0,0
+943,Normocytic hypochromic anemia,True,,6,1,0,0
+945,Normocytic hypochromic anemia,True,,6,1,0,0
+949,Normocytic hypochromic anemia,True,,6,1,0,0
+950,Iron deficiency anemia,True,,6,1,0,0
+953,Normocytic hypochromic anemia,True,,6,1,0,0
+955,Normocytic normochromic anemia,True,,6,1,0,0
+956,Macrocytic anemia,True,,6,1,0,0
+958,Healthy,True,,6,1,0,0
+959,Thrombocytopenia,True,,6,1,0,0
+960,Normocytic normochromic anemia,True,,6,1,0,0
+961,Iron deficiency anemia,True,,6,1,0,0
+962,Iron deficiency anemia,True,,6,1,0,0
+965,Thrombocytopenia,True,,6,1,0,0
+966,Healthy,True,,6,1,0,0
+968,Normocytic hypochromic anemia,True,,6,1,0,0
+969,Healthy,True,,6,1,0,0
+970,Normocytic hypochromic anemia,True,,6,1,0,0
+971,Normocytic hypochromic anemia,True,,6,1,0,0
+972,Iron deficiency anemia,True,,6,1,0,0
+974,Iron deficiency anemia,True,,6,1,0,0
+976,Normocytic hypochromic anemia,True,,6,1,0,0
+977,Iron deficiency anemia,True,,6,1,0,0
+978,Healthy,True,,6,1,0,0
+979,Healthy,True,,6,1,0,0
+981,Iron deficiency anemia,True,,6,1,0,0
+983,Healthy,True,,6,1,0,0
+986,Normocytic hypochromic anemia,True,,6,1,1,0
+987,Healthy,True,,6,1,0,0
+988,Leukemia,True,,6,1,0,0
+990,Other microcytic anemia,True,,6,1,0,0
+991,Healthy,True,,6,1,0,0
+992,Normocytic hypochromic anemia,True,,6,1,0,0
+993,Normocytic normochromic anemia,True,,6,1,0,0
+994,Iron deficiency anemia,True,,6,1,0,0
+995,Normocytic normochromic anemia,True,,6,1,0,0
+996,Normocytic normochromic anemia,True,,6,1,0,0
+997,Normocytic hypochromic anemia,True,,6,1,1,0
+998,Iron deficiency anemia,True,,6,1,0,0
+999,Iron deficiency anemia,True,,6,1,0,0
+1001,Healthy,True,,6,1,0,0
+1002,Macrocytic anemia,True,,6,1,1,0
+1004,Iron deficiency anemia,True,,6,1,1,0
+1005,Healthy,True,,6,1,0,0
+1007,Healthy,True,,6,1,0,0
+1009,Healthy,True,,6,1,0,0
+1010,Thrombocytopenia,True,,6,1,0,0
+1011,Normocytic normochromic anemia,True,,6,1,1,0
+1012,Macrocytic anemia,True,,6,1,0,0
+1013,Normocytic hypochromic anemia,True,,6,1,0,0
+1014,Healthy,True,,6,1,0,0
+1015,Normocytic hypochromic anemia,True,,6,1,0,0
+1018,Normocytic hypochromic anemia,True,,6,1,0,0
+1020,Leukemia,True,,6,1,0,0
+1021,Thrombocytopenia,True,,6,1,1,0
+1022,Normocytic hypochromic anemia,True,,6,1,0,0
+1023,Normocytic normochromic anemia,True,,6,1,0,0
+1024,Normocytic hypochromic anemia,True,,6,1,0,0
+1025,Healthy,True,,6,1,0,0
+1026,Iron deficiency anemia,True,,6,1,1,0
+1027,Normocytic normochromic anemia,True,,6,1,0,0
+1028,Leukemia,True,,6,1,0,0
+1029,Normocytic hypochromic anemia,True,,6,1,1,0
+1030,Thrombocytopenia,True,,6,1,0,0
+1031,Normocytic normochromic anemia,True,,6,1,0,0
+1032,Iron deficiency anemia,True,,6,1,0,0
+1033,Normocytic normochromic anemia,True,,6,1,1,0
+1034,Normocytic normochromic anemia,True,,6,1,0,0
+1035,Normocytic normochromic anemia,True,,6,1,0,0
+1036,Thrombocytopenia,True,,6,1,0,0
+1037,Thrombocytopenia,True,,6,1,0,0
+1039,Healthy,True,,6,1,0,0
+1040,Normocytic normochromic anemia,True,,6,1,0,0
+1041,Leukemia,True,,6,1,0,0
+1042,Iron deficiency anemia,True,,6,1,0,0
+1044,Macrocytic anemia,True,,6,1,0,0
+1045,Healthy,True,,6,1,1,0
+1046,Normocytic hypochromic anemia,True,,6,1,0,0
+1047,Normocytic hypochromic anemia,True,,6,1,0,0
+1048,Normocytic hypochromic anemia,True,,6,1,0,0
+1049,Normocytic hypochromic anemia,True,,6,1,0,0
+1050,Iron deficiency anemia,True,,6,1,0,0
+1051,Healthy,True,,6,1,0,0
+1052,Normocytic hypochromic anemia,True,,6,1,0,0
+1053,Iron deficiency anemia,True,,6,1,0,0
+1055,Normocytic hypochromic anemia,True,,6,1,0,0
+1058,Normocytic hypochromic anemia,True,,6,1,0,0
+1059,Macrocytic anemia,True,,6,1,0,0
+1061,Iron deficiency anemia,True,,6,1,0,0
+1062,Normocytic normochromic anemia,True,,6,1,0,0
+1063,Thrombocytopenia,True,,6,1,0,0
+1064,Normocytic hypochromic anemia,True,,6,1,0,0
+1065,Healthy,True,,6,1,0,0
+1069,Macrocytic anemia,True,,6,1,0,0
+1071,Normocytic normochromic anemia,True,,6,1,0,0
+1073,Normocytic normochromic anemia,True,,6,1,1,0
+1074,Normocytic normochromic anemia,True,,6,1,0,0
+1075,Normocytic normochromic anemia,True,,6,1,0,0
+1076,Normocytic normochromic anemia,True,,6,1,1,0
+1077,Normocytic normochromic anemia,True,,6,1,1,0
+1078,Normocytic normochromic anemia,True,,6,1,0,0
+1079,Normocytic normochromic anemia,True,,6,1,0,0
+1080,Normocytic normochromic anemia,True,,6,1,0,0
+1081,Normocytic normochromic anemia,True,,6,1,0,0
+1083,Normocytic normochromic anemia,True,,6,1,0,0
+1085,Normocytic normochromic anemia,True,,6,1,0,0
+1087,Thrombocytopenia,True,,6,1,0,0
+1089,Other microcytic anemia,True,,6,1,1,0
+1090,Thrombocytopenia,True,,6,1,1,0
+1092,Healthy,True,,6,1,0,0
+1093,Healthy,True,,6,1,0,0
+1094,Thrombocytopenia,True,,6,1,0,0
+1095,Macrocytic anemia,True,,6,1,0,0
+1097,Healthy,True,,6,1,0,0
+1100,Normocytic normochromic anemia,True,,6,1,0,0
+1101,Normocytic normochromic anemia,True,,6,1,0,0
+1103,Healthy,True,,6,1,0,0
+1104,Healthy,True,,6,1,0,0
+1105,Normocytic hypochromic anemia,True,,6,1,0,0
+1106,Normocytic hypochromic anemia,True,,6,1,0,0
+1107,Normocytic hypochromic anemia,True,,6,1,0,0
+1109,Normocytic hypochromic anemia,True,,6,1,0,0
+1110,Iron deficiency anemia,True,,6,1,0,0
+1111,Healthy,True,,6,1,0,0
+1112,Healthy,True,,6,1,0,0
+1114,Normocytic hypochromic anemia,True,,6,1,0,0
+1115,Healthy,True,,6,1,0,0
+1116,Normocytic hypochromic anemia,True,,6,1,0,0
+1117,Normocytic hypochromic anemia,True,,6,1,0,0
+1119,Leukemia,True,,6,1,0,0
+1120,Normocytic hypochromic anemia,True,,6,1,0,0
+1121,Healthy,True,,6,1,1,0
+1122,Healthy,True,,6,1,1,0
+1123,Normocytic hypochromic anemia,True,,6,1,0,0
+1124,Leukemia,True,,6,1,0,0
+1125,Healthy,True,,6,1,0,0
+1126,Normocytic hypochromic anemia,True,,6,1,0,0
+1127,Normocytic hypochromic anemia,True,,6,1,0,0
+1128,Healthy,True,,6,1,0,0
+1130,Normocytic normochromic anemia,True,,6,1,0,0
+1131,Iron deficiency anemia,True,,6,1,0,0
+1132,Normocytic hypochromic anemia,True,,6,1,0,0
+1134,Other microcytic anemia,False,"MCHC=50.2 outside [20, 45]",6,1,0,0
+1135,Normocytic normochromic anemia,True,,6,1,1,0
+1136,Normocytic normochromic anemia,True,,6,1,0,0
+1137,Other microcytic anemia,True,,6,1,0,0
+1138,Normocytic normochromic anemia,True,,6,1,0,0
+1139,Normocytic normochromic anemia,True,,6,1,0,0
+1141,Healthy,True,,6,1,1,0
+1143,Normocytic normochromic anemia,True,,6,1,0,0
+1145,Other microcytic anemia,True,,6,1,0,0
+1148,Normocytic normochromic anemia,True,,6,1,1,0
+1149,Other microcytic anemia,True,,6,1,0,0
+1151,Leukemia,True,,6,1,0,0
+1152,Normocytic hypochromic anemia,True,,6,1,0,0
+1153,Healthy,True,,6,1,0,0
+1154,Normocytic hypochromic anemia,True,,6,1,0,0
+1155,Leukemia,True,,6,1,0,0
+1156,Leukemia,True,,6,1,0,0
+1157,Healthy,True,,6,1,0,0
+1158,Healthy,True,,6,1,0,0
+1159,Leukemia,True,,6,1,0,0
+1160,Leukemia,True,,6,1,0,0
+1163,Normocytic normochromic anemia,True,,6,1,0,0
+1164,Normocytic hypochromic anemia,True,,6,1,1,0
+1165,Iron deficiency anemia,True,,6,1,0,0
+1166,Normocytic hypochromic anemia,True,,6,1,0,0
+1168,Iron deficiency anemia,True,,6,1,0,0
+1169,Normocytic hypochromic anemia,True,,6,1,0,0
+1171,Normocytic hypochromic anemia,True,,6,1,0,0
+1172,Leukemia,True,,6,1,0,0
+1175,Leukemia with thrombocytopenia,True,,6,1,0,0
+1176,Leukemia,True,,6,1,0,0
+1179,Normocytic hypochromic anemia,True,,6,1,0,0
+1180,Normocytic hypochromic anemia,True,,6,1,0,0
+1181,Normocytic hypochromic anemia,True,,6,1,0,0
+1182,Leukemia,True,,6,1,0,0
+1183,Iron deficiency anemia,True,,6,1,0,0
+1184,Leukemia,True,,6,1,0,0
+1186,Normocytic hypochromic anemia,True,,6,1,1,0
+1187,Normocytic hypochromic anemia,True,,6,1,0,0
+1188,Normocytic hypochromic anemia,True,,6,1,0,0
+1189,Normocytic hypochromic anemia,True,,6,1,0,0
+1190,Normocytic normochromic anemia,True,,6,1,0,0
+1191,Healthy,True,,6,1,0,0
+1193,Normocytic hypochromic anemia,True,,6,1,0,0
+1195,Healthy,True,,6,1,0,0
+1196,Normocytic normochromic anemia,True,,6,1,0,0
+1197,Normocytic normochromic anemia,True,,6,1,0,0
+1198,Normocytic normochromic anemia,True,,6,1,0,0
+1199,Other microcytic anemia,True,,6,1,0,0
+1201,Healthy,True,,6,1,0,0
+1202,Leukemia,True,,6,1,0,0
+1203,Healthy,True,,6,1,0,0
+1205,Iron deficiency anemia,True,,6,1,0,0
+1206,Normocytic normochromic anemia,True,,6,1,1,0
+1207,Other microcytic anemia,True,,6,1,0,0
+1208,Normocytic hypochromic anemia,True,,6,1,0,0
+1209,Normocytic hypochromic anemia,True,,6,1,0,0
+1211,Normocytic hypochromic anemia,True,,6,1,0,0
+1212,Normocytic hypochromic anemia,True,,6,1,0,0
+1213,Normocytic hypochromic anemia,True,,6,1,1,0
+1215,Normocytic hypochromic anemia,True,,6,1,0,0
+1216,Thrombocytopenia,True,,6,1,1,0
+1217,Iron deficiency anemia,True,,6,1,0,0
+1218,Leukemia,True,,6,1,0,0
+1221,Other microcytic anemia,True,,6,1,0,0
+1222,Normocytic hypochromic anemia,True,,6,1,0,0
+1223,Normocytic hypochromic anemia,True,,6,1,0,0
+1224,Healthy,True,,6,1,0,0
+1225,Normocytic hypochromic anemia,True,,6,1,0,0
+1227,Normocytic hypochromic anemia,True,,6,1,0,0
+1228,Healthy,True,,6,1,1,0
+1229,Healthy,True,,6,1,0,0
+1230,Normocytic hypochromic anemia,True,,6,1,0,0
+1231,Normocytic hypochromic anemia,True,,6,1,0,0
+1232,Healthy,True,,6,1,0,0
+1233,Normocytic hypochromic anemia,True,,6,1,0,0
+1234,Normocytic hypochromic anemia,True,,6,1,0,0
+1235,Iron deficiency anemia,True,,6,1,0,0
+1236,Macrocytic anemia,True,,6,1,0,0
+1237,Normocytic hypochromic anemia,True,,6,1,1,0
+1238,Normocytic normochromic anemia,True,,6,1,0,0
+1239,Normocytic normochromic anemia,True,,6,1,0,0
+1240,Other microcytic anemia,True,,6,1,0,0
+1241,Normocytic normochromic anemia,True,,6,1,0,0
+1242,Leukemia,True,,6,1,0,0
+1244,Normocytic hypochromic anemia,True,,6,1,0,0
+1245,Healthy,True,,6,1,0,0
+1248,Normocytic normochromic anemia,True,,6,1,0,0
+1249,Healthy,True,,6,1,0,0
+1250,Normocytic normochromic anemia,True,,6,1,0,0
+1252,Normocytic normochromic anemia,True,,6,1,0,0
+1254,Healthy,True,,6,1,1,0
+1255,Healthy,True,,6,1,0,0
+1256,Healthy,True,,6,1,1,0
+1258,Thrombocytopenia,True,,6,1,0,0
+1259,Normocytic normochromic anemia,True,,6,1,1,0
+1260,Healthy,True,,6,1,0,0
+1261,Normocytic normochromic anemia,True,,6,1,0,0
+1262,Normocytic normochromic anemia,True,,6,1,0,0
+1264,Healthy,True,,6,1,0,0
+1265,Normocytic normochromic anemia,True,,6,1,0,0
+1267,Thrombocytopenia,True,,6,1,1,0
+1269,Normocytic hypochromic anemia,True,,6,1,0,0
+1270,Normocytic normochromic anemia,True,,6,1,1,0
+1272,Normocytic normochromic anemia,True,,6,1,0,0
+1273,Other microcytic anemia,True,,6,1,0,0
+1275,Other microcytic anemia,True,,6,1,0,0
+1276,Healthy,True,,6,1,1,0
+1277,Healthy,True,,6,1,0,0
+1278,Healthy,True,,6,1,0,0

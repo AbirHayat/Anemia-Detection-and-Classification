@@ -1,0 +1,149 @@
+Phase 3 evaluation (pre-registered on 14 Nov 2026, before any result was opened). Development rows only, test rows not read.
+outer folds 5 x 5 = 25, corrected test n2/n1 = 0.25, df = 24. Mean ± std over the 25 outer folds.
+
+== A. all configurations, PRIMARY (calibrated) ==
+  feature set model   arm              macro-F1     balanced acc              MCC
+  F-all       dummy   none        0.047 ± 0.000    0.111 ± 0.000    0.000 ± 0.000
+  F-all       forest  smote       0.954 ± 0.039    0.954 ± 0.045    0.979 ± 0.012
+  F-all       forest  weights     0.947 ± 0.042    0.950 ± 0.045    0.977 ± 0.015
+  F-all       hgb     smote       0.947 ± 0.038    0.948 ± 0.045    0.978 ± 0.012
+  F-all       hgb     weights     0.933 ± 0.044    0.933 ± 0.046    0.975 ± 0.013
+  F-all       logreg  smote       0.525 ± 0.053    0.521 ± 0.045    0.684 ± 0.034
+  F-all       logreg  weights     0.514 ± 0.047    0.512 ± 0.047    0.676 ± 0.031
+  F-all       tree    smote       0.969 ± 0.028    0.970 ± 0.029    0.986 ± 0.011
+  F-all       tree    weights     0.972 ± 0.028    0.974 ± 0.033    0.990 ± 0.010
+  F-all+idx   dummy   none        0.047 ± 0.000    0.111 ± 0.000    0.000 ± 0.000
+  F-all+idx   forest  smote       0.948 ± 0.044    0.954 ± 0.047    0.980 ± 0.014
+  F-all+idx   forest  weights     0.954 ± 0.046    0.961 ± 0.047    0.983 ± 0.015
+  F-all+idx   hgb     smote       0.948 ± 0.042    0.948 ± 0.045    0.980 ± 0.013
+  F-all+idx   hgb     weights     0.939 ± 0.036    0.941 ± 0.040    0.975 ± 0.012
+  F-all+idx   logreg  smote       0.522 ± 0.062    0.517 ± 0.053    0.689 ± 0.044
+  F-all+idx   logreg  weights     0.502 ± 0.044    0.501 ± 0.043    0.685 ± 0.033
+  F-all+idx   tree    smote       0.967 ± 0.022    0.969 ± 0.029    0.981 ± 0.011
+  F-all+idx   tree    weights     0.969 ± 0.029    0.970 ± 0.029    0.986 ± 0.010
+  F-core      dummy   none        0.047 ± 0.000    0.111 ± 0.000    0.000 ± 0.000
+  F-core      forest  smote       0.975 ± 0.022    0.977 ± 0.023    0.988 ± 0.009
+  F-core      forest  weights     0.968 ± 0.024    0.972 ± 0.023    0.987 ± 0.010
+  F-core      hgb     smote       0.950 ± 0.040    0.949 ± 0.043    0.978 ± 0.011
+  F-core      hgb     weights     0.934 ± 0.035    0.938 ± 0.034    0.975 ± 0.013
+  F-core      logreg  smote       0.482 ± 0.053    0.483 ± 0.044    0.668 ± 0.034
+  F-core      logreg  weights     0.490 ± 0.050    0.489 ± 0.044    0.675 ± 0.025
+  F-core      tree    smote       0.962 ± 0.026    0.965 ± 0.027    0.984 ± 0.009
+  F-core      tree    weights     0.970 ± 0.029    0.974 ± 0.028    0.990 ± 0.008
+  F-core+idx  dummy   none        0.047 ± 0.000    0.111 ± 0.000    0.000 ± 0.000
+  F-core+idx  forest  smote       0.967 ± 0.027    0.975 ± 0.026    0.986 ± 0.010
+  F-core+idx  forest  weights     0.971 ± 0.024    0.980 ± 0.023    0.988 ± 0.010
+  F-core+idx  hgb     smote       0.948 ± 0.040    0.949 ± 0.042    0.976 ± 0.011
+  F-core+idx  hgb     weights     0.938 ± 0.033    0.943 ± 0.034    0.975 ± 0.011
+  F-core+idx  logreg  smote       0.465 ± 0.054    0.469 ± 0.045    0.665 ± 0.034
+  F-core+idx  logreg  weights     0.473 ± 0.047    0.474 ± 0.045    0.666 ± 0.033
+  F-core+idx  tree    smote       0.954 ± 0.033    0.960 ± 0.029    0.981 ± 0.011
+  F-core+idx  tree    weights     0.968 ± 0.028    0.971 ± 0.029    0.988 ± 0.009
+
+== A. all configurations, SECONDARY (uncalibrated) ==
+  feature set model   arm              macro-F1     balanced acc              MCC
+  F-all       dummy   none        0.047 ± 0.000    0.111 ± 0.000    0.000 ± 0.000
+  F-all       forest  smote       0.960 ± 0.033    0.962 ± 0.040    0.981 ± 0.011
+  F-all       forest  weights     0.949 ± 0.037    0.957 ± 0.041    0.977 ± 0.015
+  F-all       hgb     smote       0.943 ± 0.039    0.947 ± 0.045    0.976 ± 0.013
+  F-all       hgb     weights     0.942 ± 0.040    0.947 ± 0.043    0.977 ± 0.012
+  F-all       logreg  smote       0.828 ± 0.057    0.856 ± 0.059    0.865 ± 0.035
+  F-all       logreg  weights     0.825 ± 0.049    0.858 ± 0.057    0.864 ± 0.029
+  F-all       tree    smote       0.969 ± 0.028    0.970 ± 0.029    0.986 ± 0.011
+  F-all       tree    weights     0.972 ± 0.028    0.974 ± 0.033    0.990 ± 0.010
+  F-all+idx   dummy   none        0.047 ± 0.000    0.111 ± 0.000    0.000 ± 0.000
+  F-all+idx   forest  smote       0.956 ± 0.037    0.962 ± 0.039    0.982 ± 0.013
+  F-all+idx   forest  weights     0.956 ± 0.036    0.967 ± 0.037    0.981 ± 0.013
+  F-all+idx   hgb     smote       0.950 ± 0.038    0.954 ± 0.041    0.979 ± 0.012
+  F-all+idx   hgb     weights     0.938 ± 0.031    0.946 ± 0.033    0.973 ± 0.013
+  F-all+idx   logreg  smote       0.839 ± 0.052    0.863 ± 0.058    0.874 ± 0.033
+  F-all+idx   logreg  weights     0.838 ± 0.042    0.862 ± 0.050    0.877 ± 0.026
+  F-all+idx   tree    smote       0.967 ± 0.023    0.969 ± 0.029    0.981 ± 0.011
+  F-all+idx   tree    weights     0.969 ± 0.029    0.970 ± 0.029    0.986 ± 0.010
+  F-core      dummy   none        0.047 ± 0.000    0.111 ± 0.000    0.000 ± 0.000
+  F-core      forest  smote       0.977 ± 0.020    0.981 ± 0.019    0.989 ± 0.009
+  F-core      forest  weights     0.967 ± 0.026    0.973 ± 0.026    0.987 ± 0.010
+  F-core      hgb     smote       0.945 ± 0.045    0.945 ± 0.046    0.978 ± 0.012
+  F-core      hgb     weights     0.939 ± 0.035    0.947 ± 0.035    0.977 ± 0.012
+  F-core      logreg  smote       0.865 ± 0.045    0.899 ± 0.041    0.893 ± 0.025
+  F-core      logreg  weights     0.848 ± 0.037    0.891 ± 0.035    0.879 ± 0.025
+  F-core      tree    smote       0.962 ± 0.026    0.965 ± 0.027    0.984 ± 0.009
+  F-core      tree    weights     0.970 ± 0.029    0.974 ± 0.028    0.990 ± 0.008
+  F-core+idx  dummy   none        0.047 ± 0.000    0.111 ± 0.000    0.000 ± 0.000
+  F-core+idx  forest  smote       0.971 ± 0.026    0.980 ± 0.021    0.987 ± 0.010
+  F-core+idx  forest  weights     0.973 ± 0.021    0.984 ± 0.016    0.987 ± 0.010
+  F-core+idx  hgb     smote       0.949 ± 0.039    0.953 ± 0.041    0.978 ± 0.012
+  F-core+idx  hgb     weights     0.942 ± 0.030    0.951 ± 0.032    0.975 ± 0.011
+  F-core+idx  logreg  smote       0.874 ± 0.039    0.900 ± 0.042    0.902 ± 0.026
+  F-core+idx  logreg  weights     0.868 ± 0.038    0.902 ± 0.040    0.897 ± 0.024
+  F-core+idx  tree    smote       0.954 ± 0.033    0.960 ± 0.029    0.981 ± 0.011
+  F-core+idx  tree    weights     0.968 ± 0.028    0.971 ± 0.029    0.988 ± 0.009
+
+== P2. imbalance arm per model type (best mean F-core macro-F1, tie within 0.001 -> class weights) ==
+  logreg  weights 0.4898  smote 0.4821  -> chosen: weights  | weights - smote = +0.0077, t = 0.38, p = 0.7044, Holm p = 1.0000
+  tree    weights 0.9704  smote 0.9619  -> chosen: weights  | weights - smote = +0.0086, t = 1.08, p = 0.2908, Holm p = 1.0000
+  forest  weights 0.9677  smote 0.9746  -> chosen: smote    | weights - smote = -0.0068, t = -1.08, p = 0.2920, Holm p = 1.0000
+  hgb     weights 0.9345  smote 0.9500  -> chosen: smote    | weights - smote = -0.0156, t = -0.89, p = 0.3830, Holm p = 1.0000
+
+== P3. H2 model choice (best mean F-core macro-F1 with the chosen arm, calibrated) ==
+  forest  (smote) 0.9746
+  tree    (weights) 0.9704
+  hgb     (smote) 0.9500
+  logreg  (weights) 0.4898
+  -> H2 model: forest with smote
+
+== B. per-class recall and precision, chosen arms, calibrated, pooled over all 5 repeats ==
+  F-core logreg: recall Health 0.98, Normoc 0.76, Normoc 0.77, Iron 0.83, Thromb 0.25, Other 0.00, Leukem 0.14, Macroc 0.66, Leukem 0.00
+  F-core tree: recall Health 1.00, Normoc 1.00, Normoc 1.00, Iron 0.99, Thromb 1.00, Other 0.93, Leukem 1.00, Macroc 0.92, Leukem 0.96
+  F-core forest: recall Health 1.00, Normoc 0.99, Normoc 0.99, Iron 0.99, Thromb 0.99, Other 0.93, Leukem 1.00, Macroc 0.89, Leukem 1.00
+  F-core hgb: recall Health 0.99, Normoc 1.00, Normoc 0.99, Iron 0.98, Thromb 0.96, Other 0.90, Leukem 0.99, Macroc 0.91, Leukem 0.80
+  F-all logreg: recall Health 0.97, Normoc 0.72, Normoc 0.78, Iron 0.86, Thromb 0.26, Other 0.00, Leukem 0.23, Macroc 0.72, Leukem 0.04
+  F-all tree: recall Health 1.00, Normoc 1.00, Normoc 1.00, Iron 0.99, Thromb 1.00, Other 0.93, Leukem 1.00, Macroc 0.92, Leukem 0.93
+  F-all forest: recall Health 1.00, Normoc 0.99, Normoc 0.99, Iron 0.99, Thromb 0.97, Other 0.89, Leukem 1.00, Macroc 0.88, Leukem 0.87
+  F-all hgb: recall Health 0.99, Normoc 1.00, Normoc 0.99, Iron 0.97, Thromb 0.96, Other 0.89, Leukem 1.00, Macroc 0.91, Leukem 0.78
+  (confusion matrices: confusion_<feature set>_<model>.csv, rows = true class, columns = predicted, 5 repeats pooled)
+
+== P6. F-all minus F-core, macro-F1, chosen arms (two-sided, Holm over 4, descriptive) ==
+  logreg  mean diff +0.0240, t = 0.77, p = 0.4478, Holm p = 1.0000
+  tree    mean diff +0.0019, t = 0.13, p = 0.8951, Holm p = 1.0000
+  forest  mean diff -0.0210, t = -1.22, p = 0.2346, Holm p = 0.9383
+  hgb     mean diff -0.0033, t = -0.23, p = 0.8213, Holm p = 1.0000
+
+== P4. H3 PRIMARY: F-core+idx minus F-core, mean of iron deficiency and other microcytic recall (one-sided, Holm over 4) ==
+  logreg  without 0.4160, diff +0.0118, t = 1.17, p = 0.1262, Holm p = 0.5050 -> not supported
+  tree    without 0.9584, diff +0.0000, t = 0.00, p = 0.5000, Holm p = 1.0000 -> not supported
+  forest  without 0.9577, diff -0.0025, t = -0.37, p = 0.6432, Holm p = 1.0000 -> not supported
+  hgb     without 0.9394, diff -0.0080, t = -0.69, p = 0.7529, Holm p = 1.0000 -> not supported
+
+== P4. H3 SECONDARY (descriptive): F-all+idx minus F-all, mean of iron deficiency and other microcytic recall (one-sided, Holm over 4) ==
+  logreg  without 0.4278, diff +0.0118, t = 1.39, p = 0.0882, Holm p = 0.3529 -> not supported
+  tree    without 0.9584, diff +0.0000, t = 0.00, p = 0.5000, Holm p = 0.9787 -> not supported
+  forest  without 0.9397, diff +0.0068, t = 0.44, p = 0.3315, Holm p = 0.9787 -> not supported
+  hgb     without 0.9330, diff +0.0078, t = 0.46, p = 0.3262, Holm p = 0.9787 -> not supported
+
+== P5. H4 probes vs majority-class dummy, balanced accuracy (one-sided, Holm over 2) ==
+  probe1_fill_indicator: probe 0.243 ± 0.040, dummy 0.111, diff +0.1315, t = 6.08, p = 1.40e-06, Holm p = 1.40e-06 -> shortcut present
+  probe2_fcore_to_filled: probe 0.826 ± 0.026, dummy 0.500, diff +0.3259, t = 23.62, p = 1.99e-18, Holm p = 3.98e-18 -> shortcut present
+
+== C. macro-F1 within mean-filled rows and within other rows (chosen arms, calibrated, classes present in each group and fold) ==
+  F-core  dummy   filled 0.066 ± 0.004   other 0.023 ± 0.006
+  F-core  logreg  filled 0.530 ± 0.074   other 0.419 ± 0.083
+  F-core  tree    filled 0.988 ± 0.020   other 0.944 ± 0.061
+  F-core  forest  filled 0.979 ± 0.039   other 0.946 ± 0.054
+  F-core  hgb     filled 0.968 ± 0.037   other 0.901 ± 0.065
+  F-all   dummy   filled 0.066 ± 0.004   other 0.023 ± 0.006
+  F-all   logreg  filled 0.541 ± 0.084   other 0.443 ± 0.077
+  F-all   tree    filled 0.983 ± 0.040   other 0.948 ± 0.064
+  F-all   forest  filled 0.949 ± 0.057   other 0.917 ± 0.075
+  F-all   hgb     filled 0.947 ± 0.053   other 0.913 ± 0.077
+
+== P7. errors near the cut-offs (bands {'HGB': [(12.5, 13.5)], 'PLT': [(135, 165)], 'WBC': [(9.5, 11.5)], 'MCV': [(78, 82), (98, 102)], 'MCHC': [(31.4, 32.5)]}) ==
+  rows near a cut-off: 618 of 963 (64.2%)
+  F-core  logreg  error rate near 32.4% vs elsewhere 15.1%; share of errors near 79.3% (5 repeats pooled)
+  F-core  tree    error rate near 1.2% vs elsewhere 0.1%; share of errors near 94.9% (5 repeats pooled)
+  F-core  forest  error rate near 1.4% vs elsewhere 0.2%; share of errors near 93.6% (5 repeats pooled)
+  F-core  hgb     error rate near 2.7% vs elsewhere 0.2%; share of errors near 96.5% (5 repeats pooled)
+  F-all   logreg  error rate near 32.4% vs elsewhere 14.8%; share of errors near 79.6% (5 repeats pooled)
+  F-all   tree    error rate near 1.3% vs elsewhere 0.1%; share of errors near 97.6% (5 repeats pooled)
+  F-all   forest  error rate near 2.1% vs elsewhere 0.9%; share of errors near 80.2% (5 repeats pooled)
+  F-all   hgb     error rate near 2.7% vs elsewhere 0.2%; share of errors near 95.5% (5 repeats pooled)

@@ -1,0 +1,13 @@
+[19:44:00] rows 963, outer folds 25 (same seed and stratification as the ML-only run)
+[19:44:00] H3 tasks: 450
+[19:44:03] H3 done 50/450, elapsed 4 s
+[19:44:05] H3 done 100/450, elapsed 5 s
+[19:44:20] H3 done 150/450, elapsed 21 s
+[19:45:11] H3 done 200/450, elapsed 71 s
+[19:45:30] H3 done 250/450, elapsed 91 s
+[19:45:33] H3 done 300/450, elapsed 94 s
+[19:45:42] H3 done 350/450, elapsed 102 s
+[19:46:13] H3 done 400/450, elapsed 134 s
+[19:47:18] H3 done 450/450, elapsed 198 s
+[19:47:21] H4 probe tasks: 100 done. Probe tree depth 3, balanced class weights
+[19:47:21] no metric computed or printed here

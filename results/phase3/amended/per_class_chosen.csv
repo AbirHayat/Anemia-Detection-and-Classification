@@ -1,0 +1,91 @@
+fset,model,class,precision,recall,support
+F-core,dummy,Healthy,0.2658,1.0,1280
+F-core,dummy,Normocytic hypochromic anemia,0.0,0.0,1045
+F-core,dummy,Normocytic normochromic anemia,0.0,0.0,1010
+F-core,dummy,Iron deficiency anemia,0.0,0.0,720
+F-core,dummy,Thrombocytopenia,0.0,0.0,270
+F-core,dummy,Other microcytic anemia,0.0,0.0,205
+F-core,dummy,Leukemia,0.0,0.0,175
+F-core,dummy,Macrocytic anemia,0.0,0.0,65
+F-core,dummy,Leukemia with thrombocytopenia,0.0,0.0,45
+F-core,logreg,Healthy,0.9688,0.9219,1280
+F-core,logreg,Normocytic hypochromic anemia,0.9378,0.8804,1045
+F-core,logreg,Normocytic normochromic anemia,0.9026,0.9455,1010
+F-core,logreg,Iron deficiency anemia,0.962,0.9486,720
+F-core,logreg,Thrombocytopenia,0.8418,0.9259,270
+F-core,logreg,Other microcytic anemia,0.7469,0.8927,205
+F-core,logreg,Leukemia,0.7923,0.8286,175
+F-core,logreg,Macrocytic anemia,0.8983,0.8154,65
+F-core,logreg,Leukemia with thrombocytopenia,0.5469,0.7778,45
+F-core,tree,Healthy,0.9953,0.9961,1280
+F-core,tree,Normocytic hypochromic anemia,0.9943,1.0,1045
+F-core,tree,Normocytic normochromic anemia,0.998,0.995,1010
+F-core,tree,Iron deficiency anemia,0.993,0.9917,720
+F-core,tree,Thrombocytopenia,0.9818,0.9963,270
+F-core,tree,Other microcytic anemia,1.0,0.9268,205
+F-core,tree,Leukemia,0.9722,1.0,175
+F-core,tree,Macrocytic anemia,1.0,0.9231,65
+F-core,tree,Leukemia with thrombocytopenia,0.8113,0.9556,45
+F-core,forest,Healthy,0.9938,0.9977,1280
+F-core,forest,Normocytic hypochromic anemia,0.9924,0.9943,1045
+F-core,forest,Normocytic normochromic anemia,0.9941,0.9941,1010
+F-core,forest,Iron deficiency anemia,0.993,0.9903,720
+F-core,forest,Thrombocytopenia,0.9816,0.9889,270
+F-core,forest,Other microcytic anemia,0.9794,0.9268,205
+F-core,forest,Leukemia,0.9887,1.0,175
+F-core,forest,Macrocytic anemia,0.9831,0.8923,65
+F-core,forest,Leukemia with thrombocytopenia,0.8491,1.0,45
+F-core,hgb,Healthy,0.9906,0.9898,1280
+F-core,hgb,Normocytic hypochromic anemia,0.9876,0.9923,1045
+F-core,hgb,Normocytic normochromic anemia,0.9921,0.9931,1010
+F-core,hgb,Iron deficiency anemia,0.9779,0.9819,720
+F-core,hgb,Thrombocytopenia,0.9701,0.963,270
+F-core,hgb,Other microcytic anemia,0.9538,0.9073,205
+F-core,hgb,Leukemia,0.9505,0.9886,175
+F-core,hgb,Macrocytic anemia,0.9677,0.9231,65
+F-core,hgb,Leukemia with thrombocytopenia,0.7333,0.7333,45
+F-all,dummy,Healthy,0.2658,1.0,1280
+F-all,dummy,Normocytic hypochromic anemia,0.0,0.0,1045
+F-all,dummy,Normocytic normochromic anemia,0.0,0.0,1010
+F-all,dummy,Iron deficiency anemia,0.0,0.0,720
+F-all,dummy,Thrombocytopenia,0.0,0.0,270
+F-all,dummy,Other microcytic anemia,0.0,0.0,205
+F-all,dummy,Leukemia,0.0,0.0,175
+F-all,dummy,Macrocytic anemia,0.0,0.0,65
+F-all,dummy,Leukemia with thrombocytopenia,0.0,0.0,45
+F-all,logreg,Healthy,0.9376,0.9156,1280
+F-all,logreg,Normocytic hypochromic anemia,0.9057,0.8641,1045
+F-all,logreg,Normocytic normochromic anemia,0.9141,0.9277,1010
+F-all,logreg,Iron deficiency anemia,0.9462,0.9278,720
+F-all,logreg,Thrombocytopenia,0.7721,0.8407,270
+F-all,logreg,Other microcytic anemia,0.698,0.8341,205
+F-all,logreg,Leukemia,0.7663,0.8057,175
+F-all,logreg,Macrocytic anemia,0.8923,0.8923,65
+F-all,logreg,Leukemia with thrombocytopenia,0.6122,0.6667,45
+F-all,tree,Healthy,0.9953,0.9961,1280
+F-all,tree,Normocytic hypochromic anemia,0.9943,0.999,1045
+F-all,tree,Normocytic normochromic anemia,0.996,0.995,1010
+F-all,tree,Iron deficiency anemia,0.993,0.9917,720
+F-all,tree,Thrombocytopenia,0.9818,0.9963,270
+F-all,tree,Other microcytic anemia,0.9948,0.9268,205
+F-all,tree,Leukemia,0.9722,1.0,175
+F-all,tree,Macrocytic anemia,1.0,0.9231,65
+F-all,tree,Leukemia with thrombocytopenia,0.8235,0.9333,45
+F-all,forest,Healthy,0.9961,0.9984,1280
+F-all,forest,Normocytic hypochromic anemia,0.9847,0.9885,1045
+F-all,forest,Normocytic normochromic anemia,0.9871,0.9851,1010
+F-all,forest,Iron deficiency anemia,0.9821,0.9889,720
+F-all,forest,Thrombocytopenia,0.9776,0.9704,270
+F-all,forest,Other microcytic anemia,0.9683,0.8927,205
+F-all,forest,Leukemia,0.9511,1.0,175
+F-all,forest,Macrocytic anemia,0.95,0.8769,65
+F-all,forest,Leukemia with thrombocytopenia,0.7959,0.8667,45
+F-all,hgb,Healthy,0.9922,0.9922,1280
+F-all,hgb,Normocytic hypochromic anemia,0.982,0.9914,1045
+F-all,hgb,Normocytic normochromic anemia,0.995,0.9911,1010
+F-all,hgb,Iron deficiency anemia,0.9777,0.9736,720
+F-all,hgb,Thrombocytopenia,0.9701,0.963,270
+F-all,hgb,Other microcytic anemia,0.9635,0.9024,205
+F-all,hgb,Leukemia,0.9358,1.0,175
+F-all,hgb,Macrocytic anemia,0.9219,0.9077,65
+F-all,hgb,Leukemia with thrombocytopenia,0.7174,0.7333,45

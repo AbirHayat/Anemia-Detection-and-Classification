@@ -249,7 +249,7 @@ def main() -> None:
     fig.tight_layout()
     fig.savefig(FIG_DIR / "fig_key_features_by_class.png")
     plt.close(fig)
-    print("figures written to", FIG_DIR)
+    print("figures written to", FIG_DIR.relative_to(ROOT).as_posix())
 
 
 if __name__ == "__main__":

@@ -1,0 +1,964 @@
+raw_row,Diagnosis,set_primary,set_hgb12,set_mchc32,set_hgb12_mchc32,cascade_pred
+1,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+2,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+3,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+6,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+7,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+8,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+10,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+11,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+13,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+14,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+15,Leukemia,Healthy,Healthy,Healthy,Healthy,Leukemia
+16,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+17,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia
+18,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+19,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia
+20,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia
+21,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+22,Healthy,Leukemia,Leukemia,Leukemia,Leukemia,Healthy
+23,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+24,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+25,Thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia
+26,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+27,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+28,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+29,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+30,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+31,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+32,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+34,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+35,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+36,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+37,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+38,Thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia
+39,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+40,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+41,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+43,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+44,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+45,Normocytic normochromic anemia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia
+46,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+47,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+48,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+49,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+50,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+51,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+52,Other microcytic anemia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+54,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+55,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+56,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+58,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+59,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+60,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+61,Normocytic hypochromic anemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia
+62,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+65,Leukemia with thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Leukemia with thrombocytopenia
+66,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia
+67,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+68,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+70,Leukemia with thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Leukemia with thrombocytopenia
+71,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Healthy,Iron deficiency anemia | Other microcytic anemia,Healthy,Iron deficiency anemia
+72,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+73,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+75,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+77,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+78,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+79,Normocytic normochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Thrombocytopenia,Normocytic normochromic anemia
+80,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+81,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+83,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+84,Macrocytic anemia,Thrombocytopenia | Macrocytic anemia,Thrombocytopenia | Macrocytic anemia,Thrombocytopenia | Macrocytic anemia,Thrombocytopenia | Macrocytic anemia,Macrocytic anemia
+85,Macrocytic anemia,Thrombocytopenia | Macrocytic anemia,Thrombocytopenia | Macrocytic anemia,Thrombocytopenia | Macrocytic anemia,Thrombocytopenia | Macrocytic anemia,Macrocytic anemia
+86,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+87,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+88,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+89,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+90,Thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia
+92,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia
+93,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia
+95,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+97,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+98,Normocytic hypochromic anemia,Normocytic normochromic anemia | Leukemia,Normocytic normochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia
+99,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Healthy,Iron deficiency anemia | Other microcytic anemia,Healthy,Iron deficiency anemia
+100,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Thrombocytopenia,Normocytic hypochromic anemia
+101,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+103,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+104,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+107,Normocytic normochromic anemia,Normocytic normochromic anemia | Leukemia,Normocytic normochromic anemia | Leukemia,Normocytic normochromic anemia | Leukemia,Normocytic normochromic anemia | Leukemia,Normocytic normochromic anemia
+108,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+109,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+110,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia
+111,Normocytic hypochromic anemia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia
+112,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+113,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia
+114,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia
+115,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+116,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+117,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+119,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+120,Normocytic hypochromic anemia,Normocytic normochromic anemia | Leukemia,Normocytic normochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia
+121,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+122,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+123,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+124,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia
+126,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+127,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+128,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+130,Leukemia,Healthy,Healthy,Healthy,Healthy,Leukemia
+131,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia
+132,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia
+133,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia
+135,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+136,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+138,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+139,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia
+140,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia
+141,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+142,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia
+143,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+144,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+145,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+146,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+147,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+148,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+149,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+150,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+151,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+152,Normocytic hypochromic anemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia
+153,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+154,Normocytic hypochromic anemia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+155,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+157,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia
+158,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+159,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+160,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+161,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+162,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+164,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+166,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+167,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+168,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+171,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+172,Normocytic hypochromic anemia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+174,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+175,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+176,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+177,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+178,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+179,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+180,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+181,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+183,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+184,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+185,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+186,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+187,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+189,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+190,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+193,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+194,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+195,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+196,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+198,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+199,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+200,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+203,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+204,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+207,Leukemia,Healthy,Healthy,Healthy,Healthy,Leukemia
+208,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+210,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia
+211,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Other microcytic anemia
+212,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+213,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+214,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+217,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+218,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+219,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+220,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+221,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+223,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+225,Normocytic hypochromic anemia,Normocytic normochromic anemia | Leukemia,Normocytic normochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia
+227,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+228,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+229,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+230,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+231,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+232,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+233,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+234,Leukemia with thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Leukemia with thrombocytopenia
+235,Leukemia with thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Leukemia with thrombocytopenia
+237,Leukemia with thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Leukemia with thrombocytopenia
+238,Iron deficiency anemia,Healthy,Healthy,Healthy,Healthy,Healthy
+239,Leukemia,Healthy,Healthy,Healthy,Healthy,Leukemia
+240,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+242,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+243,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Thrombocytopenia,Normocytic hypochromic anemia
+244,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+246,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+248,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+249,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+250,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+251,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+253,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+254,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+255,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+256,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+258,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+259,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+260,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+261,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+262,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+263,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+266,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+268,Leukemia with thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Leukemia with thrombocytopenia
+274,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+275,Leukemia,Healthy,Healthy,Healthy,Healthy,Leukemia
+276,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+277,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+278,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Healthy,Iron deficiency anemia | Other microcytic anemia,Healthy,Iron deficiency anemia
+279,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+280,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Healthy,Iron deficiency anemia | Other microcytic anemia,Healthy,Iron deficiency anemia
+281,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+282,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+283,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+284,Thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia
+285,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+286,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+287,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Leukemia,Iron deficiency anemia
+288,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+290,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+291,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+292,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia
+295,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+297,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+298,Normocytic normochromic anemia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Leukemia with thrombocytopenia
+299,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+300,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+301,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+302,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+303,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+304,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+305,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+306,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+307,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+308,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+310,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+311,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+313,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+314,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+315,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+317,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+318,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+319,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+320,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+321,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+322,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+324,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+325,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+326,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+327,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+328,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+330,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+331,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+332,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+333,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+334,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Healthy,Iron deficiency anemia | Other microcytic anemia,Healthy,Iron deficiency anemia
+335,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+336,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+337,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+339,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+340,Macrocytic anemia,Thrombocytopenia | Macrocytic anemia,Thrombocytopenia,Thrombocytopenia | Macrocytic anemia,Thrombocytopenia,Macrocytic anemia
+341,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+342,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+343,Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Leukemia with thrombocytopenia
+346,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+347,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+348,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+349,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+350,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+352,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+353,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+354,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+355,Normocytic normochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia
+357,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+359,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+360,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+362,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia
+363,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+366,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Thrombocytopenia,Iron deficiency anemia
+367,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+369,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia
+370,Normocytic hypochromic anemia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia
+371,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+372,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+373,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+376,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+380,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+381,Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Leukemia with thrombocytopenia
+385,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+386,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia
+387,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia
+388,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia
+390,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+393,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+394,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+395,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+396,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+397,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+398,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+399,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+400,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+401,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia
+402,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+403,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+409,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+410,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+412,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+413,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+414,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+415,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia
+416,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia
+417,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia
+418,Normocytic hypochromic anemia,Normocytic normochromic anemia | Leukemia,Leukemia,Normocytic normochromic anemia | Leukemia,Leukemia,Normocytic normochromic anemia
+419,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+420,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+423,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+424,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+425,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Thrombocytopenia,Iron deficiency anemia
+427,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia
+428,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+429,Thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia
+430,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+431,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia
+432,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+433,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+435,Thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia
+436,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+437,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+440,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+443,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia
+447,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+448,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+449,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia
+450,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+451,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+452,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia
+454,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia
+455,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+457,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+458,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+459,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+460,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+461,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+462,Normocytic normochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia
+464,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+470,Thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia
+475,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+476,Thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia
+477,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+479,Other microcytic anemia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Leukemia with thrombocytopenia
+480,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia
+481,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+482,Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia | Leukemia | Leukemia with thrombocytopenia,Other microcytic anemia
+483,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+484,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+485,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Healthy,Iron deficiency anemia | Other microcytic anemia,Healthy,Iron deficiency anemia
+489,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+491,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+492,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+493,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+494,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia
+496,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+497,Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Other microcytic anemia
+498,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+499,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Other microcytic anemia
+500,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+501,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+503,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+507,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+508,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+509,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+510,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+511,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+512,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+513,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+514,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+516,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+518,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+519,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+520,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+521,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+522,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+523,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+524,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+526,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+527,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+528,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+529,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+530,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+532,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+534,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+535,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+536,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+537,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+538,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+539,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+541,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+543,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+544,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+545,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+547,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+548,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+549,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+550,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+551,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+552,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+553,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+554,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+555,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+556,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+557,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+559,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+560,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+562,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+563,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+564,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+565,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+566,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+567,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+568,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+569,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+570,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+571,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+572,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+573,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+575,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+577,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+578,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+579,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+580,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+582,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+583,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+584,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+585,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+586,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+587,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+588,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+589,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+590,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+591,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+593,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+594,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+595,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+596,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+599,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+600,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+601,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+604,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+605,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+607,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+608,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+610,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+611,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+612,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+614,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+615,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+616,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+617,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+619,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+620,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+621,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+622,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+623,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+624,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+625,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+626,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+627,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+628,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+629,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+630,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+632,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+633,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+634,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+635,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+636,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+637,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+638,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+639,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+640,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+641,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+642,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+643,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+644,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+646,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+647,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+648,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+649,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+651,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+652,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+653,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+654,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+655,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+656,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+657,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+658,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+659,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+660,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+661,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+662,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+663,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+665,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+666,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+667,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+669,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+670,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+671,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+672,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+673,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+674,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+675,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+676,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+677,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+678,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+679,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+680,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+681,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+682,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+683,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+686,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+687,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+689,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+690,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+691,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+692,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+693,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+694,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+695,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+696,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+697,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+698,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+699,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+700,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+701,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+703,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+704,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+706,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+710,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+711,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+712,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+713,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+714,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+715,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+717,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+718,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+719,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+720,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+724,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+726,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+728,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+729,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+730,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+732,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+734,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+735,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+737,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+738,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+740,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+741,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+742,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+743,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+744,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+745,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+746,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+747,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+749,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+750,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+751,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+752,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+753,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+754,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+755,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+756,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+757,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+758,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+760,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+761,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+763,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+764,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+766,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+767,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+768,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+773,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+774,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+780,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+781,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+782,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+783,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+784,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+785,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+786,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+787,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+788,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+789,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+790,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+791,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+792,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+793,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+794,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+796,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+797,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+800,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+801,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+802,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+803,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+804,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+806,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+807,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+808,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+809,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+810,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+812,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+814,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+816,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+817,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+819,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+820,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+822,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+825,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+827,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+828,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+829,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+830,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+831,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+832,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+833,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+835,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+836,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+838,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+839,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+840,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+841,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+842,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+843,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+844,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+845,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+846,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+847,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+848,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+849,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+850,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+851,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+852,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+853,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+854,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+855,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+856,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+857,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+858,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+859,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+861,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+862,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+863,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+865,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+866,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+867,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+868,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+869,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+871,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+873,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+875,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+876,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+877,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+878,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+882,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+883,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+885,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+886,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+887,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+888,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+890,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+892,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+893,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+894,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+898,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+899,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+900,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+905,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+908,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+909,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+910,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+911,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+912,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+913,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+914,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+915,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+916,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+918,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+919,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+920,Normocytic hypochromic anemia,Normocytic normochromic anemia | Leukemia,Normocytic normochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia
+921,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+922,Normocytic hypochromic anemia,Normocytic normochromic anemia | Leukemia,Leukemia,Normocytic hypochromic anemia | Leukemia,Leukemia,Normocytic hypochromic anemia
+923,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+926,Leukemia,Healthy,Healthy,Healthy,Healthy,Leukemia
+927,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia
+929,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+930,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia
+931,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+932,Leukemia,Healthy,Healthy,Healthy,Healthy,Leukemia
+933,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+936,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+939,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+940,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+941,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+942,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia
+943,Normocytic hypochromic anemia,Normocytic hypochromic anemia | Leukemia,Leukemia,Normocytic hypochromic anemia | Leukemia,Leukemia,Normocytic hypochromic anemia
+945,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+949,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+950,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+953,Normocytic hypochromic anemia,Normocytic normochromic anemia | Leukemia,Normocytic normochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia
+955,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+956,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia
+958,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+959,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+960,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+961,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia
+962,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+965,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+966,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+968,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+969,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+970,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+971,Normocytic hypochromic anemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia
+972,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+974,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+976,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+977,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia
+978,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+979,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+981,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia
+983,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+986,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+987,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+988,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+990,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Healthy,Iron deficiency anemia | Other microcytic anemia,Healthy,Other microcytic anemia
+991,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+992,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+993,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+994,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia
+995,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+996,Normocytic normochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Thrombocytopenia,Normocytic normochromic anemia
+997,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+998,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+999,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+1001,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1002,Macrocytic anemia,Leukemia | Macrocytic anemia,Leukemia,Leukemia | Macrocytic anemia,Leukemia,Macrocytic anemia
+1004,Iron deficiency anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia
+1005,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1007,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1009,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1010,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+1011,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+1012,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia
+1013,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+1014,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1015,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+1018,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+1020,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+1021,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+1022,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+1023,Normocytic normochromic anemia,Normocytic normochromic anemia | Leukemia,Normocytic normochromic anemia | Leukemia,Normocytic normochromic anemia | Leukemia,Normocytic normochromic anemia | Leukemia,Normocytic normochromic anemia
+1024,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+1025,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1026,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+1027,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+1028,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+1029,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia
+1030,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+1031,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+1032,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+1033,Normocytic normochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Thrombocytopenia,Normocytic normochromic anemia
+1034,Normocytic normochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia
+1035,Normocytic normochromic anemia,Normocytic normochromic anemia | Leukemia,Leukemia,Normocytic normochromic anemia | Leukemia,Leukemia,Normocytic normochromic anemia
+1036,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+1037,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+1039,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1040,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+1041,Leukemia,Healthy,Healthy,Healthy,Healthy,Leukemia
+1042,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+1044,Macrocytic anemia,Thrombocytopenia | Macrocytic anemia,Thrombocytopenia | Macrocytic anemia,Thrombocytopenia | Macrocytic anemia,Thrombocytopenia | Macrocytic anemia,Macrocytic anemia
+1045,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1046,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Thrombocytopenia,Normocytic hypochromic anemia
+1047,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+1048,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+1049,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+1050,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+1051,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1052,Normocytic hypochromic anemia,Normocytic normochromic anemia | Leukemia,Normocytic normochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia
+1053,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+1055,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+1058,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Thrombocytopenia,Normocytic hypochromic anemia
+1059,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia
+1061,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+1062,Normocytic normochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia
+1063,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+1064,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+1065,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1069,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia
+1071,Normocytic normochromic anemia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia
+1073,Normocytic normochromic anemia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia
+1074,Normocytic normochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Thrombocytopenia,Normocytic normochromic anemia
+1075,Normocytic normochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia
+1076,Normocytic normochromic anemia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia
+1077,Normocytic normochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia
+1078,Normocytic normochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Thrombocytopenia,Normocytic normochromic anemia
+1079,Normocytic normochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia
+1080,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+1081,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+1083,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+1085,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+1087,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+1089,Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Other microcytic anemia
+1090,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+1092,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1093,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1094,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+1095,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia,Macrocytic anemia
+1097,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1100,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+1101,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+1103,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1104,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1105,Normocytic hypochromic anemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia
+1106,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia
+1107,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+1109,Normocytic hypochromic anemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia
+1110,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+1111,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1112,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1114,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+1115,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1116,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+1117,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+1119,Leukemia,Healthy,Healthy,Healthy,Healthy,Leukemia
+1120,Normocytic hypochromic anemia,Normocytic hypochromic anemia | Leukemia,Leukemia,Normocytic hypochromic anemia | Leukemia,Leukemia,Normocytic hypochromic anemia
+1121,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1122,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1123,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+1124,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+1125,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1126,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+1127,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+1128,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1130,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+1131,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+1132,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+1135,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+1136,Normocytic normochromic anemia,Normocytic normochromic anemia | Leukemia,Leukemia,Normocytic normochromic anemia | Leukemia,Leukemia,Normocytic normochromic anemia
+1137,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+1138,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+1139,Normocytic normochromic anemia,Normocytic normochromic anemia | Leukemia,Leukemia,Normocytic normochromic anemia | Leukemia,Leukemia,Normocytic normochromic anemia
+1141,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1143,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+1145,Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Iron deficiency anemia | Thrombocytopenia | Other microcytic anemia,Other microcytic anemia
+1148,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+1149,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Healthy,Iron deficiency anemia | Other microcytic anemia,Healthy,Other microcytic anemia
+1151,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+1152,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+1153,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1154,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+1155,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+1156,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+1157,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1158,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1159,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+1160,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+1163,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+1164,Normocytic hypochromic anemia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia
+1165,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+1166,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+1168,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+1169,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+1171,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+1172,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+1175,Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Leukemia with thrombocytopenia
+1176,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+1179,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+1180,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+1181,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+1182,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+1183,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Leukemia,Iron deficiency anemia
+1184,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+1186,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+1187,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+1188,Normocytic hypochromic anemia,Normocytic normochromic anemia | Leukemia,Normocytic normochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia
+1189,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+1190,Normocytic normochromic anemia,Normocytic normochromic anemia | Leukemia,Normocytic normochromic anemia | Leukemia,Normocytic normochromic anemia | Leukemia,Normocytic normochromic anemia | Leukemia,Normocytic normochromic anemia
+1191,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1193,Normocytic hypochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+1195,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1196,Normocytic normochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia
+1197,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+1198,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+1199,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Other microcytic anemia
+1201,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1202,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+1203,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1205,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+1206,Normocytic normochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Thrombocytopenia,Normocytic normochromic anemia
+1207,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+1208,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+1209,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+1211,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+1212,Normocytic hypochromic anemia,Normocytic hypochromic anemia | Leukemia,Leukemia,Normocytic hypochromic anemia | Leukemia,Leukemia,Normocytic hypochromic anemia
+1213,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+1215,Normocytic hypochromic anemia,Normocytic normochromic anemia | Leukemia,Normocytic normochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia
+1216,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+1217,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+1218,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia,Leukemia
+1221,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Leukemia,Iron deficiency anemia | Other microcytic anemia | Leukemia,Leukemia,Other microcytic anemia
+1222,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia,Normocytic hypochromic anemia
+1223,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia
+1224,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1225,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+1227,Normocytic hypochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+1228,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1229,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1230,Normocytic hypochromic anemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia
+1231,Normocytic hypochromic anemia,Normocytic normochromic anemia | Leukemia,Normocytic normochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia
+1232,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1233,Normocytic hypochromic anemia,Normocytic normochromic anemia | Leukemia,Normocytic normochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia | Leukemia,Normocytic hypochromic anemia
+1234,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Normocytic hypochromic anemia
+1235,Iron deficiency anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia
+1236,Macrocytic anemia,Thrombocytopenia | Macrocytic anemia,Thrombocytopenia | Macrocytic anemia,Thrombocytopenia | Macrocytic anemia,Thrombocytopenia | Macrocytic anemia,Macrocytic anemia
+1237,Normocytic hypochromic anemia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic normochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia | Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Normocytic hypochromic anemia
+1238,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+1239,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+1240,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+1241,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+1242,Leukemia,Healthy,Healthy,Healthy,Healthy,Leukemia
+1244,Normocytic hypochromic anemia,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia,Healthy,Normocytic hypochromic anemia
+1245,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1248,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+1249,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1250,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+1252,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+1254,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1255,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1256,Healthy,Leukemia,Leukemia,Leukemia,Leukemia,Healthy
+1258,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,Thrombocytopenia
+1259,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+1260,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1261,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+1262,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+1264,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1265,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+1267,Thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia | Leukemia | Leukemia with thrombocytopenia,Thrombocytopenia
+1269,Normocytic hypochromic anemia,Normocytic normochromic anemia | Leukemia,Leukemia,Normocytic hypochromic anemia | Leukemia,Leukemia,Normocytic hypochromic anemia
+1270,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia,Normocytic normochromic anemia
+1272,Normocytic normochromic anemia,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia,Healthy,Normocytic normochromic anemia
+1273,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Healthy,Iron deficiency anemia | Other microcytic anemia,Healthy,Other microcytic anemia
+1275,Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Iron deficiency anemia | Other microcytic anemia,Other microcytic anemia
+1276,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1277,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy
+1278,Healthy,Healthy,Healthy,Healthy,Healthy,Healthy

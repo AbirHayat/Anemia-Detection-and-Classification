@@ -1,0 +1,21 @@
+amended calibration run: 900 tasks, 122 s
+ml_only: rows aligned with the original run: True; max |uncalibrated prob new - original| = 5.00e-07
+  dummy   none     max |calibrated prob amended - original| = 4.90e-07, same predicted class in 100.0% of rows
+  forest  smote    max |calibrated prob amended - original| = 5.00e-07, same predicted class in 100.0% of rows
+  forest  weights  max |calibrated prob amended - original| = 5.00e-07, same predicted class in 100.0% of rows
+  hgb     smote    max |calibrated prob amended - original| = 7.00e-01, same predicted class in 99.6% of rows
+  hgb     weights  max |calibrated prob amended - original| = 6.15e-01, same predicted class in 99.5% of rows
+  logreg  smote    max |calibrated prob amended - original| = 8.76e-01, same predicted class in 74.8% of rows
+  logreg  weights  max |calibrated prob amended - original| = 8.57e-01, same predicted class in 74.3% of rows
+  tree    smote    max |calibrated prob amended - original| = 5.00e-07, same predicted class in 100.0% of rows
+  tree    weights  max |calibrated prob amended - original| = 4.99e-07, same predicted class in 100.0% of rows
+h3: rows aligned with the original run: True; max |uncalibrated prob new - original| = 5.00e-07
+  dummy   none     max |calibrated prob amended - original| = 4.90e-07, same predicted class in 100.0% of rows
+  forest  smote    max |calibrated prob amended - original| = 5.00e-07, same predicted class in 100.0% of rows
+  forest  weights  max |calibrated prob amended - original| = 5.00e-07, same predicted class in 100.0% of rows
+  hgb     smote    max |calibrated prob amended - original| = 6.53e-01, same predicted class in 99.6% of rows
+  hgb     weights  max |calibrated prob amended - original| = 5.57e-01, same predicted class in 99.6% of rows
+  logreg  smote    max |calibrated prob amended - original| = 8.75e-01, same predicted class in 74.9% of rows
+  logreg  weights  max |calibrated prob amended - original| = 8.71e-01, same predicted class in 74.4% of rows
+  tree    smote    max |calibrated prob amended - original| = 5.00e-07, same predicted class in 100.0% of rows
+  tree    weights  max |calibrated prob amended - original| = 4.97e-07, same predicted class in 100.0% of rows

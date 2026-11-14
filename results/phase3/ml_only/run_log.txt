@@ -1,0 +1,23 @@
+[18:50:56] python 3.12.6, sklearn 1.9.0, imblearn 0.14.2, joblib 1.5.3
+[18:50:56] rows 963, outer folds 25, configs 9 x 2 feature sets
+[18:50:56] tasks: 450
+[18:50:58] done 25/450 tasks, elapsed 3 s
+[18:50:59] done 50/450 tasks, elapsed 4 s
+[18:51:00] done 75/450 tasks, elapsed 5 s
+[18:51:00] done 100/450 tasks, elapsed 5 s
+[18:51:01] done 125/450 tasks, elapsed 6 s
+[18:51:15] done 150/450 tasks, elapsed 19 s
+[18:51:34] done 175/450 tasks, elapsed 38 s
+[18:51:57] done 200/450 tasks, elapsed 62 s
+[18:52:19] done 225/450 tasks, elapsed 83 s
+[18:52:21] done 250/450 tasks, elapsed 86 s
+[18:52:25] done 275/450 tasks, elapsed 90 s
+[18:52:29] done 300/450 tasks, elapsed 93 s
+[18:52:31] done 325/450 tasks, elapsed 95 s
+[18:52:40] done 350/450 tasks, elapsed 105 s
+[18:52:52] done 375/450 tasks, elapsed 116 s
+[18:53:13] done 400/450 tasks, elapsed 138 s
+[18:53:40] done 425/450 tasks, elapsed 165 s
+[18:54:18] done 450/450 tasks, elapsed 202 s
+[18:54:22] saved 86670 prediction rows. Class index order: ['Healthy', 'Normocytic hypochromic anemia', 'Normocytic normochromic anemia', 'Iron deficiency anemia', 'Thrombocytopenia', 'Other microcytic anemia', 'Leukemia', 'Macrocytic anemia', 'Leukemia with thrombocytopenia']
+[18:54:22] no metric computed or printed here (opened in Phase 3)

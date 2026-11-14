@@ -1,0 +1,63 @@
+Phase 3 SECONDARY analysis: calibration diagnostic (requested after the Phase 3 results were seen).
+Does not change the pre-registered primary. Development rows only. Mean ± std over 25 outer folds.
+
+== logreg (weights), F-core ==
+  variant                                 macro-F1        bal. acc  recall: other microcytic / leuk.+thromb. / thrombocytopenia
+  uncalibrated                     0.848 ± 0.037 0.891 ± 0.035  0.90 / 0.82 / 0.92
+  sigmoid_cv3 (primary)            0.490 ± 0.050 0.489 ± 0.044  0.00 / 0.00 / 0.25
+  sigmoid_cv3 + prior correction   0.518 ± 0.038 0.695 ± 0.031  0.66 / 1.00 / 0.77
+  sigmoid_cv2                      0.497 ± 0.047 0.496 ± 0.046  0.00 / 0.00 / 0.33
+  sigmoid_cv5                      0.479 ± 0.050 0.480 ± 0.045  0.00 / 0.00 / 0.21
+  isotonic_cv3                     0.485 ± 0.047 0.485 ± 0.049  0.00 / 0.04 / 0.31
+  sigmoid_cv3 on probabilities     0.854 ± 0.043 0.885 ± 0.044  0.89 / 0.78 / 0.91
+  fitted sigmoid slope a (sigmoid_cv3) across the 25 folds, per class: mean ± std (training rows per class in brackets, typical fold)
+    Healthy                          (204)    -0.181 ± 0.064
+    Normocytic hypochromic anemia    (167)    -0.041 ± 0.018
+    Normocytic normochromic anemia   (161)    -0.045 ± 0.033
+    Iron deficiency anemia           (115)    -0.108 ± 0.037
+    Thrombocytopenia                 ( 43)    -0.181 ± 0.075
+    Other microcytic anemia          ( 32)    -0.052 ± 0.019
+    Leukemia                         ( 28)    -0.091 ± 0.038
+    Macrocytic anemia                ( 10)    -0.142 ± 0.048
+    Leukemia with thrombocytopenia   (  7)    -0.105 ± 0.033
+
+== logreg (weights), F-all ==
+  variant                                 macro-F1        bal. acc  recall: other microcytic / leuk.+thromb. / thrombocytopenia
+  uncalibrated                     0.825 ± 0.049 0.858 ± 0.057  0.85 / 0.62 / 0.88
+  sigmoid_cv3 (primary)            0.514 ± 0.047 0.512 ± 0.047  0.00 / 0.04 / 0.26
+  sigmoid_cv3 + prior correction   0.533 ± 0.041 0.718 ± 0.045  0.79 / 0.82 / 0.77
+  sigmoid_cv2                      0.516 ± 0.035 0.510 ± 0.033  0.00 / 0.02 / 0.36
+  sigmoid_cv5                      0.501 ± 0.051 0.495 ± 0.046  0.00 / 0.02 / 0.23
+  isotonic_cv3                     0.540 ± 0.069 0.542 ± 0.068  0.00 / 0.18 / 0.39
+  sigmoid_cv3 on probabilities     0.831 ± 0.052 0.852 ± 0.062  0.84 / 0.60 / 0.86
+  fitted sigmoid slope a (sigmoid_cv3) across the 25 folds, per class: mean ± std (training rows per class in brackets, typical fold)
+    Healthy                          (204)    -0.225 ± 0.097
+    Normocytic hypochromic anemia    (167)    -0.058 ± 0.027
+    Normocytic normochromic anemia   (161)    -0.072 ± 0.050
+    Iron deficiency anemia           (115)    -0.138 ± 0.057
+    Thrombocytopenia                 ( 43)    -0.228 ± 0.109
+    Other microcytic anemia          ( 32)    -0.062 ± 0.029
+    Leukemia                         ( 28)    -0.119 ± 0.050
+    Macrocytic anemia                ( 10)    -0.190 ± 0.079
+    Leukemia with thrombocytopenia   (  7)    -0.138 ± 0.064
+
+== forest (smote), F-core ==
+  variant                                 macro-F1        bal. acc  recall: other microcytic / leuk.+thromb. / thrombocytopenia
+  uncalibrated                     0.977 ± 0.020 0.981 ± 0.019  0.93 / 1.00 / 0.99
+  sigmoid_cv3 (primary)            0.975 ± 0.022 0.977 ± 0.023  0.93 / 1.00 / 0.99
+  sigmoid_cv3 + prior correction   0.963 ± 0.025 0.984 ± 0.013  0.93 / 1.00 / 1.00
+  sigmoid_cv2                      0.972 ± 0.023 0.975 ± 0.022  0.93 / 1.00 / 0.99
+  sigmoid_cv5                      0.972 ± 0.021 0.973 ± 0.023  0.93 / 1.00 / 0.99
+  isotonic_cv3                     0.971 ± 0.024 0.977 ± 0.024  0.92 / 1.00 / 0.99
+  sigmoid_cv3 on probabilities     0.975 ± 0.022 0.977 ± 0.023  0.93 / 1.00 / 0.99
+  fitted sigmoid slope a (sigmoid_cv3) across the 25 folds, per class: mean ± std (training rows per class in brackets, typical fold)
+    Healthy                          (204)   -13.696 ± 0.963
+    Normocytic hypochromic anemia    (167)   -14.327 ± 0.731
+    Normocytic normochromic anemia   (161)   -12.924 ± 0.756
+    Iron deficiency anemia           (115)   -13.183 ± 0.707
+    Thrombocytopenia                 ( 43)   -13.507 ± 0.649
+    Other microcytic anemia          ( 32)   -12.025 ± 1.057
+    Leukemia                         ( 28)   -14.537 ± 0.865
+    Macrocytic anemia                ( 10)   -11.729 ± 1.985
+    Leukemia with thrombocytopenia   (  7)   -15.485 ± 2.041
+
