@@ -143,6 +143,26 @@ def _same_csv_without_timing(a: bytes, b: bytes) -> bool:
     return sa.equals(sb)
 
 
+def _short_hashes(path: Path) -> set[str]:
+    return {h[:12] for h in _sha_variants(path)} | {h[:16] for h in _sha_variants(path)}
+
+
+def _compare_audit_log(a: bytes, b: bytes, work_root: Path) -> str:
+    """Audit records must be identical except the code fingerprints in 'versions', which depend on the line
+    endings git used at checkout. Those fingerprints are then checked against the source files, LF or CRLF."""
+    ra = [json.loads(x) for x in a.decode("utf-8").splitlines() if x.strip()]
+    rb = [json.loads(x) for x in b.decode("utf-8").splitlines() if x.strip()]
+    strip = lambda r: {k: v for k, v in r.items() if k != "versions"}  # noqa: E731
+    if len(ra) != len(rb) or any(strip(x) != strip(y) for x, y in zip(ra, rb)):
+        return "DIFFERS: audit records"
+    if a.replace(b"\r\n", b"\n") == b.replace(b"\r\n", b"\n"):
+        return "identical after line endings and timing are ignored"
+    for f, h in ra[0]["versions"]["code_sha256"].items():
+        if h not in _short_hashes(work_root / "src" / f):
+            return f"DIFFERS: stored fingerprint of src/{f}"
+    return "identical records, code fingerprints differ only by checkout line endings"
+
+
 def _same_model(a: Path, b: Path) -> bool:
     import joblib
     import numpy as np
@@ -173,6 +193,8 @@ def compare_phase(work_root: Path, phase: int) -> pd.DataFrame:
             status = "same predictions (pickle bytes differ)" if same else "DIFFERS: predictions"
         elif rel.endswith(".png"):
             status = "figure bytes differ"
+        elif rel.endswith(".jsonl"):
+            status = _compare_audit_log(a, b, work_root)
         elif rel.endswith((".csv",)) and "second" in a.decode("utf-8", "replace").split("\n", 1)[0].lower():
             status = "identical except timing column" if _same_csv_without_timing(a, b) else "DIFFERS"
         else:
