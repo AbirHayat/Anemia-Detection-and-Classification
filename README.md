@@ -108,7 +108,3 @@ python src/check_dataset.py
 python -m pytest tests -q
 python src/build_notebooks.py --project      # rebuild and execute the notebook, write the HTML copy
 ```
-
-## AI use
-
-This project was built with Claude Code (Anthropic) under my direction. I made the design decisions, and the AI drafted code and text that I reviewed.
