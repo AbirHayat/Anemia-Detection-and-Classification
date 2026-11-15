@@ -1,0 +1,10 @@
+class,refer,accept,abstain_disagree,abstain_lowconf,correct_given_accept
+Healthy,0.0,0.9758,0.0102,0.0141,1.0
+Normocytic hypochromic anemia,0.0,0.2469,0.7455,0.0077,1.0
+Normocytic normochromic anemia,0.005,0.9842,0.001,0.0099,1.0
+Iron deficiency anemia,0.0,0.9778,0.0014,0.0208,0.9943
+Thrombocytopenia,0.9889,0.0,0.0111,0.0,
+Other microcytic anemia,0.0488,0.9024,0.0,0.0488,0.9784
+Leukemia,1.0,0.0,0.0,0.0,
+Macrocytic anemia,0.0,0.7385,0.1077,0.1538,1.0
+Leukemia with thrombocytopenia,1.0,0.0,0.0,0.0,

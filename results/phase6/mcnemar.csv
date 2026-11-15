@@ -1,0 +1,10 @@
+thresholds,pair,a_right_b_wrong,a_wrong_b_right,chi2,p,p_exact,p_holm
+primary,forest vs hybrid,50,1,45.176471,0.0,0.0,0.0
+primary,forest vs cascade,9,2,3.272727,0.07044,0.06543,0.07044
+primary,hybrid vs cascade,1,43,38.204545,0.0,0.0,0.0
+mchc32,forest vs hybrid,16,1,11.529412,0.000685,0.000275,0.00137
+mchc32,hybrid vs cascade,1,9,4.9,0.026857,0.021484,0.026857
+hgb12,forest vs hybrid,83,1,78.107143,0.0,0.0,0.0
+hgb12,hybrid vs cascade,1,76,71.116883,0.0,0.0,0.0
+hgb12_mchc32,forest vs hybrid,57,1,52.155172,0.0,0.0,0.0
+hgb12_mchc32,hybrid vs cascade,1,50,45.176471,0.0,0.0,0.0

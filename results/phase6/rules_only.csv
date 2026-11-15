@@ -1,0 +1,5 @@
+thresholds,rule_set_coverage,mean_set_size,singletons,empty
+primary,0.78926,1.45868,161,0
+mchc32,0.92975,1.45868,161,0
+hgb12,0.65289,1.42562,167,0
+hgb12_mchc32,0.76033,1.42562,167,0

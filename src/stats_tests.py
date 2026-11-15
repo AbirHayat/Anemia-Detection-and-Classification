@@ -73,3 +73,31 @@ def holm(pvalues) -> np.ndarray:
         running = max(running, min(1.0, (n - rank) * p[i]))
         adj[i] = running
     return adj
+
+
+@dataclass
+class McNemar:
+    b: int          # A right, B wrong
+    c: int          # A wrong, B right
+    chi2: float
+    p: float        # continuity-corrected chi-square, two-sided (Dietterich 1998)
+    p_exact: float  # exact binomial, two-sided
+
+
+def mcnemar(correct_a, correct_b) -> McNemar:
+    """McNemar's test on paired right/wrong outcomes of two classifiers on the same cases.
+
+    chi2 = (|b - c| - 1)^2 / (b + c) with 1 degree of freedom (continuity correction, as recommended by
+    Dietterich 1998). If b + c = 0 the two classifiers never disagree and p = 1.
+    """
+    a = np.asarray(correct_a, bool)
+    bb = np.asarray(correct_b, bool)
+    if a.shape != bb.shape:
+        raise ValueError("both classifiers must be scored on the same cases")
+    b, c = int((a & ~bb).sum()), int((~a & bb).sum())
+    if b + c == 0:
+        return McNemar(b, c, 0.0, 1.0, 1.0)
+    chi2 = (abs(b - c) - 1) ** 2 / (b + c)
+    p = float(stats.chi2.sf(chi2, 1))
+    p_exact = float(stats.binomtest(b, b + c, 0.5).pvalue)
+    return McNemar(b, c, float(chi2), p, p_exact)

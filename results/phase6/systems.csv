@@ -1,0 +1,7 @@
+system,thresholds,macro_f1,balanced_accuracy,mcc,macro_f1_filled,macro_f1_other,error_rate_near,error_rate_elsewhere
+random forest,-,0.93385,0.90741,0.98981,0.97255,0.95238,0.01282,0.0
+cascade baseline,-,0.97517,0.98023,0.95538,0.96532,0.96892,0.05769,0.0
+hybrid no abstention,primary,0.73253,0.7676,0.77018,0.8618,0.63504,0.25,0.13953
+hybrid no abstention,mchc32,0.82133,0.83888,0.91494,0.9268,0.82341,0.10897,0.0
+hybrid no abstention,hgb12,0.64551,0.68156,0.58937,0.76026,0.54065,0.42949,0.19767
+hybrid no abstention,hgb12_mchc32,0.71659,0.73607,0.71656,0.81924,0.66459,0.33333,0.06977

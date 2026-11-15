@@ -1,0 +1,5 @@
+model,explainer,output_space,max_additivity_error,seconds_for_963_rows
+logreg,LinearExplainer,log-odds,5.684341886080802e-14,0.0
+tree,TreeExplainer,probability,1.6514567491299204e-15,0.0
+forest,TreeExplainer,probability,1.7763568394002505e-15,1.71
+hgb,TreeExplainer,log-odds,3.9968028886505635e-14,2.59

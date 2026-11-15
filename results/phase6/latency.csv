@@ -1,0 +1,8 @@
+,median_ms,p95_ms
+validation,0.04,0.054
+rules,0.053,0.11
+ml,8.365,9.877
+arbitration,0.052,0.069
+explanation,2.198,2.684
+audit,0.054,0.066
+total,10.814,12.753

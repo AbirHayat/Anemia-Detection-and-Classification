@@ -1,0 +1,6 @@
+target,name,measured_on,result,pass
+1,Referral,test stress cases,163/163 trigger-met stress cases returned REFER,True
+2,Validation,test rows with injected values,27104/27104 injected values caught; real invalid rows rejected: True,True
+3,Explanations,test cases,consistency check passed on 247/247 cases,True
+4,H1,development CV (Phase 4),0 of 4 model types pass at the main thresholds,False
+5,H2,development CV (Phase 4),beats random but not confidence-only,False

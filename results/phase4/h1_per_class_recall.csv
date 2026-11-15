@@ -1,0 +1,145 @@
+variant,model,class,support_per_repeat,ml_recall,hy_recall
+primary,logreg,Healthy,256.0,0.9219,0.9922
+primary,logreg,Normocytic hypochromic anemia,209.0,0.8804,0.2478
+primary,logreg,Normocytic normochromic anemia,202.0,0.9455,0.9851
+primary,logreg,Iron deficiency anemia,144.0,0.9486,0.9653
+primary,logreg,Thrombocytopenia,54.0,0.9259,1.0
+primary,logreg,Other microcytic anemia,41.0,0.8927,0.8829
+primary,logreg,Leukemia,35.0,0.8286,0.7143
+primary,logreg,Macrocytic anemia,13.0,0.8154,1.0
+primary,logreg,Leukemia with thrombocytopenia,9.0,0.7778,0.2444
+primary,tree,Healthy,256.0,0.9961,0.9922
+primary,tree,Normocytic hypochromic anemia,209.0,1.0,0.2488
+primary,tree,Normocytic normochromic anemia,202.0,0.995,0.995
+primary,tree,Iron deficiency anemia,144.0,0.9917,0.9917
+primary,tree,Thrombocytopenia,54.0,0.9963,1.0
+primary,tree,Other microcytic anemia,41.0,0.9268,0.9268
+primary,tree,Leukemia,35.0,1.0,0.7143
+primary,tree,Macrocytic anemia,13.0,0.9231,1.0
+primary,tree,Leukemia with thrombocytopenia,9.0,0.9556,0.2889
+primary,forest,Healthy,256.0,0.9977,0.9922
+primary,forest,Normocytic hypochromic anemia,209.0,0.9943,0.2488
+primary,forest,Normocytic normochromic anemia,202.0,0.9941,0.995
+primary,forest,Iron deficiency anemia,144.0,0.9903,0.9917
+primary,forest,Thrombocytopenia,54.0,0.9889,1.0
+primary,forest,Other microcytic anemia,41.0,0.9268,0.9268
+primary,forest,Leukemia,35.0,1.0,0.7143
+primary,forest,Macrocytic anemia,13.0,0.8923,1.0
+primary,forest,Leukemia with thrombocytopenia,9.0,1.0,0.3333
+primary,hgb,Healthy,256.0,0.9898,0.9922
+primary,hgb,Normocytic hypochromic anemia,209.0,0.9923,0.2488
+primary,hgb,Normocytic normochromic anemia,202.0,0.9931,0.995
+primary,hgb,Iron deficiency anemia,144.0,0.9819,0.9861
+primary,hgb,Thrombocytopenia,54.0,0.963,0.9963
+primary,hgb,Other microcytic anemia,41.0,0.9073,0.9171
+primary,hgb,Leukemia,35.0,0.9886,0.7143
+primary,hgb,Macrocytic anemia,13.0,0.9231,0.9846
+primary,hgb,Leukemia with thrombocytopenia,9.0,0.7333,0.2
+hgb12,logreg,Healthy,256.0,0.9219,0.9922
+hgb12,logreg,Normocytic hypochromic anemia,209.0,0.8804,0.2105
+hgb12,logreg,Normocytic normochromic anemia,202.0,0.9455,0.3861
+hgb12,logreg,Iron deficiency anemia,144.0,0.9486,0.8847
+hgb12,logreg,Thrombocytopenia,54.0,0.9259,1.0
+hgb12,logreg,Other microcytic anemia,41.0,0.8927,0.8098
+hgb12,logreg,Leukemia,35.0,0.8286,0.7143
+hgb12,logreg,Macrocytic anemia,13.0,0.8154,0.8462
+hgb12,logreg,Leukemia with thrombocytopenia,9.0,0.7778,0.2444
+hgb12,tree,Healthy,256.0,0.9961,0.9922
+hgb12,tree,Normocytic hypochromic anemia,209.0,1.0,0.2105
+hgb12,tree,Normocytic normochromic anemia,202.0,0.995,0.3861
+hgb12,tree,Iron deficiency anemia,144.0,0.9917,0.9014
+hgb12,tree,Thrombocytopenia,54.0,0.9963,1.0
+hgb12,tree,Other microcytic anemia,41.0,0.9268,0.8293
+hgb12,tree,Leukemia,35.0,1.0,0.7143
+hgb12,tree,Macrocytic anemia,13.0,0.9231,0.8462
+hgb12,tree,Leukemia with thrombocytopenia,9.0,0.9556,0.2889
+hgb12,forest,Healthy,256.0,0.9977,0.9922
+hgb12,forest,Normocytic hypochromic anemia,209.0,0.9943,0.2105
+hgb12,forest,Normocytic normochromic anemia,202.0,0.9941,0.3861
+hgb12,forest,Iron deficiency anemia,144.0,0.9903,0.9014
+hgb12,forest,Thrombocytopenia,54.0,0.9889,1.0
+hgb12,forest,Other microcytic anemia,41.0,0.9268,0.8293
+hgb12,forest,Leukemia,35.0,1.0,0.7143
+hgb12,forest,Macrocytic anemia,13.0,0.8923,0.8462
+hgb12,forest,Leukemia with thrombocytopenia,9.0,1.0,0.3333
+hgb12,hgb,Healthy,256.0,0.9898,0.9922
+hgb12,hgb,Normocytic hypochromic anemia,209.0,0.9923,0.2105
+hgb12,hgb,Normocytic normochromic anemia,202.0,0.9931,0.3861
+hgb12,hgb,Iron deficiency anemia,144.0,0.9819,0.9014
+hgb12,hgb,Thrombocytopenia,54.0,0.963,0.9963
+hgb12,hgb,Other microcytic anemia,41.0,0.9073,0.8195
+hgb12,hgb,Leukemia,35.0,0.9886,0.7143
+hgb12,hgb,Macrocytic anemia,13.0,0.9231,0.8462
+hgb12,hgb,Leukemia with thrombocytopenia,9.0,0.7333,0.2
+mchc32,logreg,Healthy,256.0,0.9219,0.9922
+mchc32,logreg,Normocytic hypochromic anemia,209.0,0.8804,0.9368
+mchc32,logreg,Normocytic normochromic anemia,202.0,0.9455,0.9851
+mchc32,logreg,Iron deficiency anemia,144.0,0.9486,0.9653
+mchc32,logreg,Thrombocytopenia,54.0,0.9259,1.0
+mchc32,logreg,Other microcytic anemia,41.0,0.8927,0.8829
+mchc32,logreg,Leukemia,35.0,0.8286,0.7143
+mchc32,logreg,Macrocytic anemia,13.0,0.8154,1.0
+mchc32,logreg,Leukemia with thrombocytopenia,9.0,0.7778,0.2444
+mchc32,tree,Healthy,256.0,0.9961,0.9922
+mchc32,tree,Normocytic hypochromic anemia,209.0,1.0,0.9426
+mchc32,tree,Normocytic normochromic anemia,202.0,0.995,0.995
+mchc32,tree,Iron deficiency anemia,144.0,0.9917,0.9917
+mchc32,tree,Thrombocytopenia,54.0,0.9963,1.0
+mchc32,tree,Other microcytic anemia,41.0,0.9268,0.9268
+mchc32,tree,Leukemia,35.0,1.0,0.7143
+mchc32,tree,Macrocytic anemia,13.0,0.9231,1.0
+mchc32,tree,Leukemia with thrombocytopenia,9.0,0.9556,0.2889
+mchc32,forest,Healthy,256.0,0.9977,0.9922
+mchc32,forest,Normocytic hypochromic anemia,209.0,0.9943,0.9426
+mchc32,forest,Normocytic normochromic anemia,202.0,0.9941,0.995
+mchc32,forest,Iron deficiency anemia,144.0,0.9903,0.9917
+mchc32,forest,Thrombocytopenia,54.0,0.9889,1.0
+mchc32,forest,Other microcytic anemia,41.0,0.9268,0.9268
+mchc32,forest,Leukemia,35.0,1.0,0.7143
+mchc32,forest,Macrocytic anemia,13.0,0.8923,1.0
+mchc32,forest,Leukemia with thrombocytopenia,9.0,1.0,0.3333
+mchc32,hgb,Healthy,256.0,0.9898,0.9922
+mchc32,hgb,Normocytic hypochromic anemia,209.0,0.9923,0.9426
+mchc32,hgb,Normocytic normochromic anemia,202.0,0.9931,0.995
+mchc32,hgb,Iron deficiency anemia,144.0,0.9819,0.9861
+mchc32,hgb,Thrombocytopenia,54.0,0.963,0.9963
+mchc32,hgb,Other microcytic anemia,41.0,0.9073,0.9171
+mchc32,hgb,Leukemia,35.0,0.9886,0.7143
+mchc32,hgb,Macrocytic anemia,13.0,0.9231,0.9846
+mchc32,hgb,Leukemia with thrombocytopenia,9.0,0.7333,0.2
+hgb12_mchc32,logreg,Healthy,256.0,0.9219,0.9922
+hgb12_mchc32,logreg,Normocytic hypochromic anemia,209.0,0.8804,0.7225
+hgb12_mchc32,logreg,Normocytic normochromic anemia,202.0,0.9455,0.3861
+hgb12_mchc32,logreg,Iron deficiency anemia,144.0,0.9486,0.8847
+hgb12_mchc32,logreg,Thrombocytopenia,54.0,0.9259,1.0
+hgb12_mchc32,logreg,Other microcytic anemia,41.0,0.8927,0.8098
+hgb12_mchc32,logreg,Leukemia,35.0,0.8286,0.7143
+hgb12_mchc32,logreg,Macrocytic anemia,13.0,0.8154,0.8462
+hgb12_mchc32,logreg,Leukemia with thrombocytopenia,9.0,0.7778,0.2444
+hgb12_mchc32,tree,Healthy,256.0,0.9961,0.9922
+hgb12_mchc32,tree,Normocytic hypochromic anemia,209.0,1.0,0.7225
+hgb12_mchc32,tree,Normocytic normochromic anemia,202.0,0.995,0.3861
+hgb12_mchc32,tree,Iron deficiency anemia,144.0,0.9917,0.9014
+hgb12_mchc32,tree,Thrombocytopenia,54.0,0.9963,1.0
+hgb12_mchc32,tree,Other microcytic anemia,41.0,0.9268,0.8293
+hgb12_mchc32,tree,Leukemia,35.0,1.0,0.7143
+hgb12_mchc32,tree,Macrocytic anemia,13.0,0.9231,0.8462
+hgb12_mchc32,tree,Leukemia with thrombocytopenia,9.0,0.9556,0.2889
+hgb12_mchc32,forest,Healthy,256.0,0.9977,0.9922
+hgb12_mchc32,forest,Normocytic hypochromic anemia,209.0,0.9943,0.7225
+hgb12_mchc32,forest,Normocytic normochromic anemia,202.0,0.9941,0.3861
+hgb12_mchc32,forest,Iron deficiency anemia,144.0,0.9903,0.9014
+hgb12_mchc32,forest,Thrombocytopenia,54.0,0.9889,1.0
+hgb12_mchc32,forest,Other microcytic anemia,41.0,0.9268,0.8293
+hgb12_mchc32,forest,Leukemia,35.0,1.0,0.7143
+hgb12_mchc32,forest,Macrocytic anemia,13.0,0.8923,0.8462
+hgb12_mchc32,forest,Leukemia with thrombocytopenia,9.0,1.0,0.3333
+hgb12_mchc32,hgb,Healthy,256.0,0.9898,0.9922
+hgb12_mchc32,hgb,Normocytic hypochromic anemia,209.0,0.9923,0.7225
+hgb12_mchc32,hgb,Normocytic normochromic anemia,202.0,0.9931,0.3861
+hgb12_mchc32,hgb,Iron deficiency anemia,144.0,0.9819,0.9014
+hgb12_mchc32,hgb,Thrombocytopenia,54.0,0.963,0.9963
+hgb12_mchc32,hgb,Other microcytic anemia,41.0,0.9073,0.8195
+hgb12_mchc32,hgb,Leukemia,35.0,0.9886,0.7143
+hgb12_mchc32,hgb,Macrocytic anemia,13.0,0.9231,0.8462
+hgb12_mchc32,hgb,Leukemia with thrombocytopenia,9.0,0.7333,0.2

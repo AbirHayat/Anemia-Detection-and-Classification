@@ -92,3 +92,16 @@ def test_proba_only_hides_raw_scores():
     w = ProbaOnly(LogisticRegression(max_iter=1000)).fit(X, y)
     assert not hasattr(w, "decision_function")
     assert np.allclose(w.predict_proba(X), LogisticRegression(max_iter=1000).fit(X, y).predict_proba(X))
+
+
+def test_mcnemar_hand_calculation():
+    from stats_tests import mcnemar
+    # 10 rows where A is right and B wrong, 2 where A is wrong and B right, 20 where both agree
+    a = [True] * 10 + [False] * 2 + [True] * 20
+    b = [False] * 10 + [True] * 2 + [True] * 20
+    r = mcnemar(a, b)
+    assert (r.b, r.c) == (10, 2)
+    assert abs(r.chi2 - (abs(10 - 2) - 1) ** 2 / 12) < 1e-12
+    assert abs(r.p - 0.0433) < 5e-4            # chi2 = 4.083, 1 df
+    assert abs(r.p_exact - 0.0386) < 5e-4      # binomial(10 of 12, 0.5), two-sided
+    assert mcnemar([True, False], [True, False]).p == 1.0

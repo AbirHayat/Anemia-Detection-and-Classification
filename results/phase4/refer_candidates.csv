@@ -1,0 +1,4 @@
+trigger,caught,referral_rows,sensitivity,false_referrals,other_rows,false_referral_rate,sens_fold_mean,sens_fold_sd,frr_fold_mean,frr_fold_sd,meets_floor,rate_Healthy,rate_Normocytic hypochromic anemia,rate_Normocytic normochromic anemia,rate_Iron deficiency anemia,rate_Thrombocytopenia,rate_Other microcytic anemia,rate_Leukemia,rate_Macrocytic anemia,rate_Leukemia with thrombocytopenia
+rule,440,490,0.89796,865,4325,0.2,0.898,0.05686,0.20001,0.02507,False,0.00781,0.311,0.12376,0.45139,1.0,0.2439,0.71429,0.46154,1.0
+ml,487,490,0.99388,15,4325,0.00347,0.99379,0.01717,0.00348,0.00442,True,0.0,0.0,0.00495,0.0,0.98889,0.04878,1.0,0.0,1.0
+either,490,490,1.0,865,4325,0.2,1.0,0.0,0.20001,0.02507,True,0.00781,0.311,0.12376,0.45139,1.0,0.2439,1.0,0.46154,1.0

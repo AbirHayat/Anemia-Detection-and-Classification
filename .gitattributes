@@ -1,3 +1,4 @@
 data/*.csv -text
 *.csv.gz binary
 *.png binary
+*.joblib binary

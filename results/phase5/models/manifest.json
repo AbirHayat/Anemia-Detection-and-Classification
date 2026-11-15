@@ -1,0 +1,68 @@
+{
+  "fitted_on": "963 clean development rows",
+  "features": [
+    "WBC",
+    "RBC",
+    "HGB",
+    "MCV",
+    "MCH",
+    "MCHC",
+    "PLT"
+  ],
+  "class_order": [
+    "Healthy",
+    "Normocytic hypochromic anemia",
+    "Normocytic normochromic anemia",
+    "Iron deficiency anemia",
+    "Thrombocytopenia",
+    "Other microcytic anemia",
+    "Leukemia",
+    "Macrocytic anemia",
+    "Leukemia with thrombocytopenia"
+  ],
+  "seed": 42,
+  "sklearn": "1.9.0",
+  "imblearn": "0.14.2",
+  "numpy": "2.1.3",
+  "models": {
+    "logreg": {
+      "arm": "smote",
+      "file": "logreg_smote_Fcore.joblib",
+      "sha256": "5b2f1b1b5235dd7504ad0c2e05c2e37df4d974c524e9778947825fe9d1425770",
+      "best_params": {
+        "clf__C": 100
+      },
+      "role": "explainer demonstration"
+    },
+    "tree": {
+      "arm": "weights",
+      "file": "tree_weights_Fcore.joblib",
+      "sha256": "cf3f9420936a7f222da8c99461e3f701558feaa16984311378747dbd8058c71e",
+      "best_params": {
+        "clf__max_depth": 5,
+        "clf__min_samples_leaf": 5
+      },
+      "role": "explainer demonstration"
+    },
+    "forest": {
+      "arm": "smote",
+      "file": "forest_smote_Fcore.joblib",
+      "sha256": "1121c0b7d2b7ef86ad091b6b7778c6b159fa101dbe689dfc994cdf8fdb037832",
+      "best_params": {
+        "clf__max_depth": 8,
+        "clf__min_samples_leaf": 1
+      },
+      "role": "agent model (H2 model)"
+    },
+    "hgb": {
+      "arm": "smote",
+      "file": "hgb_smote_Fcore.joblib",
+      "sha256": "9c2bf7b75c7712fa5975424ad96e38456808e78c1bba5bbe74e704611666de85",
+      "best_params": {
+        "clf__learning_rate": 0.05,
+        "clf__max_depth": null
+      },
+      "role": "explainer demonstration"
+    }
+  }
+}

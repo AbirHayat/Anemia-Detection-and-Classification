@@ -1,0 +1,29 @@
+{
+  "written": "2026-11-15",
+  "git_tag": "phase6-freeze",
+  "note": "Every file the Phase 6 test run depends on. The run refuses to start if one of them changed.",
+  "files": {
+    "data/diagnosed_cbc_data_v4.csv": "f7dee8d4fe500aec6e8e4bfbeb6df6b83bc86bef03d540721e0aeaad2759fcdb",
+    "results/split/dev_test_split.csv": "4692ec9665057bf17acdf800b8da59c454f6367a54dc82834b7561653458c864",
+    "results/phase1/dev_rows.csv": "82e5a0a7557ba57bfdf61fc5aa6c21432512784db6755a57a4e4ac124b3b4d81",
+    "results/phase2/cascade_frozen.json": "8520cf5ba4471c37a9f1671cf3eceb8ae3a478bef2ec571f1e899576a0fd063e",
+    "results/phase4/frozen_phase6.json": "5bab6dc037ad3cbddd699a04734a993f774b2f62704770bf160664670c2dd59e",
+    "results/phase4/h1_summary.csv": "85fb68e8c641e2b203d66db7152a4038eff5adc5d22263875ee4fa770e257e7a",
+    "results/phase4/h2_summary.csv": "626a487da9c2886424c9dded13c227c4da76c7720ffaa0ebfba54bcc2d4c265e",
+    "results/phase5/models/forest_smote_Fcore.joblib": "1121c0b7d2b7ef86ad091b6b7778c6b159fa101dbe689dfc994cdf8fdb037832",
+    "results/phase5/models/manifest.json": "091a58ff701a8698d0950cd468979f12d5ea627d70106d2b418a37b12ba9719b",
+    "notes/phase6_preregistration.md": "a2bfc936bfa95115c52a7ec3ca9a26e1d6f2e89980d7e01bb87ffd2947f1ad4a",
+    "src/data.py": "015b4fa706f107b2403c8bd07c049fc6d58b6026bd646f77490e8609bbe4a259",
+    "src/validator.py": "aee3da6e0274b8c180bb153e1ff4850ecdbc9578b6267384213e0c0b46cb4db4",
+    "src/rules.py": "bd13fb6520bba37fdb0b3dba45496fb2426a7c1d8f761d4f99f063be8a79c4ec",
+    "src/ml_pipelines.py": "7399ed793cf10448683885aa33feb790d416082dca991b005982c1085c66e600",
+    "src/arbitration.py": "17e284fc6b53497542214f2ab83338496963ff5cb8751960d6173f75a59c15bb",
+    "src/explain.py": "866fa55f113233fe6dd2d15f271ea0611367965a8088bd13e9c347987e66170a",
+    "src/agent.py": "35d56e62899081f5af72dd523233b227d585946b584e0fad2abf6b510d792e55",
+    "src/stress.py": "1f95f0f53391adc258b202430d1b7453f687bcef750233eee46a9ace0dcf5559",
+    "src/metrics.py": "cc063c9f4acd00bdb1987a841762ecee97f43b66ac2e562cc317400bfc7ba5e7",
+    "src/stats_tests.py": "ae0e30a4b94626c8b6f952d688e3a4cdd1afb6ccb30da5cc07db5332cca952a3",
+    "src/phase2_rules_baseline.py": "9972bd76c662df5911cbc8835ac189836abfa2748c60d30ce00b69ff960acbef",
+    "src/phase6_final_test.py": "1d7e3e7001f09201c322256b083d19656ecfbe600bb054d6a78a324b061a35cc"
+  }
+}

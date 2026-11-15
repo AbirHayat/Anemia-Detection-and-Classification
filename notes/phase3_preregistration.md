@@ -1,6 +1,3 @@
-> Copied unaltered from the private project notes (notes/phase3_preregistration.md) on export.
-> File paths it mentions under notes/ and the decision log are not part of this repository.
-
 # Phase 3 pre-registration (written 14 Nov 2026, BEFORE any Phase 3 result was opened)
 
 Research prototype, not a diagnostic tool. Development rows only (963). The test set stays locked.

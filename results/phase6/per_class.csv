@@ -1,0 +1,55 @@
+system,thresholds,class,support,precision,recall
+random forest,-,Healthy,65,1.0,1.0
+random forest,-,Normocytic hypochromic anemia,53,0.9815,1.0
+random forest,-,Normocytic normochromic anemia,49,1.0,1.0
+random forest,-,Iron deficiency anemia,37,1.0,1.0
+random forest,-,Thrombocytopenia,15,1.0,1.0
+random forest,-,Other microcytic anemia,9,1.0,1.0
+random forest,-,Leukemia,9,0.9,1.0
+random forest,-,Macrocytic anemia,3,1.0,0.6667
+random forest,-,Leukemia with thrombocytopenia,2,1.0,0.5
+cascade baseline,-,Healthy,65,1.0,1.0
+cascade baseline,-,Normocytic hypochromic anemia,53,1.0,0.8491
+cascade baseline,-,Normocytic normochromic anemia,49,0.8596,1.0
+cascade baseline,-,Iron deficiency anemia,37,1.0,0.973
+cascade baseline,-,Thrombocytopenia,15,1.0,1.0
+cascade baseline,-,Other microcytic anemia,9,0.9,1.0
+cascade baseline,-,Leukemia,9,1.0,1.0
+cascade baseline,-,Macrocytic anemia,3,1.0,1.0
+cascade baseline,-,Leukemia with thrombocytopenia,2,1.0,1.0
+hybrid no abstention,primary,Healthy,65,0.9677,0.9231
+hybrid no abstention,primary,Normocytic hypochromic anemia,53,1.0,0.2075
+hybrid no abstention,primary,Normocytic normochromic anemia,49,0.5385,1.0
+hybrid no abstention,primary,Iron deficiency anemia,37,1.0,1.0
+hybrid no abstention,primary,Thrombocytopenia,15,0.8824,1.0
+hybrid no abstention,primary,Other microcytic anemia,9,1.0,1.0
+hybrid no abstention,primary,Leukemia,9,0.5833,0.7778
+hybrid no abstention,primary,Macrocytic anemia,3,1.0,1.0
+hybrid no abstention,primary,Leukemia with thrombocytopenia,2,0.0,0.0
+hybrid no abstention,mchc32,Healthy,65,0.9677,0.9231
+hybrid no abstention,mchc32,Normocytic hypochromic anemia,53,1.0,0.8491
+hybrid no abstention,mchc32,Normocytic normochromic anemia,49,0.8596,1.0
+hybrid no abstention,mchc32,Iron deficiency anemia,37,1.0,1.0
+hybrid no abstention,mchc32,Thrombocytopenia,15,0.8824,1.0
+hybrid no abstention,mchc32,Other microcytic anemia,9,1.0,1.0
+hybrid no abstention,mchc32,Leukemia,9,0.5833,0.7778
+hybrid no abstention,mchc32,Macrocytic anemia,3,1.0,1.0
+hybrid no abstention,mchc32,Leukemia with thrombocytopenia,2,0.0,0.0
+hybrid no abstention,hgb12,Healthy,65,0.6122,0.9231
+hybrid no abstention,hgb12,Normocytic hypochromic anemia,53,1.0,0.1698
+hybrid no abstention,hgb12,Normocytic normochromic anemia,49,0.3818,0.4286
+hybrid no abstention,hgb12,Iron deficiency anemia,37,1.0,0.9459
+hybrid no abstention,hgb12,Thrombocytopenia,15,0.75,1.0
+hybrid no abstention,hgb12,Other microcytic anemia,9,1.0,0.8889
+hybrid no abstention,hgb12,Leukemia,9,0.5,0.7778
+hybrid no abstention,hgb12,Macrocytic anemia,3,1.0,1.0
+hybrid no abstention,hgb12,Leukemia with thrombocytopenia,2,0.0,0.0
+hybrid no abstention,hgb12_mchc32,Healthy,65,0.6122,0.9231
+hybrid no abstention,hgb12_mchc32,Normocytic hypochromic anemia,53,1.0,0.6604
+hybrid no abstention,hgb12_mchc32,Normocytic normochromic anemia,49,0.7241,0.4286
+hybrid no abstention,hgb12_mchc32,Iron deficiency anemia,37,1.0,0.9459
+hybrid no abstention,hgb12_mchc32,Thrombocytopenia,15,0.75,1.0
+hybrid no abstention,hgb12_mchc32,Other microcytic anemia,9,1.0,0.8889
+hybrid no abstention,hgb12_mchc32,Leukemia,9,0.5,0.7778
+hybrid no abstention,hgb12_mchc32,Macrocytic anemia,3,1.0,1.0
+hybrid no abstention,hgb12_mchc32,Leukemia with thrombocytopenia,2,0.0,0.0

@@ -11,11 +11,13 @@ Rules for every notebook (decisions of 14 Nov 2026)
     Phase 3 is opened (allow flag per phase below).
   * Markdown cells pass the project's writing-style check (src/style_check.py).
 
-Usage:  python src/build_notebooks.py --phase 1 2 3 0      (0 = notebooks/00_start_here.ipynb)
+Usage:  python src/build_notebooks.py --phase 1 2 3 4 0      (0 = notebooks/00_start_here.ipynb)
+        python src/build_notebooks.py --project            (notebooks/anemia_project.ipynb + .html)
 """
 from __future__ import annotations
 
 import argparse
+import os
 import sys
 from pathlib import Path
 
@@ -28,7 +30,7 @@ NB_DIR = ROOT / "notebooks"
 sys.path.insert(0, str(ROOT / "src"))
 from style_check import style_check  # noqa: E402
 
-PHASE3_OPEN = {0: True, 1: False, 2: False, 3: True}   # may a notebook mention or read Phase 3 outputs?
+PHASE3_OPEN = {0: True, 1: False, 2: False, 3: True, 4: True}   # may a notebook mention or read Phase 3 outputs?
 
 SETUP = '''import os
 import re
@@ -468,19 +470,184 @@ print("all checks passed: re-run reproduced the committed results, H2 =", saved_
 3. What does probe 2 of H4 show, and why does it matter even though F-core has no mean-filled columns?"""),
 ]
 
+# ----------------------------------------------------------------------------- Phase 4
+PHASE4 = [
+    md("""# Phase 4 walkthrough: the hybrid agent and abstention
+
+This notebook runs Phase 4 and then walks through it. Section 0 notes the committed `results/phase4/` files and re-runs the Phase 4 evaluation, and section 7 checks that the re-run reproduces them. Development rows only. The test set is never opened.
+
+**How to use it:** run the cells in order. By default the notebook reuses the committed inner predictions for τ. Set `RUN_INNER_CV = True` in the next cell to make them again from scratch first (125 model fits)."""),
+    code(SETUP + '''
+
+import io
+import json
+import warnings
+
+from IPython.display import Markdown
+
+import arbitration as A
+import rules
+from data import CLASS_ORDER, load_dev
+from metrics import scores
+from stats_tests import corrected_ci
+
+warnings.filterwarnings("ignore")
+P4 = ROOT / "results" / "phase4"
+PCAL = [f"p_cal_{j}" for j in range(9)]'''),
+    md("""## Settings"""),
+    code('''RUN_INNER_CV = False   # True: remake the inner predictions for tau first (phase4_inner_cv.py)
+if os.environ.get("ANEMIA_RUN_FULL_CV") == "1":
+    RUN_INNER_CV = True
+print("RUN_INNER_CV =", RUN_INNER_CV)'''),
+    md("""## 0. Run Phase 4
+
+First a snapshot of the committed results. Then, if `RUN_INNER_CV` is on, the inner predictions are made again. In every case the evaluation runs again (H1, the REFER choice, τ, H2, conformal sets, risk-coverage and the frozen Phase 6 settings)."""),
+    code('''FILES = ["evaluation.txt", "h1_summary.csv", "h2_summary.csv", "refer_candidates.csv", "conformal_summary.csv",
+         "frozen_phase6.json", "tau_per_fold.csv"]
+SNAP = {rel: (P4 / rel).read_text(encoding="utf-8") for rel in FILES}
+if RUN_INNER_CV:
+    run_step("phase4_inner_cv.py", show=3)
+run_step("phase4_evaluate.py", show=0)'''),
+    md("""## 1. The rules, fixed before any result
+
+The rules R1 to R9 were written in `notes/phase4_preregistration.md` and confirmed on 15 Nov 2026 (16:44), before any Phase 4 metric existed. The agent gives one of four outcomes, checked in order:
+
+1. **REJECT** if the validator fails (no cleaned development row fails, so this count is zero here).
+2. **REFER** if the referral trigger fires.
+3. **ACCEPT** if the model's top class is inside the rule-compatible set and its calibrated probability is at least τ.
+4. **ABSTAIN** otherwise, with the reason (rule-model disagreement or low confidence).
+
+H1 uses the hybrid without abstention: the most probable class inside the rule set."""),
+    md("""## 2. Four real development cases
+
+One case of each kind from the first repeat of the outer CV (main thresholds, 70% coverage floor). The rule set comes from the rule engine, the probability from the calibrated random forest."""),
+    code('''dev = load_dev(clean=True)
+dec = pd.read_csv(P4 / "outer_decisions_main.csv.gz")
+first = dec[dec.rep == 0]
+show = []
+for reason in ["ACCEPT", "REFER", "DISAGREE", "LOW_CONF"]:
+    r = first[first.reason == reason].iloc[0]
+    rec = dev.loc[r.raw_row]
+    show.append({"raw row": r.raw_row, "true label": CLASS_ORDER[r.y], "rule set": " | ".join(rules.run(rec).compatible),
+                 "model top class": CLASS_ORDER[r.label], "probability": round(r.confidence, 3),
+                 "decision": r.decision, "reason": reason})
+pd.DataFrame(show)'''),
+    md("""## 3. H1: does adding the rules cost macro-F1?
+
+We rebuild the hybrid for the random forest from the Phase 3 predictions and the Phase 2 rule sets, then compute the paired difference per outer fold and its 90% corrected confidence interval. H1 passes for a model if the lower bound stays above −0.03."""),
+    code('''pos = pd.Series(np.arange(len(dev)), index=dev.index)
+sets = pd.read_csv(ROOT / "results" / "phase2" / "rule_sets_dev.csv").set_index("raw_row").loc[dev.index]
+M = A.set_mask(sets["set_primary"].fillna(""))
+oof = pd.read_csv(ROOT / "results" / "phase3" / "amended" / "oof_ml_only.csv.gz")
+g = oof[(oof.fset == "F-core") & (oof.model == "forest") & (oof.imb == "smote")].sort_values(["rep", "raw_row"]).reset_index(drop=True)
+P, y, ix = g[PCAL].to_numpy(), g["y"].to_numpy(), pos[g["raw_row"]].to_numpy()
+g["alone"], g["hybrid"] = P.argmax(axis=1), A.hybrid_no_abstention(P, M[ix])
+per = g.groupby(["rep", "fold"]).apply(lambda x: pd.Series({"alone": scores(x["y"], x["alone"])["macro_f1"],
+                                                            "hybrid": scores(x["y"], x["hybrid"])["macro_f1"]}),
+                                       include_groups=False)
+d = (per["hybrid"] - per["alone"]).to_numpy()
+lo, hi = corrected_ci(d, 5, 5, 0.25, level=0.90)
+print(f"random forest: alone {per.alone.mean():.3f}, hybrid {per.hybrid.mean():.3f}, difference {d.mean():+.3f}, "
+      f"90% CI [{lo:+.3f}, {hi:+.3f}] -> {'pass' if lo > -0.03 else 'fail'}")'''),
+    md("""### Why the loss is so large
+
+The hybrid can only pick a label the rules allow. Where the cited cut-offs exclude the true label, the hybrid must be wrong. Its recall per class equals the Phase 2 rule-set coverage exactly."""),
+    code('''rec = pd.DataFrame({"class": CLASS_ORDER,
+                    "recall alone": [(g.alone[g.y == k] == k).mean() for k in range(9)],
+                    "recall hybrid": [(g.hybrid[g.y == k] == k).mean() for k in range(9)],
+                    "rule set holds the true label": [M[ix][g.y.to_numpy() == k, k].mean() for k in range(9)]})
+rec.round(3)'''),
+    md("""## 4. Choosing the REFER trigger
+
+Three candidates, measured on the random forest's outer predictions over all 5 repeats. The fixed rule keeps triggers that catch at least 90% of referral cases, then picks the fewest false referrals."""),
+    code('''refer_rule = np.array([rules.run(r).refer_rule_fires for _, r in dev.iterrows()])
+isref = np.isin(y, A.REF_IDX)
+trig_rows = []
+for trig in A.TRIGGERS:
+    f = A.refer_flags(trig, P, refer_rule[ix])
+    trig_rows.append({"trigger": trig, "sensitivity": f[isref].mean(), "false-referral rate": f[~isref].mean(),
+                      "meets 90%": f[isref].mean() >= 0.90})
+trig_tab = pd.DataFrame(trig_rows)
+ok = trig_tab[trig_tab["meets 90%"]]
+chosen = ok.loc[ok["false-referral rate"].idxmin(), "trigger"]
+print("chosen trigger:", chosen)
+trig_tab.round(4)'''),
+    md("""## 5. H2: does abstention beat simpler skipping at the same coverage?
+
+Selective macro-F1 is macro-F1 over the six non-referral classes on accepted cases only. The confidence-only baseline accepts exactly as many cases per fold, picking those with the highest model probability and ignoring the rules. We recompute both from the saved per-case decisions."""),
+    code('''NONREF = A.NONREF_IDX
+hy, co, cov = [], [], []
+for rep, x in dec.groupby("rep"):
+    a = (x.decision == "ACCEPT").to_numpy()
+    c = x.confidence_only_accept.to_numpy()
+    cov.append(a.mean())
+    hy.append(scores(x.y[a], x.label[a], labels=NONREF)["macro_f1"])
+    co.append(scores(x.y[c], x.label[c], labels=NONREF)["macro_f1"])
+print(f"coverage {np.mean(cov):.3f}, hybrid {np.mean(hy):.3f}, confidence-only {np.mean(co):.3f}")
+print("errors among accepted cases per repeat, hybrid:",
+      [int(((x.decision == "ACCEPT") & (x.label != x.y)).sum()) for _, x in dec.groupby("rep")])
+print("errors among accepted cases per repeat, confidence-only:",
+      [int((x.confidence_only_accept & (x.label != x.y)).sum()) for _, x in dec.groupby("rep")])
+display(Markdown((P4 / "main_results_table_part_b.md").read_text(encoding="utf-8")))
+display(Image(filename=str(P4 / "figures" / "fig_risk_coverage.png"), width=760))'''),
+    md("""## 6. Conformal sets and the settings frozen for Phase 6
+
+Conformal sets aim to hold the true label in 95% of cases (α = 0.05) on average over all cases. The per-class table shows where that average hides weaker classes."""),
+    code('''display(pd.read_csv(P4 / "conformal_per_class.csv").query("alpha == 0.05").round(3))
+frozen = json.loads((P4 / "frozen_phase6.json").read_text(encoding="utf-8"))
+print("frozen for Phase 6:", {k: frozen[k] for k in ["refer_trigger", "tau", "conformal_q"]})'''),
+    md("""## 7. Did the re-run reproduce the committed results?
+
+Without `RUN_INNER_CV` the evaluation reads the same predictions, so every rebuilt file must be identical. With `RUN_INNER_CV` the summary tables are compared with a small tolerance. Then the numbers recomputed in this notebook are checked against the committed tables."""),
+    code('''for rel, txt in SNAP.items():
+    new = (P4 / rel).read_text(encoding="utf-8")
+    if not RUN_INNER_CV:
+        if rel == "evaluation.txt":
+            strip = lambda s: [ln for ln in s.splitlines() if not ln.startswith("run time")]
+            assert strip(new) == strip(txt), rel
+        else:
+            assert new == txt, f"{rel} changed"
+    elif rel.endswith(".csv"):
+        a, b = pd.read_csv(io.StringIO(txt)), pd.read_csv(io.StringIO(new))
+        num = a.select_dtypes("number").columns
+        print(rel, "largest difference after remaking the inner predictions:", float((a[num] - b[num]).abs().max().max()))
+
+h1 = pd.read_csv(io.StringIO(SNAP["h1_summary.csv"]))
+row = h1[(h1.variant == "primary") & (h1.fset == "F-core") & (h1.model == "forest")].iloc[0]
+assert abs(row["diff"] - d.mean()) < 1e-4 and abs(row.ci90_lo - lo) < 1e-4 and abs(row.ci90_hi - hi) < 1e-4
+saved_ref = pd.read_csv(io.StringIO(SNAP["refer_candidates.csv"])).set_index("trigger")
+for _, r in trig_tab.iterrows():
+    assert abs(saved_ref.loc[r.trigger, "sensitivity"] - r.sensitivity) < 1e-4
+    assert abs(saved_ref.loc[r.trigger, "false_referral_rate"] - r["false-referral rate"]) < 1e-4
+assert chosen == json.loads(SNAP["frozen_phase6.json"])["refer_trigger"]
+h2 = pd.read_csv(io.StringIO(SNAP["h2_summary.csv"]))
+m = h2[(h2.variant == "primary") & (h2.floor == 0.70)].iloc[0]
+if not RUN_INNER_CV:
+    assert abs(m.coverage - np.mean(cov)) < 1e-4 and abs(m.sel_f1_hybrid - np.mean(hy)) < 1e-4
+    assert abs(m.sel_f1_confidence - np.mean(co)) < 1e-4
+print("all checks passed: H1 forest difference", round(d.mean(), 3), ", REFER trigger", chosen,
+      ", H2 hybrid", round(m.sel_f1_hybrid, 3), "vs confidence-only", round(m.sel_f1_confidence, 3))'''),
+    md("""## 8. Questions for you (answer without looking)
+
+1. The ML referral trigger beat the rule trigger. Give its sensitivity and false-referral rate, and say why the rule trigger was rejected.
+2. Why did adding the rules lower macro-F1 so much? Name the class that lost the most and the MCHC values involved.
+3. Which H2 baseline did the hybrid beat, which did it not beat, and what does that say about the rule-agreement check?"""),
+]
+
 # ----------------------------------------------------------------------------- start here
 START = [
     md("""# Start here
 
 **An abstaining hybrid agent for anemia types from CBC data.** Research prototype, not a diagnostic tool.
 
-The project combines a cited rule engine (an expert system) with machine-learning models on a public complete blood count dataset. It is built in six phases. Phases 1-3 are done, and each has a notebook that **runs that phase** and then explains it:
+The project combines a cited rule engine (an expert system) with machine-learning models on a public complete blood count dataset. It is built in six phases. Phases 1-4 are done, and each has a notebook that **runs that phase** and then explains it:
 
 | Notebook | What it runs | Time with default settings |
 |---|---|---|
 | `phase1_walkthrough.ipynb` | dataset check, cleaning, data report | under a minute |
 | `phase2_walkthrough.ipynb` | rule engine and rules-only baseline | under a minute |
 | `phase3_walkthrough.ipynb` | evaluation of all models, both calibration versions, diagnostic | a few minutes |
+| `phase4_walkthrough.ipynb` | hybrid agent, REFER choice, H1, H2, conformal sets | about two minutes |
 
 Every phase notebook first notes the committed results, re-runs the phase and then checks that the re-run reproduces them. The held-out test rows stay locked until the final evaluation (no notebook or script reads them).
 
@@ -513,13 +680,14 @@ print(r.stdout.strip().splitlines()[-1])
 assert r.returncode == 0, r.stdout[-3000:]'''),
     md("""## 4. Optional: run all phase notebooks from here
 
-Set `RUN_ALL_PHASE_NOTEBOOKS = True` to execute the three phase notebooks in order and save their outputs. `RUN_FULL_CV = True` also retrains every Phase 3 model from scratch, which takes much longer (see the README). Otherwise open the phase notebooks one by one."""),
+Set `RUN_ALL_PHASE_NOTEBOOKS = True` to execute the four phase notebooks in order and save their outputs. `RUN_FULL_CV = True` also retrains every Phase 3 model and remakes the Phase 4 inner predictions from scratch, which takes much longer (see the README). Otherwise open the phase notebooks one by one."""),
     code('''RUN_ALL_PHASE_NOTEBOOKS = False
 RUN_FULL_CV = False
 
 if RUN_ALL_PHASE_NOTEBOOKS:
     env = {**os.environ, "ANEMIA_RUN_FULL_CV": "1" if RUN_FULL_CV else "0", "PYTHONIOENCODING": "utf-8"}
-    for nb in ["phase1_walkthrough.ipynb", "phase2_walkthrough.ipynb", "phase3_walkthrough.ipynb"]:
+    for nb in ["phase1_walkthrough.ipynb", "phase2_walkthrough.ipynb", "phase3_walkthrough.ipynb",
+               "phase4_walkthrough.ipynb"]:
         t0 = time.perf_counter()
         r = subprocess.run([sys.executable, "-m", "nbconvert", "--to", "notebook", "--execute", "--inplace",
                             "--ExecutePreprocessor.timeout=-1", nb], cwd=ROOT / "notebooks",
@@ -532,9 +700,140 @@ else:
     print("Skipped. Open the phase notebooks one by one, or set RUN_ALL_PHASE_NOTEBOOKS = True.")'''),
 ]
 
-PHASES = {0: START, 1: PHASE1, 2: PHASE2, 3: PHASE3}
+# ----------------------------------------------------------------------------- whole project (one notebook)
+# Runtimes measured on 15 Nov 2026 on the development PC (16 threads).
+RUNTIME_FULL = "about 15 minutes on a 16-thread desktop PC (the recompute itself took 864 s), longer on a laptop"
+RUNTIME_CHECK = "a few seconds (2 s on the same PC)"
+DEFAULT_RUN_FULL = "True"
+PROJECT = [
+    md(f"""# Anemia project: end-to-end run
+
+A hybrid agent (cited clinical rules + calibrated machine learning, with referral and abstention) that classifies one complete blood count into one of nine labels. **Research prototype, not a diagnostic tool.** See `README.md` for the project description.
+
+**Requirements:** Python 3.12 (tested with 3.12.6), the packages in `requirements.txt`, and the dataset at `data/diagnosed_cbc_data_v4.csv` (Kaggle, *Anemia Types Classification* by E. Aboelnaga: https://www.kaggle.com/datasets/ehababoelnaga/anemia-types-classification). The setup cell stops if the file is missing or not byte-identical.
+
+**Run:** `python -m venv .venv`, activate it, `pip install -r requirements.txt`, `jupyter lab`, open this notebook and run all cells.
+
+**Modes:** `RUN_FULL = True` recomputes Phases 1-5 from the data in a temporary copy of the repository and checks every regenerated file against `results/` ({RUNTIME_FULL}). `RUN_FULL = False` only loads and checks the committed files in `results/` ({RUNTIME_CHECK}). The default is `{DEFAULT_RUN_FULL}`. The held-out test rows are never read. Phase 6 only displays the committed final-test files."""),
+    md("""## Setup"""),
+    code(f'''RUN_FULL = {DEFAULT_RUN_FULL}
+import os
+if os.environ.get("ANEMIA_RUN_FULL") in ("0", "1"):
+    RUN_FULL = os.environ["ANEMIA_RUN_FULL"] == "1"
+print("RUN_FULL =", RUN_FULL)'''),
+    md("""Python version and installed packages against `requirements.txt`."""),
+    code('''import sys
+import time
+from pathlib import Path
+
+ROOT = Path.cwd().parent
+sys.path.insert(0, str(ROOT / "src"))
+
+import pandas as pd
+from IPython.display import display
+
+import reproduce as R
+
+pd.set_option("display.max_rows", 60)
+pd.set_option("display.max_colwidth", 80)
+T0 = time.perf_counter()
+print(R.check_python())
+display(R.check_packages())'''),
+    md("""Dataset check with `src/check_dataset.py`."""),
+    code('''print(R.check_dataset())'''),
+    md("""Temporary copy of the repository for the full recompute (only when `RUN_FULL` is True)."""),
+    code('''WS = R.Workspace() if RUN_FULL else None
+print("full recompute in a temporary copy" if RUN_FULL else "checking the committed results only")'''),
+    md("""## Phase 1: data audit and cleaning"""),
+    code('''if RUN_FULL:
+    R.assert_reproduced(WS.run_phase(1))
+display(R.check_phase1())
+display(R.figure("phase1/figures/fig_class_counts.png", 520))'''),
+    md("""## Phase 2: rule engine and rules-only baseline"""),
+    code('''if RUN_FULL:
+    R.assert_reproduced(WS.run_phase(2))
+display(R.check_phase2())
+R.show_text("phase2/cascade_frozen.json")'''),
+    md("""## Phase 3: ML evaluation"""),
+    code('''if RUN_FULL:
+    R.assert_reproduced(WS.run_phase(3))
+display(R.check_phase3())
+display(R.show_md("phase3/amended/main_results_table.md"))
+display(R.figure("phase3/amended/figures/fig_macro_f1_by_model.png", 420))'''),
+    md("""## Phase 4: hybrid and abstention"""),
+    code('''if RUN_FULL:
+    R.assert_reproduced(WS.run_phase(4))
+display(R.check_phase4())
+display(R.show_md("phase4/main_results_table_part_b.md"))
+display(R.figure("phase4/figures/fig_risk_coverage.png", 760))'''),
+    md("""## Phase 5: explanations, audit log, stress tests"""),
+    code('''if RUN_FULL:
+    R.assert_reproduced(WS.run_phase(5))
+display(R.check_phase5())
+R.show_text("phase5/phase5_report.txt", start="== 2.", stop="== 3.")
+display(R.figure("phase5/figures/fig_global_shap.png", 760))'''),
+    md("""## Phase 6: final held-out results (read-only display of the committed files)"""),
+    code('''if R.phase6_available():
+    manifest = R.check_freeze_manifest()
+    print(f"frozen files checked against results/phase5/freeze_manifest.json: {len(manifest)}")
+    print(manifest.status.value_counts().to_string())
+    final = R.phase6_summary()
+    display(final["targets"])
+    display(R.show_md("phase6/main_results_table_part_d.md"))
+else:
+    print("final test not yet run")'''),
+    md("""Clean-up and total run time."""),
+    code('''if WS is not None:
+    WS.cleanup()
+print(f"notebook finished in {time.perf_counter() - T0:.0f} s (RUN_FULL = {RUN_FULL})")'''),
+]
+PROJECT_NAME = "anemia_project.ipynb"
+PROJECT_FORBIDDEN = ("load_test", "phase6_final_test", "i_understand_this_is_phase6", "--final")
+
+
+def project_safety_problems() -> list[str]:
+    """Fails the build if any cell, the helper module or a pipeline script could read the test rows."""
+    import reproduce
+    problems = []
+    for i, (kind, text) in enumerate(PROJECT):
+        if kind == "md":
+            problems += style_check(f"project cell {i}", text)
+        for term in PROJECT_FORBIDDEN:
+            if term in text:
+                problems.append(f"project cell {i}: contains '{term}' (test set or Phase 6 script)")
+    helper = (ROOT / "src" / "reproduce.py").read_text(encoding="utf-8")
+    for term in ("load_test(", "phase6_final_test", "i_understand_this_is_phase6"):
+        if term in helper:
+            problems.append(f"src/reproduce.py contains '{term}'")
+    for steps in reproduce.PIPELINE.values():
+        for step in steps:
+            src = (ROOT / "src" / step[0]).read_text(encoding="utf-8")
+            if "phase6" in step[0] or "load_test(" in src or "--final" in step:
+                problems.append(f"pipeline step {step} could read the test rows")
+    return problems
+
+
+def build_project(run_full: bool | None = None) -> Path:
+    problems = project_safety_problems()
+    if problems:
+        raise SystemExit("project notebook checks failed:\n  " + "\n  ".join(problems))
+    if run_full is not None:
+        os.environ["ANEMIA_RUN_FULL"] = "1" if run_full else "0"
+    nb = new_notebook(cells=[new_markdown_cell(t) if k == "md" else new_code_cell(t) for k, t in PROJECT])
+    nb.metadata["kernelspec"] = {"name": "python3", "display_name": "Python 3", "language": "python"}
+    NotebookClient(nb, timeout=7200, kernel_name="python3",
+                   resources={"metadata": {"path": str(NB_DIR)}}).execute()
+    out = NB_DIR / PROJECT_NAME
+    nbformat.write(nb, out)
+    from nbconvert import HTMLExporter
+    html, _ = HTMLExporter().from_notebook_node(nb)
+    out.with_suffix(".html").write_text(html, encoding="utf-8")
+    return out
+
+
+PHASES = {0: START, 1: PHASE1, 2: PHASE2, 3: PHASE3, 4: PHASE4}
 NAMES = {0: "00_start_here.ipynb", 1: "phase1_walkthrough.ipynb", 2: "phase2_walkthrough.ipynb",
-         3: "phase3_walkthrough.ipynb"}
+         3: "phase3_walkthrough.ipynb", 4: "phase4_walkthrough.ipynb"}
 
 
 def build(phase: int) -> Path:
@@ -563,11 +862,18 @@ def main() -> None:
         import asyncio
         asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     ap = argparse.ArgumentParser()
-    ap.add_argument("--phase", type=int, nargs="+", required=True, choices=sorted(PHASES))
+    ap.add_argument("--phase", type=int, nargs="+", choices=sorted(PHASES))
+    ap.add_argument("--project", action="store_true", help="build notebooks/anemia_project.ipynb (+ HTML copy)")
+    ap.add_argument("--run-full", choices=["default", "0", "1"], default="default",
+                    help="execute the project notebook with RUN_FULL forced on (1) or off (0)")
     a = ap.parse_args()
+    if not a.phase and not a.project:
+        ap.error("give --phase and/or --project")
     NB_DIR.mkdir(exist_ok=True)
-    for ph in a.phase:
+    for ph in a.phase or []:
         print("built and executed:", build(ph))
+    if a.project:
+        print("built and executed:", build_project(None if a.run_full == "default" else a.run_full == "1"))
 
 
 if __name__ == "__main__":

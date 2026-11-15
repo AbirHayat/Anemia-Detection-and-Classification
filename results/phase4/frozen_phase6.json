@@ -1,0 +1,22 @@
+{
+  "written": "Phase 4, 15 Nov 2026, by src/phase4_evaluate.py (development rows only)",
+  "h2_model": "random forest + SMOTE, F-core, sigmoid calibration on probabilities",
+  "refer_trigger": "ml",
+  "tau_floor": 0.7,
+  "tau": {
+    "primary": 0.92,
+    "hgb12": 0.0,
+    "mchc32": 0.96,
+    "hgb12_mchc32": 0.0
+  },
+  "tau_floor_met": {
+    "primary": true,
+    "hgb12": false,
+    "mchc32": true,
+    "hgb12_mchc32": false
+  },
+  "conformal_q": {
+    "0.05": 0.06694699999999998,
+    "0.10": 0.03589600000000004
+  }
+}

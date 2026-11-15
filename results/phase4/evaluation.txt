@@ -1,0 +1,267 @@
+Phase 4 evaluation (pre-registered in notes/phase4_preregistration.md, confirmed 15 Nov 2026 16:44, before any
+Phase 4 metric was computed). Development rows only, test rows not read. Research prototype, not a diagnostic tool.
+rows 963 (filled 589, other 374). REJECT: 0 (all cleaned development rows passed the validator).
+outer folds 5 x 5 = 25, corrected test n2/n1 = 0.25, df = 24. Calibrated probabilities (amended Phase 3 calibration). Rule sets rerun and identical to results/phase2/rule_sets_dev.csv.
+rows near a label cut-off (Phase 3 P7 bands): 618 of 963 (64.2%)
+
+== R1. H1: hybrid without abstention vs the same model alone, macro-F1 (9 classes), per outer fold ==
+   difference = hybrid - model alone. Supported if the lower bound of the 90% corrected CI > -0.03.
+   The formal verdict uses the main thresholds. The other versions get the same test (equal prominence).
+
+  -- thresholds HGB 13, MCHC 30 (main) --
+  set    model                          alone          hybrid    diff            90% CI  verdict   changed/fixed/broken per repeat
+  F-core logistic regression    0.863 ± 0.050   0.769 ± 0.050  -0.094 [-0.147, -0.042]  NOT supp. 202.8 / 40.0 / 146.6
+  F-core decision tree          0.970 ± 0.029   0.780 ± 0.041  -0.191 [-0.232, -0.149]  NOT supp. 177.8 / 2.2 / 175.0
+  F-core random forest          0.975 ± 0.022   0.787 ± 0.045  -0.188 [-0.230, -0.146]  NOT supp. 176.8 / 3.0 / 173.8
+  F-core gradient boosting      0.945 ± 0.045   0.760 ± 0.040  -0.185 [-0.225, -0.144]  NOT supp. 183.4 / 8.2 / 173.4
+  F-all  logistic regression    0.836 ± 0.058   0.757 ± 0.040  -0.079 [-0.142, -0.016]  (descr.)  220.4 / 55.0 / 146.0
+  F-all  decision tree          0.972 ± 0.028   0.784 ± 0.040  -0.189 [-0.229, -0.148]  (descr.)  177.8 / 2.6 / 174.6
+  F-all  random forest          0.954 ± 0.039   0.766 ± 0.044  -0.188 [-0.232, -0.143]  (descr.)  179.6 / 6.0 / 173.4
+  F-all  gradient boosting      0.941 ± 0.038   0.747 ± 0.036  -0.194 [-0.240, -0.148]  (descr.)  184.6 / 8.2 / 174.0
+  H1 at HGB 13, MCHC 30 (main): NOT SUPPORTED (0 of 4 model types pass) [FORMAL VERDICT]
+
+  -- thresholds HGB 12, MCHC 30 --
+  set    model                          alone          hybrid    diff            90% CI  verdict   changed/fixed/broken per repeat
+  F-core logistic regression    0.863 ± 0.050   0.657 ± 0.044  -0.206 [-0.250, -0.162]  NOT supp. 347.2 / 35.6 / 287.6
+  F-core decision tree          0.970 ± 0.029   0.663 ± 0.037  -0.307 [-0.346, -0.268]  NOT supp. 327.8 / 2.2 / 325.0
+  F-core random forest          0.975 ± 0.022   0.669 ± 0.035  -0.305 [-0.343, -0.268]  NOT supp. 326.8 / 2.8 / 323.6
+  F-core gradient boosting      0.945 ± 0.045   0.645 ± 0.034  -0.299 [-0.336, -0.263]  NOT supp. 332.0 / 7.8 / 322.0
+  F-all  logistic regression    0.836 ± 0.058   0.652 ± 0.041  -0.184 [-0.240, -0.129]  (descr.)  356.6 / 49.2 / 284.0
+  F-all  decision tree          0.972 ± 0.028   0.667 ± 0.031  -0.305 [-0.342, -0.268]  (descr.)  327.8 / 2.6 / 324.6
+  F-all  random forest          0.954 ± 0.039   0.649 ± 0.037  -0.304 [-0.341, -0.268]  (descr.)  327.8 / 4.2 / 321.6
+  F-all  gradient boosting      0.941 ± 0.038   0.633 ± 0.029  -0.308 [-0.345, -0.271]  (descr.)  332.6 / 7.0 / 322.0
+  H1 at HGB 12, MCHC 30: NOT SUPPORTED (0 of 4 model types pass) [same test, not the formal verdict]
+
+  -- thresholds HGB 13, MCHC 32 --
+  set    model                          alone          hybrid    diff            90% CI  verdict   changed/fixed/broken per repeat
+  F-core logistic regression    0.863 ± 0.050   0.860 ± 0.047  -0.003 [-0.053, +0.047]  NOT supp. 79.4 / 52.6 / 15.2
+  F-core decision tree          0.970 ± 0.029   0.876 ± 0.039  -0.094 [-0.136, -0.052]  NOT supp. 32.8 / 2.2 / 30.0
+  F-core random forest          0.975 ± 0.022   0.885 ± 0.043  -0.090 [-0.132, -0.047]  NOT supp. 31.8 / 3.0 / 28.8
+  F-core gradient boosting      0.945 ± 0.045   0.864 ± 0.040  -0.081 [-0.121, -0.040]  NOT supp. 38.6 / 8.4 / 28.6
+  F-all  logistic regression    0.836 ± 0.058   0.848 ± 0.041  +0.012 [-0.050, +0.074]  (descr.)  94.2 / 67.0 / 15.4
+  F-all  decision tree          0.972 ± 0.028   0.881 ± 0.041  -0.091 [-0.132, -0.050]  (descr.)  32.8 / 2.6 / 29.6
+  F-all  random forest          0.954 ± 0.039   0.864 ± 0.042  -0.089 [-0.133, -0.046]  (descr.)  35.4 / 6.4 / 28.8
+  F-all  gradient boosting      0.941 ± 0.038   0.850 ± 0.036  -0.091 [-0.134, -0.048]  (descr.)  40.0 / 8.4 / 29.4
+  H1 at HGB 13, MCHC 32: NOT SUPPORTED (0 of 4 model types pass) [same test, not the formal verdict]
+
+  -- thresholds HGB 12, MCHC 32 (suppl.) --
+  set    model                          alone          hybrid    diff            90% CI  verdict   changed/fixed/broken per repeat
+  F-core logistic regression    0.863 ± 0.050   0.728 ± 0.041  -0.135 [-0.178, -0.092]  NOT supp. 248.8 / 41.2 / 186.2
+  F-core decision tree          0.970 ± 0.029   0.737 ± 0.037  -0.234 [-0.273, -0.194]  NOT supp. 220.8 / 2.2 / 218.0
+  F-core random forest          0.975 ± 0.022   0.743 ± 0.035  -0.231 [-0.270, -0.192]  NOT supp. 219.8 / 2.8 / 216.6
+  F-core gradient boosting      0.945 ± 0.045   0.726 ± 0.035  -0.219 [-0.256, -0.182]  NOT supp. 225.2 / 8.0 / 215.2
+  F-all  logistic regression    0.836 ± 0.058   0.722 ± 0.043  -0.114 [-0.169, -0.059]  (descr.)  258.4 / 55.6 / 183.8
+  F-all  decision tree          0.972 ± 0.028   0.741 ± 0.030  -0.231 [-0.267, -0.195]  (descr.)  220.8 / 2.6 / 217.6
+  F-all  random forest          0.954 ± 0.039   0.724 ± 0.038  -0.230 [-0.266, -0.194]  (descr.)  221.6 / 4.6 / 215.0
+  F-all  gradient boosting      0.941 ± 0.038   0.713 ± 0.032  -0.229 [-0.264, -0.193]  (descr.)  226.0 / 7.2 / 215.4
+  H1 at HGB 12, MCHC 32 (suppl.): NOT SUPPORTED (0 of 4 model types pass) [same test, not the formal verdict]
+
+  balanced accuracy and MCC (F-core, mean over 25 folds), model alone -> hybrid:
+  HGB 13, MCHC 30 (main)     logistic regression  bal. acc 0.886 -> 0.781   MCC 0.896 -> 0.784   macro-F1 filled 0.852 -> 0.872, other 0.812 -> 0.622
+  HGB 13, MCHC 30 (main)     decision tree        bal. acc 0.974 -> 0.792   MCC 0.990 -> 0.794   macro-F1 filled 0.988 -> 0.885, other 0.944 -> 0.640
+  HGB 13, MCHC 30 (main)     random forest        bal. acc 0.977 -> 0.799   MCC 0.988 -> 0.794   macro-F1 filled 0.979 -> 0.881, other 0.946 -> 0.646
+  HGB 13, MCHC 30 (main)     gradient boosting    bal. acc 0.945 -> 0.782   MCC 0.977 -> 0.790   macro-F1 filled 0.967 -> 0.867, other 0.894 -> 0.611
+  HGB 12, MCHC 30            logistic regression  bal. acc 0.886 -> 0.676   MCC 0.896 -> 0.591   macro-F1 filled 0.852 -> 0.723, other 0.812 -> 0.548
+  HGB 12, MCHC 30            decision tree        bal. acc 0.974 -> 0.682   MCC 0.990 -> 0.597   macro-F1 filled 0.988 -> 0.724, other 0.944 -> 0.565
+  HGB 12, MCHC 30            random forest        bal. acc 0.977 -> 0.689   MCC 0.988 -> 0.597   macro-F1 filled 0.979 -> 0.723, other 0.946 -> 0.572
+  HGB 12, MCHC 30            gradient boosting    bal. acc 0.945 -> 0.674   MCC 0.977 -> 0.596   macro-F1 filled 0.967 -> 0.712, other 0.894 -> 0.543
+  HGB 13, MCHC 32            logistic regression  bal. acc 0.886 -> 0.857   MCC 0.896 -> 0.943   macro-F1 filled 0.852 -> 0.947, other 0.812 -> 0.774
+  HGB 13, MCHC 32            decision tree        bal. acc 0.974 -> 0.869   MCC 0.990 -> 0.955   macro-F1 filled 0.988 -> 0.965, other 0.944 -> 0.802
+  HGB 13, MCHC 32            random forest        bal. acc 0.977 -> 0.876   MCC 0.988 -> 0.955   macro-F1 filled 0.979 -> 0.965, other 0.946 -> 0.807
+  HGB 13, MCHC 32            gradient boosting    bal. acc 0.945 -> 0.859   MCC 0.977 -> 0.952   macro-F1 filled 0.967 -> 0.953, other 0.894 -> 0.783
+  HGB 12, MCHC 32 (suppl.)   logistic regression  bal. acc 0.886 -> 0.733   MCC 0.896 -> 0.729   macro-F1 filled 0.852 -> 0.780, other 0.812 -> 0.675
+  HGB 12, MCHC 32 (suppl.)   decision tree        bal. acc 0.974 -> 0.739   MCC 0.990 -> 0.734   macro-F1 filled 0.988 -> 0.784, other 0.944 -> 0.696
+  HGB 12, MCHC 32 (suppl.)   random forest        bal. acc 0.977 -> 0.746   MCC 0.988 -> 0.735   macro-F1 filled 0.979 -> 0.784, other 0.946 -> 0.701
+  HGB 12, MCHC 32 (suppl.)   gradient boosting    bal. acc 0.945 -> 0.731   MCC 0.977 -> 0.732   macro-F1 filled 0.967 -> 0.777, other 0.894 -> 0.682
+
+  errors near the cut-offs (F-core, main thresholds, 5 repeats pooled):
+  logistic regression  model alone error rate near 12.3% vs elsewhere 1.8%, share of errors near 92.5%
+  logistic regression  hybrid      error rate near 22.8% vs elsewhere 14.0%, share of errors near 74.5%
+  decision tree        model alone error rate near 1.2% vs elsewhere 0.1%, share of errors near 94.9%
+  decision tree        hybrid      error rate near 21.6% vs elsewhere 13.7%, share of errors near 73.8%
+  random forest        model alone error rate near 1.4% vs elsewhere 0.2%, share of errors near 93.6%
+  random forest        hybrid      error rate near 21.6% vs elsewhere 13.6%, share of errors near 73.9%
+  gradient boosting    model alone error rate near 2.8% vs elsewhere 0.2%, share of errors near 95.5%
+  gradient boosting    hybrid      error rate near 22.0% vs elsewhere 13.6%, share of errors near 74.3%
+
+== R2. REFER trigger (H2 model, outer predictions pooled over 5 x 963; mean ± std over 25 folds in brackets) ==
+  rule   sensitivity 440/490 = 89.8% [0.898 ± 0.057]   false referrals 865/4325 = 20.0% [0.200 ± 0.025]   floor 90%: NOT met
+  ml     sensitivity 487/490 = 99.4% [0.994 ± 0.017]   false referrals 15/4325 = 0.3% [0.003 ± 0.004]   floor 90%: met
+  either sensitivity 490/490 = 100.0% [1.000 ± 0.000]   false referrals 865/4325 = 20.0% [0.200 ± 0.025]   floor 90%: met
+  CHOSEN TRIGGER: ml (meets the 90% floor with the lowest false-referral rate)
+  referral rate per class (pooled):
+    Healthy                          rule 0.8%   ml 0.0%   either 0.8%
+    Normocytic hypochromic anemia    rule 31.1%   ml 0.0%   either 31.1%
+    Normocytic normochromic anemia   rule 12.4%   ml 0.5%   either 12.4%
+    Iron deficiency anemia           rule 45.1%   ml 0.0%   either 45.1%
+    Thrombocytopenia                 rule 100.0%   ml 98.9%   either 100.0%
+    Other microcytic anemia          rule 24.4%   ml 4.9%   either 24.4%
+    Leukemia                         rule 71.4%   ml 100.0%   either 100.0%
+    Macrocytic anemia                rule 46.2%   ml 0.0%   either 46.2%
+    Leukemia with thrombocytopenia   rule 100.0%   ml 100.0%   either 100.0%
+
+== R3/R4. tau chosen per outer fold on inner predictions (leak check passed: inner rows never include the outer test rows) ==
+  HGB 13, MCHC 30 (main)     floor 70%: tau median 0.87 (min 0.51, max 0.92), floor reached in 25/25 folds, outer coverage 0.714 ± 0.015, selective macro-F1 per fold 0.996 ± 0.007
+  HGB 13, MCHC 30 (main)     floor 60%: tau median 0.90 (min 0.63, max 0.95), floor reached in 25/25 folds, outer coverage 0.709 ± 0.017, selective macro-F1 per fold 0.990 ± 0.033
+  HGB 13, MCHC 30 (main)     floor 80%: tau median 0.00 (min 0.00, max 0.00), floor reached in 0/25 folds, outer coverage 0.729 ± 0.013, selective macro-F1 per fold 0.993 ± 0.010
+  HGB 12, MCHC 30            floor 70%: tau median 0.00 (min 0.00, max 0.00), floor reached in 0/25 folds, outer coverage 0.573 ± 0.019, selective macro-F1 per fold 0.992 ± 0.012
+  HGB 12, MCHC 30            floor 60%: tau median 0.00 (min 0.00, max 0.00), floor reached in 0/25 folds, outer coverage 0.573 ± 0.019, selective macro-F1 per fold 0.992 ± 0.012
+  HGB 12, MCHC 30            floor 80%: tau median 0.00 (min 0.00, max 0.00), floor reached in 0/25 folds, outer coverage 0.573 ± 0.019, selective macro-F1 per fold 0.992 ± 0.012
+  HGB 13, MCHC 32            floor 70%: tau median 0.90 (min 0.63, max 0.95), floor reached in 25/25 folds, outer coverage 0.857 ± 0.016, selective macro-F1 per fold 0.990 ± 0.033
+  HGB 13, MCHC 32            floor 60%: tau median 0.90 (min 0.63, max 0.95), floor reached in 25/25 folds, outer coverage 0.857 ± 0.016, selective macro-F1 per fold 0.990 ± 0.033
+  HGB 13, MCHC 32            floor 80%: tau median 0.90 (min 0.63, max 0.95), floor reached in 25/25 folds, outer coverage 0.857 ± 0.016, selective macro-F1 per fold 0.990 ± 0.033
+  HGB 12, MCHC 32 (suppl.)   floor 70%: tau median 0.00 (min 0.00, max 0.00), floor reached in 0/25 folds, outer coverage 0.684 ± 0.022, selective macro-F1 per fold 0.993 ± 0.010
+  HGB 12, MCHC 32 (suppl.)   floor 60%: tau median 0.90 (min 0.63, max 0.95), floor reached in 25/25 folds, outer coverage 0.666 ± 0.026, selective macro-F1 per fold 0.990 ± 0.033
+  HGB 12, MCHC 32 (suppl.)   floor 80%: tau median 0.00 (min 0.00, max 0.00), floor reached in 0/25 folds, outer coverage 0.684 ± 0.022, selective macro-F1 per fold 0.993 ± 0.010
+
+== R5. H2: selective macro-F1 (6 non-referral classes) at matched coverage, shared REFER step ==
+   per repeat (each row once), averaged over 5 repeats. Paired bootstrap, 2,000 case resamples, 1,000 random draws.
+   one-sided p = (1 + #(diff <= 0)) / 2001, Holm over the two baselines. Formal verdict: main thresholds, 70% floor.
+
+  HGB 13, MCHC 30 (main), floor 70% [FORMAL VERDICT]
+    coverage 71.4% (referred 10.4%, abstained: disagreement 16.7%, low confidence 1.5%)
+    selective macro-F1: hybrid 0.997, confidence-only 1.000, random 0.850
+    hybrid - random     +0.147  95% CI [+0.131, +0.163]  p 0.0005  Holm p 0.0010
+    hybrid - confidence -0.003  95% CI [-0.008, +0.000]  p 0.9985  Holm p 0.9985
+    H2: NOT SUPPORTED
+
+  HGB 13, MCHC 30 (main), floor 60% [same test]
+    coverage 70.9% (referred 10.4%, abstained: disagreement 16.7%, low confidence 2.0%)
+    selective macro-F1: hybrid 0.997, confidence-only 1.000, random 0.850
+    hybrid - random     +0.147  95% CI [+0.131, +0.164]  p 0.0005  Holm p 0.0010
+    hybrid - confidence -0.003  95% CI [-0.008, +0.000]  p 0.9985  Holm p 0.9985
+    H2: NOT SUPPORTED
+
+  HGB 13, MCHC 30 (main), floor 80% [same test]
+    coverage 72.9% (referred 10.4%, abstained: disagreement 16.7%, low confidence 0.0%)
+    selective macro-F1: hybrid 0.993, confidence-only 1.000, random 0.850
+    hybrid - random     +0.143  95% CI [+0.128, +0.159]  p 0.0005  Holm p 0.0010
+    hybrid - confidence -0.007  95% CI [-0.014, -0.001]  p 0.9985  Holm p 0.9985
+    H2: NOT SUPPORTED
+
+  HGB 12, MCHC 30, floor 70% [same test]
+    coverage 57.3% (referred 10.4%, abstained: disagreement 32.3%, low confidence 0.0%)
+    selective macro-F1: hybrid 0.992, confidence-only 1.000, random 0.716
+    hybrid - random     +0.277  95% CI [+0.249, +0.311]  p 0.0005  Holm p 0.0010
+    hybrid - confidence -0.008  95% CI [-0.016, -0.001]  p 0.9950  Holm p 0.9950
+    H2: NOT SUPPORTED
+
+  HGB 12, MCHC 30, floor 60% [same test]
+    coverage 57.3% (referred 10.4%, abstained: disagreement 32.3%, low confidence 0.0%)
+    selective macro-F1: hybrid 0.992, confidence-only 1.000, random 0.716
+    hybrid - random     +0.277  95% CI [+0.249, +0.311]  p 0.0005  Holm p 0.0010
+    hybrid - confidence -0.008  95% CI [-0.016, -0.001]  p 0.9950  Holm p 0.9950
+    H2: NOT SUPPORTED
+
+  HGB 12, MCHC 30, floor 80% [same test]
+    coverage 57.3% (referred 10.4%, abstained: disagreement 32.3%, low confidence 0.0%)
+    selective macro-F1: hybrid 0.992, confidence-only 1.000, random 0.716
+    hybrid - random     +0.277  95% CI [+0.249, +0.311]  p 0.0005  Holm p 0.0010
+    hybrid - confidence -0.008  95% CI [-0.016, -0.001]  p 0.9950  Holm p 0.9950
+    H2: NOT SUPPORTED
+
+  HGB 13, MCHC 32, floor 70% [same test]
+    coverage 85.7% (referred 10.4%, abstained: disagreement 1.6%, low confidence 2.2%)
+    selective macro-F1: hybrid 0.997, confidence-only 0.996, random 0.985
+    hybrid - random     +0.012  95% CI [+0.006, +0.018]  p 0.0005  Holm p 0.0010
+    hybrid - confidence +0.001  95% CI [-0.002, +0.006]  p 0.3648  Holm p 0.3648
+    H2: NOT SUPPORTED
+
+  HGB 13, MCHC 32, floor 60% [same test]
+    coverage 85.7% (referred 10.4%, abstained: disagreement 1.6%, low confidence 2.2%)
+    selective macro-F1: hybrid 0.997, confidence-only 0.996, random 0.985
+    hybrid - random     +0.012  95% CI [+0.006, +0.018]  p 0.0005  Holm p 0.0010
+    hybrid - confidence +0.001  95% CI [-0.002, +0.006]  p 0.3648  Holm p 0.3648
+    H2: NOT SUPPORTED
+
+  HGB 13, MCHC 32, floor 80% [same test]
+    coverage 85.7% (referred 10.4%, abstained: disagreement 1.6%, low confidence 2.2%)
+    selective macro-F1: hybrid 0.997, confidence-only 0.996, random 0.985
+    hybrid - random     +0.012  95% CI [+0.006, +0.018]  p 0.0005  Holm p 0.0010
+    hybrid - confidence +0.001  95% CI [-0.002, +0.006]  p 0.3648  Holm p 0.3648
+    H2: NOT SUPPORTED
+
+  HGB 12, MCHC 32 (suppl.), floor 70% [same test]
+    coverage 68.4% (referred 10.4%, abstained: disagreement 21.2%, low confidence 0.0%)
+    selective macro-F1: hybrid 0.994, confidence-only 1.000, random 0.822
+    hybrid - random     +0.172  95% CI [+0.147, +0.204]  p 0.0005  Holm p 0.0010
+    hybrid - confidence -0.006  95% CI [-0.014, -0.001]  p 0.9950  Holm p 0.9950
+    H2: NOT SUPPORTED
+
+  HGB 12, MCHC 32 (suppl.), floor 60% [same test]
+    coverage 66.6% (referred 10.4%, abstained: disagreement 21.2%, low confidence 1.8%)
+    selective macro-F1: hybrid 0.997, confidence-only 1.000, random 0.822
+    hybrid - random     +0.175  95% CI [+0.149, +0.208]  p 0.0005  Holm p 0.0010
+    hybrid - confidence -0.003  95% CI [-0.009, +0.000]  p 0.9960  Holm p 0.9960
+    H2: NOT SUPPORTED
+
+  HGB 12, MCHC 32 (suppl.), floor 80% [same test]
+    coverage 68.4% (referred 10.4%, abstained: disagreement 21.2%, low confidence 0.0%)
+    selective macro-F1: hybrid 0.994, confidence-only 1.000, random 0.822
+    hybrid - random     +0.172  95% CI [+0.147, +0.204]  p 0.0005  Holm p 0.0010
+    hybrid - confidence -0.006  95% CI [-0.014, -0.001]  p 0.9950  Holm p 0.9950
+    H2: NOT SUPPORTED
+
+== R6. conformal abstention (score 1 - p(true class), q from inner predictions; shared REFER step; descriptive) ==
+  alpha 0.05 (primary): median q 0.103, set coverage 96.6% (target >= 95.0%), mean set size 0.97, singletons 96.8%, empty 3.2%
+    HGB 13, MCHC 30 (main)     coverage 70.9%, selective macro-F1 0.998 (per fold 0.992 ± 0.033)
+    HGB 12, MCHC 30            coverage 55.7%, selective macro-F1 0.998 (per fold 0.992 ± 0.033)
+    HGB 13, MCHC 32            coverage 85.8%, selective macro-F1 0.998 (per fold 0.992 ± 0.033)
+    HGB 12, MCHC 32 (suppl.)   coverage 66.7%, selective macro-F1 0.998 (per fold 0.992 ± 0.033)
+    per class: set coverage / mean set size
+      Healthy                           97.8% / 0.98
+      Normocytic hypochromic anemia     97.2% / 0.97
+      Normocytic normochromic anemia    98.1% / 0.98
+      Iron deficiency anemia            96.5% / 0.97
+      Thrombocytopenia                  96.7% / 0.97
+      Other microcytic anemia           86.8% / 0.89
+      Leukemia                          97.7% / 0.98
+      Macrocytic anemia                 72.3% / 0.74
+      Leukemia with thrombocytopenia    84.4% / 0.84
+  alpha 0.10 (secondary): median q 0.050, set coverage 93.0% (target >= 90.0%), mean set size 0.93, singletons 93.0%, empty 7.0%
+    HGB 13, MCHC 30 (main)     coverage 68.8%, selective macro-F1 1.000 (per fold 0.993 ± 0.033)
+    HGB 12, MCHC 30            coverage 53.9%, selective macro-F1 1.000 (per fold 0.993 ± 0.033)
+    HGB 13, MCHC 32            coverage 83.5%, selective macro-F1 1.000 (per fold 0.993 ± 0.033)
+    HGB 12, MCHC 32 (suppl.)   coverage 64.8%, selective macro-F1 1.000 (per fold 0.993 ± 0.033)
+    per class: set coverage / mean set size
+      Healthy                           95.9% / 0.96
+      Normocytic hypochromic anemia     94.6% / 0.95
+      Normocytic normochromic anemia    95.5% / 0.96
+      Iron deficiency anemia            93.6% / 0.94
+      Thrombocytopenia                  88.5% / 0.89
+      Other microcytic anemia           77.6% / 0.78
+      Leukemia                          88.0% / 0.88
+      Macrocytic anemia                 69.2% / 0.69
+      Leukemia with thrombocytopenia    55.6% / 0.56
+
+== R7. risk-coverage (tau swept on outer predictions after REFER, mean over repeats; descriptive, never picks tau) ==
+  HGB 13, MCHC 30 (main)     hybrid AURC 0.0001 over coverage 49.4%-72.9% (mean risk 0.0003); confidence AURC 0.0001 over coverage 58.5%-89.6% (mean risk 0.0004); random: flat error rate 0.1869 up to 89.6%
+  HGB 12, MCHC 30            hybrid AURC 0.0001 over coverage 38.0%-57.3% (mean risk 0.0004); confidence AURC 0.0001 over coverage 58.5%-89.6% (mean risk 0.0004); random: flat error rate 0.3608 up to 89.6%
+  HGB 13, MCHC 32            hybrid AURC 0.0001 over coverage 58.3%-87.9% (mean risk 0.0002); confidence AURC 0.0001 over coverage 58.5%-89.6% (mean risk 0.0004); random: flat error rate 0.0188 up to 89.6%
+  HGB 12, MCHC 32 (suppl.)   hybrid AURC 0.0001 over coverage 45.3%-68.4% (mean risk 0.0003); confidence AURC 0.0001 over coverage 58.5%-89.6% (mean risk 0.0004); random: flat error rate 0.2367 up to 89.6%
+
+== R8. routing per class (main thresholds, 70% floor, 5 repeats pooled) ==
+  class                              refer  accept  abst-dis  abst-low  correct|acc
+  Healthy                             0.0%   97.6%      1.0%      1.4%       100.0%
+  Normocytic hypochromic anemia       0.0%   24.7%     74.5%      0.8%       100.0%
+  Normocytic normochromic anemia      0.5%   98.4%      0.1%      1.0%       100.0%
+  Iron deficiency anemia              0.0%   97.8%      0.1%      2.1%        99.4%
+  Thrombocytopenia                   98.9%    0.0%      1.1%      0.0%            -
+  Other microcytic anemia             4.9%   90.2%      0.0%      4.9%        97.8%
+  Leukemia                          100.0%    0.0%      0.0%      0.0%            -
+  Macrocytic anemia                   0.0%   73.8%     10.8%     15.4%       100.0%
+  Leukemia with thrombocytopenia    100.0%    0.0%      0.0%      0.0%            -
+
+  filled vs other rows (main thresholds, 70% floor; selective macro-F1 over the non-referral classes present):
+    filled coverage 82.5%, selective macro-F1 1.000
+    other  coverage 54.0%, selective macro-F1 0.982
+
+  near the cut-offs (main thresholds, 70% floor, 5 repeats pooled):
+    near      abstention among non-referred 22.8%, error rate among accepted 0.4%
+    elsewhere abstention among non-referred 15.9%, error rate among accepted 0.0%
+
+== R9. settings frozen for Phase 6 (same rules on outer predictions pooled over 5 repeats) ==
+  REFER trigger: ml. tau (70% floor): HGB 13, MCHC 30 (main) 0.92, HGB 12, MCHC 30 0.00 (floor NOT met), HGB 13, MCHC 32 0.96, HGB 12, MCHC 32 (suppl.) 0.00 (floor NOT met)
+  conformal q: alpha 0.05 -> 0.0669, alpha 0.10 -> 0.0359
+
+run time 64 s

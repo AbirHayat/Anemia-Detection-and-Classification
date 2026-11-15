@@ -1,0 +1,19 @@
+alpha,class,set_coverage,mean_set_size,empty_sets_per_repeat
+0.05,Healthy,0.9781,0.9781,5.6
+0.05,Normocytic hypochromic anemia,0.9722,0.9722,5.8
+0.05,Normocytic normochromic anemia,0.9812,0.9822,3.6
+0.05,Iron deficiency anemia,0.9653,0.9722,4.0
+0.05,Thrombocytopenia,0.9667,0.9704,1.6
+0.05,Other microcytic anemia,0.8683,0.8927,4.4
+0.05,Leukemia,0.9771,0.9771,0.8
+0.05,Macrocytic anemia,0.7231,0.7385,3.4
+0.05,Leukemia with thrombocytopenia,0.8444,0.8444,1.4
+0.1,Healthy,0.9586,0.9586,10.6
+0.1,Normocytic hypochromic anemia,0.9464,0.9464,11.2
+0.1,Normocytic normochromic anemia,0.9554,0.9554,9.0
+0.1,Iron deficiency anemia,0.9361,0.9361,9.2
+0.1,Thrombocytopenia,0.8852,0.8889,6.0
+0.1,Other microcytic anemia,0.7756,0.7805,9.0
+0.1,Leukemia,0.88,0.88,4.2
+0.1,Macrocytic anemia,0.6923,0.6923,4.0
+0.1,Leukemia with thrombocytopenia,0.5556,0.5556,4.0

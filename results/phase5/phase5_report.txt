@@ -1,0 +1,46 @@
+Phase 5 report: explanation and audit layer. Development rows only, test rows not read. Research prototype.
+rows 963. The final models were fitted on these rows, so every decision here is IN-SAMPLE: this phase
+tests the machinery, not accuracy. Frozen settings: results/phase4/frozen_phase6.json.
+
+== 1. global explanations, one explainer per model type (mean |SHAP| over rows and classes, F-core) ==
+  Logistic regression  LinearExplainer  (log-odds): HGB 15.2, MCH 6.17, RBC 5.93, PLT 4.83, MCV 3.18, MCHC 2.75, WBC 2.01
+                       additivity check (base + sum of SHAP = model output): max error 5.68e-14, 0.0 s
+  Decision tree        TreeExplainer    (probability): HGB 0.105, MCV 0.0801, MCHC 0.0471, PLT 0.046, WBC 0.0454, MCH 0.0143, RBC 0.000484
+                       additivity check (base + sum of SHAP = model output): max error 1.65e-15, 0.0 s
+  Random forest        TreeExplainer    (probability): HGB 0.0826, MCV 0.0578, MCHC 0.0395, WBC 0.0384, PLT 0.0373, MCH 0.0299, RBC 0.018
+                       additivity check (base + sum of SHAP = model output): max error 1.78e-15, 1.7 s
+  Gradient boosting    TreeExplainer    (log-odds): HGB 1.27, MCV 1.1, PLT 0.748, WBC 0.719, MCHC 0.667, MCH 0.606, RBC 0.368
+                       additivity check (base + sum of SHAP = model output): max error 4.00e-14, 2.6 s
+  dummy: no explainer (it ignores the inputs)
+  logistic-regression coefficients (scaled inputs, per class): results/phase5/logreg_coefficients.csv
+
+== 2. the agent on all development rows (main thresholds, tau and REFER trigger frozen in Phase 4) ==
+  audit log: results/phase5/audit_log_dev.jsonl (963 JSON records, one per case)
+  consistency check (rule trace and SHAP refer to the same case and class as the decision, summary repeats
+  the stored label and probability, caveat and disclaimer present): 963/963 pass
+  decisions (IN-SAMPLE, not an accuracy result): ACCEPT 702, ABSTAIN 163, REFER 98 | reasons: ACCEPT 702, DISAGREE 163, REFER 98
+  latency per case in ms (desktop PC, one case at a time):
+    validation   median    0.038   95th percentile    0.051   max    0.088
+    rules        median    0.053   95th percentile    0.111   max   66.198
+    ml           median    8.090   95th percentile    8.983   max   13.721
+    arbitration  median    0.051   95th percentile    0.067   max    0.897
+    explanation  median    2.111   95th percentile    2.517   max    5.080
+    audit        median    0.054   95th percentile    0.065   max    0.657
+    total        median   10.425   95th percentile   11.837   max   77.955
+
+== 3. determinism: the same case gives the same explanation: 40/40 identical on a second run ==
+
+== 4. stress tests on development rows (dry run of the suite; targets 1 and 2 are measured on the test set) ==
+  noise SD 1%: 9630 cases, same decision 88.3%, same decision and label 86.7% (ACCEPT 85.3%, ABSTAIN 86.3%, REFER 96.8%), rejected after noise 0.0%
+  noise SD 3%: 9630 cases, same decision 78.4%, same decision and label 72.4% (ACCEPT 72.8%, ABSTAIN 62.2%, REFER 86.1%), rejected after noise 0.1%
+  bad input: 11200/11200 injected values caught as REJECT naming the column (100.0%), consistency 11200/11200; failures 0
+    per corruption: above_range 1400/1400, below_range 1400/1400, inf 1400/1400, key_missing 1400/1400, nan 1400/1400, neg_inf 1400/1400, none 1400/1400, text 1400/1400
+  edges, rule cut-off: 420/420 as defined
+  edges, validator limit: 1120/1120 as defined
+  referral: 5818 stress cases (5815 valid), 601 meet the ml trigger, 601/601 returned REFER (100.0%); referred without the trigger: 0
+  stress suite time 110 s. Failures listed in results/phase5/stress/failures.json
+
+== 5. manual review: results/phase5/review/review_sheet.md and review_ratings.csv (40 random development cases,
+   seed 42). NOT YET DONE: the ratings are filled in by the student, never by the AI. ==
+
+run time 128 s

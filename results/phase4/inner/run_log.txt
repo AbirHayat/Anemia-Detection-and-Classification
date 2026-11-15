@@ -1,0 +1,9 @@
+[16:41:45] python 3.12.6, sklearn 1.9.0, imblearn 0.14.2
+[16:41:45] model forest + smote on F-core, rows 963, outer folds 25, inner tasks 125
+[16:42:06] done 25/125 tasks, elapsed 20 s
+[16:42:22] done 50/125 tasks, elapsed 36 s
+[16:42:31] done 75/125 tasks, elapsed 46 s
+[16:42:47] done 100/125 tasks, elapsed 62 s
+[16:42:56] done 125/125 tasks, elapsed 70 s
+[16:42:56] saved 19260 inner prediction rows (each outer training row once per outer fold)
+[16:42:56] no metric computed or printed here (opened in Phase 4 after the pre-registration is confirmed)
